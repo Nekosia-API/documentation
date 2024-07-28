@@ -7,10 +7,10 @@
 [//]: # (Contributors: Sefinek)
 
 # Getting Started {#getting-started}
-1. **Familiarize Yourself with the Documentation**:  
+1. **Familiarize yourself with the documentation**:  
    Browse the available endpoints, request methods, and response formats to understand how the API works. Remember to handle errors and exceptions correctly in your code.
 
-2. **Sending Your First Request**:
+2. **Sending your first request**:
    - **HTTP Method**: GET
    - **Endpoint**: `/api/v1/images/catgirl`
    - **Description**: Fetches a random anime image.
@@ -19,7 +19,7 @@
      curl -X GET "https://api.nekosia.cat/api/v1/images/catgirl" -H "Content-Type: application/json"
      ```
 
-3. **Sample Response**:
+3. **Sample response**:
    <details>
       <summary>Click here to see.</summary>
    ```json
@@ -44,11 +44,11 @@
    }
    </details>
 
-4. **Integration with Your Application**:  
+4. **Integration with your app**:  
    Use the above sample request and response to integrate the API with your application.
    You can use official wrappers or HTTP libraries available in your chosen programming language, such as `axios` (or `node-fetch`) for JavaScript, `requests` for Python, or `HttpClient` (or `WebClient`) for C#.
 
-5. **Error Handling**:  
+5. **Error handling**:  
    Always check the response status to handle potential errors. Sample error response for a request `(GET /api/v1/images/catgirl-test)`:
    ```json
    {
