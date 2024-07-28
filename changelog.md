@@ -2,8 +2,8 @@
 [//]: # (Description: Detailed version history of Nekosia API, including updates, new features, and compatibility notes.)
 [//]: # (Tags: changelog, changelogs, nekosia changelog, nekosia api changelog, nekosia api version history, nekosia version history, nekosia api docs changelog, version history, api updates, nekosia updates)
 [//]: # (Canonical: changelog)
-[//]: # (Creation date: 2024-07-28)
-[//]: # (Last update: 2024-07-28)
+[//]: # (Creation date: 2024-07-29)
+[//]: # (Last update: 2024-07-29)
 [//]: # (Contributors: Sefinek)
 
 # Introduction {#introduction}
@@ -18,7 +18,7 @@ Below is the version history of the API, along with descriptions of the introduc
 
 ## v1 {#v1}
 
-### 2024-07-28 {#v1-2024-07-28}
+### 2024-07-29 {#v1-2024-07-29}
 - **Initial API + Booru Release**
   - Introduction of basic API functions, enabling full utilization of Nekosia's capabilities.
   - Creation of the official Booru.

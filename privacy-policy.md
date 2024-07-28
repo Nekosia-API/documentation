@@ -2,8 +2,8 @@
 [//]: # (Description: Privacy policy for Nekosia website. Learn how we protect your personal data and the principles that govern our service.)
 [//]: # (Tags: privacy policy, Nekosia, API, documentation, personal data, data security, cookies)
 [//]: # (Canonical: privacy-policy)
-[//]: # (Creation date: 2024-07-28)
-[//]: # (Last update: 2024-07-28)
+[//]: # (Creation date: 2024-07-29)
+[//]: # (Last update: 2024-07-29)
 [//]: # (Contributors: Sefinek)
 
 # Privacy Policy

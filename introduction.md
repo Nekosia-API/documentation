@@ -2,8 +2,8 @@
 [//]: # (Description: Welcome to the Nekosia API Documentation. This guide provides detailed information on available endpoints, request methods, and response formats for seamless integration.)
 [//]: # (Tags: introduction, nekosia api introduction, nekosia api docs introduction, nekosia api overview, nekosia api summary, nekosia api guide, nekosia api documentation, nekosia api intro)
 [//]: # (Canonical: introduction)
-[//]: # (Creation date: 2024-07-28)
-[//]: # (Last update: 2024-07-28)
+[//]: # (Creation date: 2024-07-29)
+[//]: # (Last update: 2024-07-29)
 [//]: # (Contributors: Sefinek)
 
 # Introduction {#introduction}
@@ -65,7 +65,7 @@ In case of changes, the documentation will be updated to reflect the latest chan
 
 | API version                  | Released on | Recommended | Beta? |
 |------------------------------|-------------|-------------|-------|
-| <div align="center">v1</div> | 2024-07-28  | ✔️          | ❎     |
+| <div align="center">v1</div> | 2024-07-29  | ✔️          | ❎     |
 
 ### Changelog {#changelog}
 You will find it in a separate document [Changelog](/documentation.old?page=changelog). This document contains detailed information about changes, release dates, and backward compatibility.
