@@ -90,6 +90,11 @@ We do not require attribution for anything when using the Nekosia API.
 However, if your project uses this solution, we would appreciate it if you include a link to this website (nekosia.cat) in your project description or note that your project uses the Nekosia API.
 This gesture will help reach more users and support the project's community growth. Thanks for your support and for appreciating the work!
 
+## Attribution {#attribution}
+When using the API, you should credit the username of the author of a specific photo (if the API provides such information) in your project.
+This can be done by including the author's name, for example, in the footer (in the case of Discord, in the embed footer).
+It is also good practice to include a link to the author's profile (e.g., Pixiv) or the source of the photo to fully acknowledge the artist's work.
+
 ## Copyright {#copyright}
 The Nekosia API respects the copyrights of all images used, which belong to their rightful owners.
 We comply with copyright and intellectual property regulations.
@@ -101,11 +106,6 @@ If you notice any copyright violations, please contact us, so we can take approp
 Thank you for your understanding and cooperation.<br><br>
 
 The graphics used on this website [nekosia.cat](https://nekosia.cat) are available for review on the [Credits - Nekosia API](/credits) page.
-
-## Attribution {#attribution}
-When using the API, you should credit the username of the author of a specific photo (if the API provides such information) in your project.
-This can be done by including the author's name, for example, in the footer (in the case of Discord, in the embed footer).
-It is also good practice to include a link to the author's profile (e.g., Pixiv) or the source of the photo to fully acknowledge the artist's work.
 
 ## Emoji Legend {#emoji-legend}
 | <div align="center">Emoji</div> | <div align="center">Alternative️</div> | Name            | Description                                      |
