@@ -68,7 +68,7 @@ In case of changes, the documentation will be updated to reflect the latest chan
 | <div align="center">v1</div> | 2024-07-29  | ✔️          | ❎     |
 
 ### Changelog {#changelog}
-You will find it in a separate document [Changelog](/documentation.old?page=changelog). This document contains detailed information about changes, release dates, and backward compatibility.
+You will find it in a separate document [Changelog](https://nekosia.cat/documentation?page=changelog). This document contains detailed information about changes, release dates, and backward compatibility.
 
 ## Reporting Issues {#reporting-issues}
 If you encounter any issues related to the API, documentation errors, or have improvement suggestions, please contact us!
@@ -105,7 +105,7 @@ Each image used by the API includes source and author information in its metadat
 If you notice any copyright violations, please contact us, so we can take appropriate action to resolve the issue immediately.
 Thank you for your understanding and cooperation.<br><br>
 
-The graphics used on this website [nekosia.cat](https://nekosia.cat) are available for review on the [Credits - Nekosia API](/credits) page.
+The graphics used on this website [nekosia.cat](https://nekosia.cat) are available for review on the [Credits - Nekosia API](https://nekosia.cat/credits) page.
 
 ## Emoji Legend {#emoji-legend}
 | <div align="center">Emoji</div> | <div align="center">Alternative️</div> | Name            | Description                                      |

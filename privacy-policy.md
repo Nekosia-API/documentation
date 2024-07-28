@@ -10,15 +10,15 @@
 Welcome to Nekosia's privacy policy. This document outlines how we collect, use, and protect your personal data when you interact with our website. We are committed to ensuring your privacy is safeguarded and maintaining transparency regarding our data practices.
 
 ## §0 Definitions
-See the [Definitions](/documentation.old?page=definitions) document to familiarize yourself with the terms used in this policy.
+See the [Definitions](https://nekosia.cat/documentation?page=definitions) document to familiarize yourself with the terms used in this policy.
 
 ## §1 Data Administrator
-1. The data administrator is a private individual whose contact details are available on the [About](/about) page.
+1. The data administrator is a private individual whose contact details are available on the [About](https://nekosia.cat/about) page.
 2. Data is stored on a server owned by the private individual.
 3. The Nekosia service is not affiliated with any company or organization.
 
 ## §2 Cookies
-1. The website uses cookies to improve its functionality. Detailed cookie policy is available at [this URL](/documentation.old?page=cookies).
+1. The website uses cookies to improve its functionality. Detailed cookie policy is available at [this URL](https://nekosia.cat/documentation?page=cookies).
 
 ## §3 Types of Data Collected
 1. **Tags:** We store tags viewed by Users to offer content tailored to their preferences (applies only to logged-in Users).
@@ -46,7 +46,7 @@ See the [Definitions](/documentation.old?page=definitions) document to familiari
 2. Users can request to restrict the processing of their data or object to its processing.
 3. Users have the right to transfer their data to another service provider if they wish.
 4. Users can delete their account by contacting the administrator via email.
-5. Any requests regarding personal data should be submitted to the email address provided on the [About](/about) page.
+5. Any requests regarding personal data should be submitted to the email address provided on the [About](https://nekosia.cat/about) page.
 
 ## §7 Changes to the Privacy Policy
 1. The administrator reserves the right to make changes to this privacy policy. Any changes will be published on this page.
@@ -55,7 +55,7 @@ See the [Definitions](/documentation.old?page=definitions) document to familiari
 
 ## §8 Contact
 1. If you have any questions about the privacy policy, you can contact the administrator via email or join the Discord server.
-2. The administrator's contact details are available on the [About](/about) page.
+2. The administrator's contact details are available on the [About](https://nekosia.cat/about) page.
 
 ## §9 Final Provisions
 1. Using the Service means accepting this privacy policy.

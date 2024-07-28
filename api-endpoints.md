@@ -12,7 +12,7 @@ Nekosia API offers various endpoints that provide access to a wide range of imag
 It is also worth familiarizing yourself with the session mechanism, which allows for tracking displayed images for users, helping to avoid showing duplicate images.
 
 ## Available API Versions {#available-api-versions}
-Click [here](/documentation.old?page=introduction#dostpne-wersje) to see the list of available API versions.
+Click [here](https://nekosia.cat/documentation?page=introduction#api-versions) to see the list of available API versions.
 
 ## Base URL Information {#base-url}
 All API requests should be directed to the base URL: `https://nekosia.cat/api/v1`. This URL serves as the foundation for all endpoint calls within the API.
@@ -24,7 +24,7 @@ This endpoint allows you to fetch random images from a selected category.
 
 ### Parameters {#parameters}
 > /images/{category}?count={int}&additionalTags={string}&blacklistedTags={string} {#get-images}
-- `category` - Check available category tags [on our Booru page](/booru/tags). Each image is assigned to one main category.
+- `category` - Check available category tags [on our Booru page](https://nekosia.cat/booru/tags). Each image is assigned to one main category.
 - `count` - The number of images to fetch (default: 1, maximum: 48). The higher the number, the longer the server will take to respond (in milliseconds).
 - `additionalTags` - Additional tags to be included when searching for images.
 - `blacklistedTags` - List of tags to be excluded from the search results.

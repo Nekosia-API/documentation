@@ -9,11 +9,11 @@
 # Cookies Policy
 
 ## §0 Definitions
-See the [Definitions](/documentation.old?page=definitions) document to familiarize yourself with the terms used in this policy.
+See the [Definitions](https://nekosia.cat/documentation?page=definitions) document to familiarize yourself with the terms used in this policy.
 
 ## §1 Cookies
 1. The website uses cookies to improve functionality and ensure proper user settings.
-2. Detailed cookie policy is available at [this link](/documentation.old?page=cookies).
+2. Detailed cookie policy is available at [this link](https://nekosia.cat/documentation?page=cookies).
 3. Users can manage cookies through their web browser settings.
 4. Cookies are also used for website security, performance improvement, and providing personalized content and advertisements.
 
@@ -43,7 +43,7 @@ See the [Definitions](/documentation.old?page=definitions) document to familiari
 3. **Content personalization:** Cookies enable the delivery of personalized content and remembering user preferences.
 
 ## §7 Contact Information
-1. For questions about our cookies policy, please contact us via the email address provided on the [About](/about) page.
+1. For questions about our cookies policy, please contact us via the email address provided on the [About](https://nekosia.cat/about) page.
 
 ## §8 Changes to the Cookies Policy
 1. We reserve the right to make changes to this cookies policy. Any changes will be published on this page.

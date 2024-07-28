@@ -12,7 +12,7 @@ To ensure complete transparency and understanding of the changes made, we have p
 This document contains detailed descriptions of changes, release dates, and backward compatibility information, allowing users to easily track progress and new features.
 
 # Version History {#version-history}
-Using semantic versioning ([learn more](/documentation.old?page=introduction)) enables tracking changes and updates in a clear and intuitive way.
+Using semantic versioning ([learn more](https://nekosia.cat/documentation?page=introduction)) enables tracking changes and updates in a clear and intuitive way.
 This ensures that users can always stay up to date with the latest functionalities and changes.
 Below is the version history of the API, along with descriptions of the introduced changes and their release dates.
 
