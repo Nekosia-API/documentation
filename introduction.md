@@ -44,7 +44,7 @@ The documentation also includes code examples and use cases to help you get star
 - **Free Usage:**  
   The API is free to use, meaning there are no charges or usage restrictions.
 
-> These are just a few key points to understand before starting to use the API. More information on the available features can be found on the [official website](/).
+> These are just a few key points to understand before starting to use the API. More information on the available features can be found on the [official website](https://nekosia.cat).
 > We encourage you to read the full documentation to fully utilize the capabilities offered by the API. Good luck!
 
 ## Semantic Versioning {#semver}
