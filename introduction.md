@@ -95,12 +95,17 @@ The Nekosia API respects the copyrights of all images used, which belong to thei
 We comply with copyright and intellectual property regulations.
 
 We understand the importance of protecting these rights, so we strive to act in accordance with applicable regulations.
-Each image used by the API includes source and author information in its metadata (EXIF).
+Each image used by the API includes source and author information in its metadata ([EXIF](https://www.npmjs.com/package/exiftool-vendored)).
 
 If you notice any copyright violations, please contact us, so we can take appropriate action to resolve the issue immediately.
 Thank you for your understanding and cooperation.<br><br>
 
-The graphics used on this website nekosia.cat are available for review on the [Credits - Nekosia API](/credits) page.
+The graphics used on this website [nekosia.cat](https://nekosia.cat) are available for review on the [Credits - Nekosia API](/credits) page.
+
+## Attribution {#attribution}
+When using the API, you should credit the username of the author of a specific photo (if the API provides such information) in your project.
+This can be done by including the author's name, for example, in the footer (in the case of Discord, in the embed footer).
+It is also good practice to include a link to the author's profile (e.g., Pixiv) or the source of the photo to fully acknowledge the artist's work.
 
 ## Emoji Legend {#emoji-legend}
 | <div align="center">Emoji</div> | <div align="center">Alternative️</div> | Name            | Description                                      |
