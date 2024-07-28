@@ -70,7 +70,7 @@ const axios = require('axios');
 
 const fetchNekoImage = async () => {
    try {
-      const res = await axios.get('{API_URL}/api/v1/images/catgirl');
+      const res = await axios.get('https://api.nekosia.cat/api/v1/images/catgirl');
       const json = res.data;
 
       console.log(json.image.original.url);
