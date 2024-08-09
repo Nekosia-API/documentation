@@ -21,7 +21,7 @@ All API requests should be directed to the base URL: `https://nekosia.cat/api/v1
 ### Main categories
 `catgirl`, `foxgirl`, `wolf-girl`, `animal-ears`, `tail`, `tail-with-ribbon`, `tail-from-under-skirt`<br>
 `cute`, `cuteness-is-justice`, `blue-archive`, `girl`, `young-girl`, `maid`, `maid-uniform`, `vtuber`, `w-sitting`, `lying-down`, `wink`, `valentine`<br>
-`thigh-high-socks`, `knee-high-socks`, `heterochromia`, `uniform`, `sailor-uniform`, `ribbon`, `white-hair`, `blue-hair`, `blue-eyes`, `purple-eyes`
+`thigh-high-socks`, `knee-high-socks`, `heterochromia`, `uniform`, `sailor-uniform`, `ribbon`, `white-hair`, `blue-hair`, `long-hair`, `blue-eyes`, `purple-eyes`
 
 #### Other
 `swimwear`, `swimsuit`, `bikini`<br>
