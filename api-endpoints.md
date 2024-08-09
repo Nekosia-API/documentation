@@ -3,7 +3,7 @@
 [//]: # (Tags: nekosia, api, nekosia api, api endpoints, api documentation, image access, session management, image tags, API versions, base URL, category tags, shadow category, API sessions)
 [//]: # (Canonical: api-endpoints)
 [//]: # (Creation date: 2024-07-29)
-[//]: # (Last update: 2024-07-29)
+[//]: # (Last update: 2024-08-09)
 [//]: # (Contributors: Sefinek)
 
 # API Endpoints Overview {#api-endpoints-overview}
@@ -17,13 +17,27 @@ Click [here](https://nekosia.cat/documentation?page=introduction#api-versions) t
 ## Base URL Information {#base-url}
 All API requests should be directed to the base URL: `https://nekosia.cat/api/v1`. This URL serves as the foundation for all endpoint calls within the API.
 
+## Tags and categories
+### Main categories
+`catgirl`, `foxgirl`, `wolf-girl`, `animal-ears`, `tail`, `tail-with-ribbon`, `tail-from-under-skirt`<br>
+`cute`, `cuteness-is-justice`, `blue-archive`, `girl`, `young-girl`, `maid`, `maid-uniform`, `vtuber`, `w-sitting`, `lying-down`, `wink`, `valentine`<br>
+`thigh-high-socks`, `knee-high-socks`, `heterochromia`, `uniform`, `sailor-uniform`, `ribbon`, `white-hair`, `blue-hair`, `blue-eyes`, `purple-eyes`
+
+#### Other
+`swimwear`, `swimsuit`, `bikini`<br>
+*Ensure that these photos are appropriate for your project and adhere to the platform's guidelines where you plan to publish them. Don't worry, all the photos are SFW (Safe for Work, with no adult content).*
+
+### Tags
+You can find the full list of tags on the [Booru website](https://nekosia.cat/booru/tags).
+
+
 # Basic API Endpoints {#basic-endpoints}
 
 ## GET /images/{category}
 This endpoint allows you to fetch random images from a selected category.
 
 ### Parameters {#parameters}
-> /images/{category}?count={int}&additionalTags={string}&blacklistedTags={string} {#get-images}
+> /images/{category}?count={int}&additionalTags={string}&blacklistedTags={string}
 - `category` - Check available category tags [on our Booru page](https://nekosia.cat/booru/tags). Each image is assigned to one main category.
 - `count` - The number of images to fetch (default: 1, maximum: 48). The higher the number, the longer the server will take to respond (in milliseconds).
 - `additionalTags` - Additional tags to be included when searching for images.
@@ -56,7 +70,7 @@ This endpoint allows you to fetch random images from a selected category.
       },
       "bytes": { "original": { "size": 123456 }, "compressed": { "size": 654321 } },
       "category": "category-name",
-      "tags": ["tag1", "tag2"],
+      "tags": ["tag1", "tag2", "tag3", "tag4"],
       "rating": null,
       "anime": { "title": "anime-title", "character": "character-name" },
       "source": {
@@ -65,7 +79,7 @@ This endpoint allows you to fetch random images from a selected category.
       },
       "attribution": {
         "artist": { "username": "artist-name", "profile": "artist-profile-url" },
-        "copyright": "copyright-info"
+        "copyright": "Copyright 2024 © by Artist. All Rights Reserved."
       }
     }
   ]
@@ -102,7 +116,7 @@ This is a recommended solution if you do not want to limit yourself to the main 
 
 #### Example Request {#shadow-example-request}
 ```text
-GET /images/shadow?count=3&additionalTags=catgirl,foxgirl&blacklistedTags=doggirl
+GET /images/shadow?count=3&additionalTags=catgirl,foxgirl,wolf-girl&blacklistedTags=dog-girl
 ```
 
 The `shadow` category allows for precise image searches matching the selected criteria, offering a more personalized experience.
@@ -125,10 +139,10 @@ Sessions can be identified by the user's IP address or a unique session identifi
 
 #### Example Requests {#session-example-requests}
 1. Session identified based on the IP address:
-   > **GET** /images/_catgirl_?**session**=ip&**additionalTags**=foxgirl,wolfgirl,tail&**blacklistedTags**=doggirl
+   > **GET** /images/_catgirl_?**session**=ip&**additionalTags**=foxgirl,wolf-girl,tail&**blacklistedTags**=dog-girl
 
 2. Session identified based on a unique user identifier (e.g., from Discord):
-   > **GET** /images/_catgirl_?**session**=id&**id**=561621386569973783&**additionalTags**=foxgirl,wolfgirl,tail&**blacklistedTags**=doggirl
+   > **GET** /images/_catgirl_?**session**=id&**id**=561621386569973783&**additionalTags**=foxgirl,wolf-girl,tail&**blacklistedTags**=dog-girl
 
 #### Important Notes {#session-important-notes}
 1. **Uniqueness of IP-based sessions**:  

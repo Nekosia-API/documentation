@@ -3,15 +3,17 @@
 [//]: # (Tags: introduction, nekosia api introduction, nekosia api docs introduction, nekosia api overview, nekosia api summary, nekosia api guide, nekosia api documentation, nekosia api intro)
 [//]: # (Canonical: introduction)
 [//]: # (Creation date: 2024-07-29)
-[//]: # (Last update: 2024-07-29)
+[//]: # (Last update: 2024-08-09)
 [//]: # (Contributors: Sefinek)
 
 # Introduction {#introduction}
 Welcome to the Nekosia API documentation! Here you will find detailed information about the API interface, including descriptions of available endpoints, request methods, and response formats.
 
-The Nekosia API follows a `RESTful` architecture, meaning all operations are performed according to REST principles. Requests and responses are transmitted in JSON format, making data integration and processing easier.
+The Nekosia API follows a `RESTful` architecture, meaning all operations are performed according to REST principles.
+Requests and responses are transmitted in JSON format, making data integration and processing easier.
 
-The documentation also includes code examples and use cases to help you get started quickly. Whether you're a developer creating a new application or an integrator looking for an efficient solution, you'll find all the necessary information here.
+The documentation also includes code examples and use cases to help you get started quickly.
+Whether you're a developer creating a new application or an integrator looking for an efficient solution, you'll find all the necessary information here.
 
 ## Important to Understand {#important}
 - **Variety of Content:**  
@@ -81,19 +83,22 @@ We strive to respond to messages as quickly as possible to ensure you have the b
 Moreover, on our Discord server, you'll find dedicated channels where you can get help from other users and participate in discussions about the development and future of Nekosia.
 
 ## Open Source {#open-source}
-At this moment, neither the website nor the API is available as open-source projects. However, we plan to release the source code in the future.
-This will allow the community to contribute to the project's development, benefiting both us and all users.
-We believe that open-sourcing will enable faster development and the introduction of innovative solutions while increasing transparency and trust in the project.
+Currently, neither the website nor the API is available as open-source projects.
+However, we plan to release the source code in the future, which will allow the community to actively contribute to the project's development, benefiting both us and all users.
+We believe that open-sourcing will accelerate development and the introduction of innovative solutions, while also increasing transparency and trust in the project.
+You can find Nekosia's public repositories [here](https://github.com/Nekosia-API).
 
 ## Credits and Support {#credits-support}
-We do not require attribution for anything when using the Nekosia API.
-However, if your project uses this solution, we would appreciate it if you include a link to this website (nekosia.cat) in your project description or note that your project uses the Nekosia API.
-This gesture will help reach more users and support the project's community growth. Thanks for your support and for appreciating the work!
+There is no requirement for attribution when using the Nekosia API.
+However, if your project uses this solution, it would be appreciated if a link to the website [nekosia.cat](https://nekosia.cat) is included in the project description or if it's mentioned that the project uses the Nekosia API.
+
+This gesture helps reach more users and supports the growth of the community.
+Thank you for the support and for appreciating the work!
 
 ## Attribution {#attribution}
-When using the API, you should credit the username of the author of a specific photo (if the API provides such information) in your project.
+When using the API, it's important to credit the username of the author of a specific photo (if the API provides this information) in your project.
 This can be done by including the author's name, for example, in the footer (in the case of Discord, in the embed footer).
-It is also good practice to include a link to the author's profile (e.g., Pixiv) or the source of the photo to fully acknowledge the artist's work.
+It's also good practice to include a link to the author's profile (e.g., Pixiv) or the source of the photo to fully acknowledge the artist's work.
 
 ## Copyright {#copyright}
 The Nekosia API respects the copyrights of all images used, which belong to their rightful owners.
