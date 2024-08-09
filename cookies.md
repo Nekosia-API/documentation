@@ -13,9 +13,8 @@ See the [Definitions](https://nekosia.cat/documentation?page=definitions) docume
 
 ## §1 Cookies
 1. The website uses cookies to improve functionality and ensure proper user settings.
-2. Detailed cookie policy is available at [this link](https://nekosia.cat/documentation?page=cookies).
-3. Users can manage cookies through their web browser settings.
-4. Cookies are also used for website security, performance improvement, and providing personalized content and advertisements.
+2. Users can manage cookies through their web browser settings.
+3. Cookies are also used for website security, performance improvement, and providing personalized content and advertisements.
 
 ## §2 Types of Cookies
 1. **Session cookies:** Stored on the user's device only during a browsing session and deleted after the browser is closed.
