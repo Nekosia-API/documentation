@@ -3,7 +3,7 @@
 [//]: # (Tags: cookies, nekosia, api, cookies policy, nekosia api cookies, cookies management, privacy, cookies usage, session cookies, third-party cookies)
 [//]: # (Canonical: cookies)
 [//]: # (Creation date: 2024-07-29)
-[//]: # (Last update: 2024-07-29)
+[//]: # (Last update: 2024-08-09)
 [//]: # (Contributors: Sefinek)
 
 # Cookies Policy
