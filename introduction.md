@@ -67,7 +67,7 @@ In case of changes, the documentation will be updated to reflect the latest chan
 
 | API version                  | Released on | Recommended | Beta? |
 |------------------------------|-------------|-------------|-------|
-| <div align="center">v1</div> | 2024-07-29  | ✔️          | ❎     |
+| <div align="center">v1</div> | 2024-07-29  | ✔️          | ✅     |
 
 ### Changelog {#changelog}
 You will find it in a separate document [Changelog](https://nekosia.cat/documentation?page=changelog). This document contains detailed information about changes, release dates, and backward compatibility.
