@@ -94,9 +94,9 @@ The error object contains information such as status code, error message, and de
         <div class="code-block">
             <button onclick="fetchNekoImage()">GET api.nekosia.cat/api/v1/images/catgirl</button>
         </div>
-        <pre style="margin-top: 10px;"><code class="hljs language-json" id="response-container">Waiting for user to click the button...<br>If this doesn't work, try refreshing the page.</code></pre>
+        <pre style="margin-top: 10px;"><code class="hljs language-json" id="response-container">Waiting for user to click the button...</code></pre>
     </div>
     <div style="flex: 1; display: flex; justify-content: center; align-items: center;">
-        <img alt="Neko image" id="neko-image" style="max-width: 98%; display: none; cursor: pointer;" onclick="openImageInNewTab()">
+        <img id="neko-image" style="max-width:100%;display:none;cursor:pointer;" onclick="openImageInNewTab()">
     </div>
 </div>
