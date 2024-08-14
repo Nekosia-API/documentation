@@ -24,7 +24,7 @@ All API requests should be directed to the base URL: `https://nekosia.cat/api/v1
 `thigh-high-socks`, `knee-high-socks`, `heterochromia`, `uniform`, `sailor-uniform`, `ribbon`, `white-hair`, `blue-hair`, `long-hair`, `blue-eyes`, `purple-eyes`
 
 #### Other
-`swimwear`, `swimsuit`, `bikini`<br>
+`swimwear`, `swimsuit`, `bikini`, `sea`, `swim-ring`<br>
 *Ensure that these photos are appropriate for your project and adhere to the platform's guidelines where you plan to publish them. Don't worry, all the photos are SFW (Safe for Work, with no adult content).*
 
 ### Tags
