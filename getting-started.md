@@ -20,29 +20,27 @@
      ```
 
 3. **Sample response**:
-   <details>
-      <summary>Click here to see.</summary>
    ```json
    {
       "success": true,
       "status": 200,
       "key": null,
       "count": 1,
-      "id": "66a0373e653c7ad0d46cbf23",
-      "colors": { "main": "#DECBC9", "palette": ["#DDCAC8", "#A37976", "#301D23", "#7E4F4A", "#8E645B", "#F9F1EA", "#C19E9D", "#BA948B", "#C5ACA3", "#BAB0B2", "#90A9B3", "#5BA5C5", "#52799E", "#7C5C74"] },
+      "id": "66aec7b2fbc807afa70f00df",
+      "colors": { "main": "#D9CDD3", "palette": ["#35373F", "#8B4964", "#7D7E8B", "#E9E1E5", "#B68495", "#ACAEBA", "#CCADB4", "#846D61", "#C9A199", "#C6C5CF", "#4E738D", "#D2BEB9", "#52B5CA", "#4B8AB4"] },
       "image": {
-         "original": { "url": "http://127.0.0.1:7843/images/catgirl/66a0373e653c7ad0d46cbf23.jpg", "bytes": 2558328 },
-         "compressed": { "url": "http://127.0.0.1:7843/images/catgirl/66a0373e653c7ad0d46cbf23-compressed.jpg", "bytes": 715895 }
+         "original": { "url": "https://cdn.nekosia.cat/images/catgirl/66aec7b2fbc807afa70f00df.png", "extension": "png" },
+         "compressed": { "url": "https://cdn.nekosia.cat/images/catgirl/66aec7b2fbc807afa70f00df-compressed.jpg", "extension": "jpeg" }
       },
-      "bytes": { "original": { "width": 3908, "height": 5661, "size": 2558328, "extension": "jpeg" }, "compressed": { "width": 1280, "height": 1854, "size": 715895, "extension": "jpeg" } },
+      "metadata": { "original": { "width": 3086, "height": 4000, "size": 7901833, "extension": "png" }, "compressed": { "width": 1280, "height": 1659, "size": 378149, "extension": "jpeg" } },
       "category": "catgirl",
-      "tags": ["catgirl", "animal-ears", "maid", "maid-uniform"],
-      "rating": "safe",
+      "tags": ["catgirl", "schoolgirl", "cat-ears", "animal-ears", "tail", "cute", "young-girl", "white-hair", "uniform", "school-uniform", "school-girl", "twintails", "elementary-school-student", "heterochromia"],
+      "rating": ""metadata":",
       "anime": { "title": null, "character": null },
-      "source": { "url": "https://www.pixiv.net/en/artworks/120537148", "direct": "https://i.pximg.net/img-original/img/2024/07/15/00/26/23/120537148_p0.jpg" },
-      "attribution": { "artist": { "username": "フィア", "profile": "https://www.pixiv.net/en/users/12173021" }, "copyright": "Copyright 2024 © by フィア. All Rights Reserved." }
+      "source": { "url": "https://www.pixiv.net/en/artworks/90084095", "direct": "https://i.pximg.net/img-original/img/2021/05/25/12/02/02/90084095_p0.png" },
+      "attribution": { "artist": { "username": "rucaco/るかこ", "profile": "https://www.pixiv.net/en/users/9155411" }, "copyright": "Copyright 2021 © by rucaco/るかこ. All Rights Reserved." }
    }
-   </details>
+   ```
 
 4. **Integration with your app**:  
    Use the above sample request and response to integrate the API with your application.

@@ -31,66 +31,43 @@ All API requests should be directed to the base URL: `https://nekosia.cat/api/v1
 You can find the full list of tags on the [Booru website](https://nekosia.cat/booru/tags).
 
 
-# Basic API Endpoints {#basic-endpoints}
-
-## GET /images/{category}
+# GET /images/:category
 This endpoint allows you to fetch random images from a selected category.
 
-### Parameters {#parameters}
-> /images/{category}?count={int}&additionalTags={string}&blacklistedTags={string}
-- `category` - Check available category tags [on our Booru page](https://nekosia.cat/booru/tags). Each image is assigned to one main category.
-- `count` - The number of images to fetch (default: 1, maximum: 48). The higher the number, the longer the server will take to respond (in milliseconds).
-- `additionalTags` - Additional tags to be included when searching for images.
-- `blacklistedTags` - List of tags to be excluded from the search results.
+## Parameters {#parameters}
+> /images/:category?count={int}&additionalTags={string}&blacklistedTags={string}
+- `:category` - Check available category tags [on our Booru page](https://nekosia.cat/booru/tags). Each image is assigned to one main category.
+- `?count` - The number of images to fetch (default: 1, maximum: 48). The higher the number, the longer the server will take to respond (in milliseconds).
+- `&additionalTags` - Additional [tags](https://nekosia.cat/booru/tags) to be included when searching for images.
+- `&blacklistedTags` - [List of tags](https://nekosia.cat/booru/tags) to be excluded from the search results.
 
-### Example Response {#example-response}
-<details>
-  <summary>Click here to see an example response.</summary>
-
+## Example Response {#example-response}
 ```json
 {
-  "success": true,
-  "status": 200,
-  "identifier": "user-identifier",
-  "key": "viewed-key",
-  "count": 2,
-  "images": [
-    {
-      "id": "image-id",
-      "colors": ["color1", "color2"],
-      "image": {
-        "original": {
-          "url": "https://cdn.nekosia.cat/images/category/original.jpg",
-          "bytes": 123456
-        },
-        "compressed": {
-          "url": "https://cdn.nekosia.cat/images/category/compressed.jpg",
-          "bytes": 654321
-        }
-      },
-      "bytes": { "original": { "size": 123456 }, "compressed": { "size": 654321 } },
-      "category": "category-name",
-      "tags": ["tag1", "tag2", "tag3", "tag4"],
-      "rating": null,
-      "anime": { "title": "anime-title", "character": "character-name" },
-      "source": {
-        "url": "source-url",
-        "direct": "direct-url"
-      },
-      "attribution": {
-        "artist": { "username": "artist-name", "profile": "artist-profile-url" },
-        "copyright": "Copyright 2024 © by Artist. All Rights Reserved."
-      }
-    }
-  ]
+    "success": Boolean,
+    "status": Int,
+    "key": String || null,
+    "count": Int,
+    "id": String,
+    "colors": { "main": "#Hex", "palette": ["#Hex1", "#Hex2", "#Hex3", "#Hex4", "#Hex5", "#Hex6", "#Hex7", "#Hex8", "#Hex9", "#Hex10", "#Hex11", "#Hex12", "#Hex13", "#Hex14"] },
+    "image": {
+        "original": { "url": String, "extension": String },
+        "compressed": { "url": String, "extension": String }
+    },
+    "metadata": { "original": { "width": Int, "height": Int, "size": Int, "extension": String }, "compressed": { "width": Int, "height": Int, "size": Int, "extension": String } },
+    "category": String,
+    "tags": [String, String, String, String, String...],
+    "rating": safe || questionable || nsfw,
+    "anime": { "title": String || null, "character": String || null },
+    "source": { "url": String || null, "direct": String || null },
+    "attribution": { "artist": { "username": String || null, "profile": String || null }, "copyright": String || null }
 }
 ```
-</details>
 
-### Example Request {#example-request}
+## Example Request {#example-request}
 > GET /images/cute?count=4&additionalTags=white-hair,uniform&blacklistedTags=short-hair,sad,maid
 
-### Error Responses {#example-error-response}
+## Error Responses {#example-error-response}
 ```json
 {
   "success": false,
@@ -99,37 +76,37 @@ This endpoint allows you to fetch random images from a selected category.
 }
 ```
 
-### Shadow Category {#shadow}
+## Shadow Category {#shadow}
 Nekosia API offers a special `shadow` category, which differs from the others in its operation.
 Using this category allows you to fetch random images only from those that match your selected tags.
 This is a recommended solution if you do not want to limit yourself to the main categories only.
 
-#### Characteristics {#shadow-characteristics}
+### Characteristics {#shadow-characteristics}
 1. The `shadow` category requires additional tags to be provided in the `additionalTags` parameter, which are used for precise filtering of images.
 2. When using `shadow`, the `additionalTags` parameter must be filled with appropriate tags. Note that some tags may be unavailable for safety reasons.
 
-#### Parameters {#shadow-parameters}
+### Parameters {#shadow-parameters}
 - `category` - Must be set to `shadow`.
 - `count` - The number of images to fetch (default: 1, maximum: 48).
 - `additionalTags` - The main tag to be included in the image search. This is crucial for this category.
 - `blacklistedTags` - List of tags to be excluded.
 
-#### Example Request {#shadow-example-request}
+### Example Request {#shadow-example-request}
 ```text
 GET /images/shadow?count=3&additionalTags=catgirl,foxgirl,wolf-girl&blacklistedTags=dog-girl
 ```
 
 The `shadow` category allows for precise image searches matching the selected criteria, offering a more personalized experience.
 
-### Sessions {#sessions}
+## Sessions {#sessions}
 The API supports a session mechanism, which allows for tracking displayed images for users. This way, you can avoid displaying duplicate images.
 Sessions can be identified by the user's IP address or a unique session identifier (e.g., an external system user ID, such as Discord).
 
-#### Types of Sessions {#session-types}
+### Types of Sessions {#session-types}
 - `ip` - Session identified based on the user's IP address. This is useful when you do not have a unique user identifier.
 - `id` - Session identified based on a unique user identifier passed in the `id` parameter. This can be, for example, a specific person's ID on Discord.
 
-#### Session Parameters {#session-parameters}
+### Session Parameters {#session-parameters}
 - `session` - Type of session (`ip` or `id`).
     - `ip` - Session identified based on the user's IP address.
     - `id` - Session identified based on a unique user identifier.
@@ -137,14 +114,14 @@ Sessions can be identified by the user's IP address or a unique session identifi
     - Length of 6 to 128 characters.
     - No special characters such as `!@#$%^&*()_+{}|:"<>?`.
 
-#### Example Requests {#session-example-requests}
+### Example Requests {#session-example-requests}
 1. Session identified based on the IP address:
    > **GET** /images/_catgirl_?**session**=ip&**additionalTags**=foxgirl,wolf-girl,tail&**blacklistedTags**=dog-girl
 
 2. Session identified based on a unique user identifier (e.g., from Discord):
    > **GET** /images/_catgirl_?**session**=id&**id**=561621386569973783&**additionalTags**=foxgirl,wolf-girl,tail&**blacklistedTags**=dog-girl
 
-#### Important Notes {#session-important-notes}
+### Important Notes {#session-important-notes}
 1. **Uniqueness of IP-based sessions**:  
    IP-based sessions may not be fully unique, especially in shared networks.
 
@@ -160,6 +137,19 @@ Sessions can be identified by the user's IP address or a unique session identifi
 5. **Security and privacy**:  
    Session identifiers and IP addresses are stored with the highest standards of security and privacy. This data is used solely for tracking displayed images and is not shared with third parties.
 
-#### Use Cases {#session-use-cases}
+### Use Cases {#session-use-cases}
 - `session=ip`: Can be used in cases where the user is not logged in, when the service does not offer a login feature, or when there is no way to identify a specific user.
 - `session=id`: Recommended for example for Discord bots. With this solution, the user will never encounter duplicate images.
+
+# GET /getImageById/:id
+Retrieve details about a specific image.
+
+## Example Request
+```text
+GET /getImageById/66bc6b7481a59a1cf2c79db5
+```
+
+## Via curl
+```bash
+curl -X GET "https://api.nekosia.cat/api/v1/getImageById/66bc6b7481a59a1cf2c79db5" -H "Content-Type: application/json"
+```
