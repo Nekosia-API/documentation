@@ -17,21 +17,21 @@ Click [here](https://nekosia.cat/documentation?page=introduction#api-versions) t
 ## Base URL Information {#base-url}
 All API requests should be directed to the base URL: `https://nekosia.cat/api/v1`. This URL serves as the foundation for all endpoint calls within the API.
 
-## Tags and categories
-### Main categories
+## Tags and categories {#tags-and-categories}
+### Main categories {#main-categories}
 `catgirl`, `foxgirl`, `wolf-girl`, `animal-ears`, `tail`, `tail-with-ribbon`, `tail-from-under-skirt`<br>
 `cute`, `cuteness-is-justice`, `blue-archive`, `girl`, `young-girl`, `maid`, `maid-uniform`, `vtuber`, `w-sitting`, `lying-down`, `hands-forming-a-heart`, `wink`, `valentine`, `headphones`<br>
 `thigh-high-socks`, `knee-high-socks`, `white-tights`, `black-thigs`, `heterochromia`, `uniform`, `sailor-uniform`, `hoodie`, `ribbon`, `white-hair`, `blue-hair`, `long-hair`, `blonde`, `blue-eyes`, `purple-eyes`
 
-#### Other
+#### Other {#other}
 `swimwear`, `swimsuit`, `bikini`, `sea`, `swim-ring`<br>
 *Ensure that these photos are appropriate for your project and adhere to the platform's guidelines where you plan to publish them. Don't worry, all the photos are SFW (Safe for Work, with no adult content).*
 
-### Tags
+### Tags {#tags}
 You can find the full list of tags on the [Booru website](https://nekosia.cat/booru/tags).
 
 
-# GET /images/:category
+# GET /images/:category {#get-image-category}
 This endpoint allows you to fetch random images from a selected category.
 
 ## Parameters {#parameters}
@@ -64,7 +64,7 @@ This endpoint allows you to fetch random images from a selected category.
 }
 ```
 
-## Example Request {#example-request}
+## Example Request {#example-request-1}
 > GET /images/cute?count=4&additionalTags=white-hair,uniform&blacklistedTags=short-hair,sad,maid
 
 ## Error Responses {#example-error-response}
@@ -141,15 +141,15 @@ Sessions can be identified by the user's IP address or a unique session identifi
 - `session=ip`: Can be used in cases where the user is not logged in, when the service does not offer a login feature, or when there is no way to identify a specific user.
 - `session=id`: Recommended for example for Discord bots. With this solution, the user will never encounter duplicate images.
 
-# GET /getImageById/:id
+# GET /getImageById/:id {#get-by-image-id}
 Retrieve details about a specific image.
 
-## Example Request
+## Example Request {#example-request-2}
 ```text
 GET /getImageById/66bc6b7481a59a1cf2c79db5
 ```
 
-## Via curl
+## Via curl {#via-curl}
 ```bash
 curl -X GET "https://api.nekosia.cat/api/v1/getImageById/66bc6b7481a59a1cf2c79db5" -H "Content-Type: application/json"
 ```
