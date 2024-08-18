@@ -8,7 +8,7 @@
 
 # Libraries and Wrappers {#libraries-and-wrappers}
 Nekosia offers wrappers for various programming languages, making it easier to use the API.
-They are available in languages such as JavaScript (Node.js), Python, C#, and others.
+They are available in languages such as JavaScript (Node.js), ~~Python, C#, and others~~.
 These wrappers enable developers to integrate API functionalities into their projects and applications quickly and efficiently.
 
 Each of these libraries is thoroughly documented, allowing for quick startup and effective use of the API's capabilities.
