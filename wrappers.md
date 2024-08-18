@@ -1,13 +1,10 @@
 [//]: # (Title: Libraries - Nekosia Docs)
-[//]: # (Description: Documentation for Nekosia API libraries and wrappers. Learn about the available libraries and how to use them to integrate Nekosia API into your projects.)
+[//]: # (Description: Nekosia offers wrappers for various programming languages, making it easier to use the API! Learn more.)
 [//]: # (Tags: nekosia, libraries, wrappers, api, nekosia wrappers, nekosia node.js, nekosia npm, nekosia wrappers)
 [//]: # (Canonical: wrappers)
 [//]: # (Creation date: 2024-07-29)
 [//]: # (Last update: 2024-08-18)
 [//]: # (Contributors: Sefinek)
-
-# Important Information {#important-information}
-Official libraries are not yet available, but they will be soon! Thank you for your patience.
 
 # Libraries and Wrappers {#libraries-and-wrappers}
 Nekosia offers wrappers for various programming languages, making it easier to use the API.
