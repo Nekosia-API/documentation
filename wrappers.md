@@ -3,7 +3,7 @@
 [//]: # (Tags: nekosia, libraries, wrappers, api, nekosia wrappers, nekosia node.js, nekosia npm, nekosia wrappers)
 [//]: # (Canonical: wrappers)
 [//]: # (Creation date: 2024-07-29)
-[//]: # (Last update: 2024-07-29)
+[//]: # (Last update: 2024-08-18)
 [//]: # (Contributors: Sefinek)
 
 # Important Information {#important-information}
@@ -21,7 +21,7 @@ Good luck!
 
 ## Official Libraries {#official-libraries}
 ### Node.js (npm) {#node-js}
-- [nekosia.js](https://nekosia.cat) (coming soon)
+- [nekosia.js](https://www.npmjs.com/package/nekosia.js)
 
 ### C# (NuGet) {#c-sharp}
 - [nekosia](https://nekosia.cat) (coming soon)
