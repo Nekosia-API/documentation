@@ -3,7 +3,7 @@
 [//]: # (Tags: changelog, changelogs, nekosia changelog, nekosia api changelog, nekosia api version history, nekosia version history, nekosia api docs changelog, version history, api updates, nekosia updates)
 [//]: # (Canonical: changelog)
 [//]: # (Creation date: 2024-07-29)
-[//]: # (Last update: 2024-07-29)
+[//]: # (Last update: 2024-08-19)
 [//]: # (Contributors: Sefinek)
 
 # Introduction {#introduction}
@@ -17,6 +17,11 @@ This ensures that users can always stay up to date with the latest functionaliti
 Below is the version history of the API, along with descriptions of the introduced changes and their release dates.
 
 ## v1 {#v1}
+
+### 2024-08-19 {#v1-2024-08-19}
+1. Released the official [nekosia.js](https://www.npmjs.com/package/nekosia.js) module.
+2. Website and documentation improvements.
+3. Created the tos.md document.
 
 ### 2024-07-29 {#v1-2024-07-29}
 - **Initial API + Booru Release**
