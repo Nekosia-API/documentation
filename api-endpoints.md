@@ -3,7 +3,7 @@
 [//]: # (Tags: nekosia, api, nekosia api, api endpoints, api documentation, image access, session management, image tags, API versions, base URL, category tags, shadow category, API sessions)
 [//]: # (Canonical: api-endpoints)
 [//]: # (Creation date: 2024-07-29)
-[//]: # (Last update: 2024-08-09)
+[//]: # (Last update: 2024-08-19)
 [//]: # (Contributors: Sefinek)
 
 # API Endpoints Overview {#api-endpoints-overview}
@@ -15,7 +15,7 @@ It is also worth familiarizing yourself with the session mechanism, which allows
 Click [here](https://nekosia.cat/documentation?page=introduction#api-versions) to see the list of available API versions.
 
 ## Base URL Information {#base-url}
-All API requests should be directed to the base URL: `https://nekosia.cat/api/v1`. This URL serves as the foundation for all endpoint calls within the API.
+All API requests should be directed to the base URL: `https://api.nekosia.cat/api/v1`. This URL serves as the foundation for all endpoint calls within the API.
 
 ## Tags and categories {#tags-and-categories}
 ### Main categories {#main-categories}
