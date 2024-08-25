@@ -3,7 +3,7 @@
 [//]: # (Tags: ratelimits, nekosia api ratelimits, nekosia api docs ratelimits, nekosia api rate limits, nekosia api rate limiting)
 [//]: # (Canonical: ratelimits)
 [//]: # (Creation date: 2024-07-29)
-[//]: # (Last update: 2024-07-29)
+[//]: # (Last update: 2024-08-25)
 [//]: # (Contributors: Sefinek)
 
 # Rate Limits {#ratelimits}
@@ -19,7 +19,7 @@ Below are the detailed limits for different parts of the service.
 - A maximum of `320 requests` to the server within `5 minutes`.
 
 ## cdn.nekosia.cat {#cdn-nekosia-cat}
-- A maximum of `400 requests` to the server within `6 minutes`.
+- A maximum of `620 requests` to the server within `6 minutes`.
 
 # Cloudflare Rate Limits {#cloudflare-ratelimits}
 We use Cloudflare to ensure the security and stability of our services.
