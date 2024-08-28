@@ -1,4 +1,4 @@
-[//]: # (Title: Introduction - Nekosia API Docs)
+[//]: # (Title: Introduction - Nekosia Docs)
 [//]: # (Description: Welcome to the Nekosia API Documentation. This guide provides detailed information on available endpoints, request methods, and response formats for seamless integration.)
 [//]: # (Tags: introduction, nekosia api introduction, nekosia api docs introduction, nekosia api overview, nekosia api summary, nekosia api guide, nekosia api documentation, nekosia api intro)
 [//]: # (Canonical: introduction)
