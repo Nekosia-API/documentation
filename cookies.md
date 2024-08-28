@@ -1,4 +1,4 @@
-[//]: # (Title: Cookies policy - Nekosia Docs)
+[//]: # (Title: Cookies policy - Nekosia API Docs)
 [//]: # (Description: Comprehensive cookies policy for Nekosia API documentation, detailing usage, management, and types of cookies.)
 [//]: # (Tags: cookies, nekosia, api, cookies policy, nekosia api cookies, cookies management, privacy, cookies usage, session cookies, third-party cookies)
 [//]: # (Canonical: cookies)

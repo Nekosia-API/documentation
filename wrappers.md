@@ -1,4 +1,4 @@
-[//]: # (Title: Libraries - Nekosia Docs)
+[//]: # (Title: Libraries and Wrappers - Nekosia API Docs)
 [//]: # (Description: Nekosia offers wrappers for various programming languages, making it easier to use the API! Learn more.)
 [//]: # (Tags: nekosia, libraries, wrappers, api, nekosia wrappers, nekosia node.js, nekosia npm, nekosia wrappers)
 [//]: # (Canonical: wrappers)
