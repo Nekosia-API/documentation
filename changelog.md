@@ -3,7 +3,7 @@
 [//]: # (Tags: changelog, changelogs, nekosia changelog, nekosia api changelog, nekosia api version history, nekosia version history, nekosia api docs changelog, version history, api updates, nekosia updates)
 [//]: # (Canonical: changelog)
 [//]: # (Creation date: 2024-07-29)
-[//]: # (Last update: 2024-08-19)
+[//]: # (Last update: 2024-08-31)
 [//]: # (Contributors: Sefinek)
 
 # Introduction {#introduction}
@@ -16,15 +16,24 @@ Using semantic versioning ([learn more](https://nekosia.cat/documentation?page=i
 This ensures that users can always stay up to date with the latest functionalities and changes.
 Below is the version history of the API, along with descriptions of the introduced changes and their release dates.
 
-## v1 {#v1}
 
-### 2024-08-19 {#v1-2024-08-19}
+## API v1 {#v1}
+
+### 2024-08-19 {#api-v1-2024-08-19}
 1. Released the official [nekosia.js](https://www.npmjs.com/package/nekosia.js) module.
 2. Website and documentation improvements.
-3. Created the tos.md document.
+3. Created the `tos.md` document.
 
-### 2024-07-29 {#v1-2024-07-29}
+### 2024-07-29 {#api-v1-2024-07-29}
 - **Initial API + Booru Release**
   - Introduction of basic API functions, enabling full utilization of Nekosia's capabilities.
   - Creation of the official Booru.
   - Availability of complete online documentation, allowing users to easily familiarize themselves with new features and their applications.
+
+
+## This website {#website}
+
+### v1.0.2 {#website-102}
+1. Added a full image preview feature when clicking on an image (on the Booru page).
+2. Minor website and SEO tweaks.
+3. Other fixes.
