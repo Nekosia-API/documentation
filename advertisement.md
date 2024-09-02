@@ -30,6 +30,8 @@ Start exploring the sweetness of nekos today! Meow~~ 😺💗
 🌍 Official Nekosia API Website (more information): https://nekosia.cat
 😻 Anime Booru: https://nekosia.cat/booru
 💬 Join our Discord: https://discord.gg/pba76vJhcP
+
+#anime #animeapi #api #cute #catgirl #catgirls #animebooru #booru #neko #nekos #uwu #owo #cuteimages #cuteanimegirls
 ```
 
 ### Polish Version {#pol}
@@ -52,6 +54,8 @@ Zacznij odkrywać słodkość nekos już dziś! Miauu~~ 😺💗
 🌍 Oficjalna strona Nekosia API (więcej informacji): https://nekosia.cat
 😻 Anime Booru: https://nekosia.cat/booru
 💬 Dołącz do naszego Discorda: https://discord.gg/pba76vJhcP
+
+#anime #animeapi #api #cute #catgirl #catgirls #animebooru #booru #neko #nekos #uwu #owo #cuteimages #cuteanimegirls
 ```
 
 ### Tags {#tags}
