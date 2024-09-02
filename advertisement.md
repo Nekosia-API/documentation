@@ -54,6 +54,11 @@ Zacznij odkrywać słodkość nekos już dziś! Miauu~~ 😺💗
 💬 Dołącz do naszego Discorda: https://discord.gg/pba76vJhcP
 ```
 
+### Tags {#tags}
+```js
+#anime #animeapi #api #cute #catgirl #catgirls #animebooru #booru #neko #nekos #uwu #owo #cuteimages #cuteanimegirls
+```
+
 ## Logo {#logo}
 If you want to use our logo, click [here](https://nekosia.cat/documentation?page=tos#api-use-of-name) to learn more.
 <br><br>
