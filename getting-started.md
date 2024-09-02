@@ -3,7 +3,7 @@
 [//]: # (Tags: getting started, nekosia api getting started, nekosia api docs, api introduction, api guide, nekosia tutorial, api setup, api integration, api examples)
 [//]: # (Canonical: getting-started)
 [//]: # (Creation date: 2024-07-29)
-[//]: # (Last update: 2024-07-29)
+[//]: # (Last update: 2024-09-02)
 [//]: # (Contributors: Sefinek)
 
 # Getting Started {#getting-started}
@@ -26,19 +26,31 @@
       "status": 200,
       "key": null,
       "count": 1,
-      "id": "66aec7b2fbc807afa70f00df",
-      "colors": { "main": "#D9CDD3", "palette": ["#35373F", "#8B4964", "#7D7E8B", "#E9E1E5", "#B68495", "#ACAEBA", "#CCADB4", "#846D61", "#C9A199", "#C6C5CF", "#4E738D", "#D2BEB9", "#52B5CA", "#4B8AB4"] },
-      "image": {
-         "original": { "url": "https://cdn.nekosia.cat/images/catgirl/66aec7b2fbc807afa70f00df.png", "extension": "png" },
-         "compressed": { "url": "https://cdn.nekosia.cat/images/catgirl/66aec7b2fbc807afa70f00df-compressed.jpg", "extension": "jpeg" }
+      "id": "66a77347a4b979c761eb0cde",
+      "colors": {
+         "main": "#E7C9CF",
+         "palette": ["#E8DFE7", "#433740", "#E3495B", "#8F6166", "#100B10", "#A4AECB", "#F99E37", "#695054", "#4D537C", "#310E13", "#8485AF", "#CE7D81", "#3D1126", "#6E6D6B"]
       },
-      "metadata": { "original": { "width": 3086, "height": 4000, "size": 7901833, "extension": "png" }, "compressed": { "width": 1280, "height": 1659, "size": 378149, "extension": "jpeg" } },
+      "image": {
+         "original": { "url": "https://cdn.nekosia.cat/images/catgirl/66a77347a4b979c761eb0cde.png", "extension": "png" },
+         "compressed": { "url": "https://cdn.nekosia.cat/images/catgirl/66a77347a4b979c761eb0cde-compressed.jpg", "extension": "jpeg" }
+      },
+      "metadata": {
+         "original": { "width": 1536, "height": 2304, "size": 4431989, "extension": "png" },
+         "compressed": { "width": 1280, "height": 1920, "size": 698945, "extension": "jpeg" }
+      },
       "category": "catgirl",
-      "tags": ["catgirl", "schoolgirl", "cat-ears", "animal-ears", "tail", "cute", "young-girl", "white-hair", "uniform", "school-uniform", "school-girl", "twintails", "elementary-school-student", "heterochromia"],
-      "rating": ""metadata":",
+      "tags": ["catgirl", "animal-ears", "cat-ears", "tail", "cute", "young-girl", "cuteness-is-justice", "thighs", "white-thigh-high-socks", "thigh-high-socks", "red-ribbon", "long-hair"],
+      "rating": "safe",
       "anime": { "title": null, "character": null },
-      "source": { "url": "https://www.pixiv.net/en/artworks/90084095", "direct": "https://i.pximg.net/img-original/img/2021/05/25/12/02/02/90084095_p0.png" },
-      "attribution": { "artist": { "username": "rucaco/るかこ", "profile": "https://www.pixiv.net/en/users/9155411" }, "copyright": "Copyright 2021 © by rucaco/るかこ. All Rights Reserved." }
+      "source": {
+         "url": "https://www.pixiv.net/en/artworks/112464629",
+         "direct": "https://i.pximg.net/img-original/img/2023/10/11/19/15/45/112464629_p0.png"
+      },
+      "attribution": {
+         "artist": { "username": "AutoINS", "profile": "https://www.pixiv.net/en/users/87833254" },
+         "copyright": "Copyright 2023 © by AutoINS. All Rights Reserved."
+      }
    }
    ```
 
