@@ -17,7 +17,7 @@ Nekosia API is a versatile, free, and easy-to-integrate Anime API that offers a 
 Whether you're building an app, a Discord bot, or a website, Nekosia API has everything you need to add a touch of anime magic to your project.
 
 🤔 What Does Nekosia API Offer?
-- An extensive collection of fully SFW anime images. Check out all the main categories: https://nekosia.cat/categories
+- An extensive collection of fully SFW anime images. See more: https://nekosia.cat/categories
 - API sessions that help avoid duplicate images.
 - Dominant colors of images (1 main color + 14 hex codes in each API response).
 - Image compression without loss of quality.
@@ -25,7 +25,7 @@ Whether you're building an app, a Discord bot, or a website, Nekosia API has eve
 - Additionally, we also have our own Anime Booru.
 
 Nekosia API is completely free and available without registration, making it the ideal choice for developers at any skill level.
-Start exploring the sweetness of Nekosia API today! Meow~~ 😺💗
+Start exploring the sweetness of nekos today! Meow~~ 😺💗
 
 🌍 Official Nekosia API Website (more information): https://nekosia.cat  
 😻 Anime Booru: https://nekosia.cat/booru  
@@ -47,7 +47,7 @@ Niezależnie od tego, czy tworzysz aplikację, bota na Discorda, czy stronę int
 - Dodatkowo, mamy również swoje własne Anime Booru.
 
 Nekosia API jest całkowicie darmowe i dostępne bez konieczności rejestracji, co czyni je idealnym wyborem dla deweloperów na każdym poziomie zaawansowania.
-Zacznij odkrywać słodkość z Nekosia API już dziś! Miauu~~ 😺💗
+Zacznij odkrywać słodkość nekos już dziś! Miauu~~ 😺💗
 
 🌍 Oficjalna strona Nekosia API (więcej informacji): https://nekosia.cat  
 😻 Anime Booru: https://nekosia.cat/booru  
