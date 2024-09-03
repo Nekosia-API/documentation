@@ -17,23 +17,28 @@ Nekosia API is a versatile, free, and easy-to-integrate Anime API that offers a 
 Whether you're building an app, a Discord bot, or a website, Nekosia API has everything you need to add a touch of anime magic to your project.
 
 🤔 What Does Nekosia API Offer?
-- An extensive collection of fully SFW anime images. See more: https://nekosia.cat/categories
-- API sessions that help avoid duplicate images.
-- Dominant colors of images (1 main color + 14 hex codes in each API response).
-- Image compression without loss of quality.
-- Every image is tagged, making it easy to find exactly what you're looking for.
-- Additionally, we also have our own Anime Booru.
+- An extensive collection of fully SFW anime images. See all main categories: https://nekosia.cat/categories
+- API sessions that help avoid duplicate images
+- Dominant colors of images (1 main color + 14 hex codes in each API response)
+- Image compression without loss of quality
+- Every image is tagged, making it easy to find exactly what you're looking for
+- Additionally, we also have our own Anime Booru
 
 Nekosia API is completely free and available without registration, making it the ideal choice for developers at any skill level.
 Start exploring the sweetness of nekos today! Meow~~ 😺💗
 
-🌍 Official Nekos Website: https://nekosia.cat
 😻 Anime Booru: https://nekosia.cat/booru
-💬 Join our Discord: https://discord.gg/pba76vJhcP
+🌍 Official Nekos Website: https://nekosia.cat
 
 #anime #animeapi #api #cute #catgirl #catgirls #animebooru #booru #neko #nekos #uwu #owo #cuteimages #cuteanimegirls
 ```
 <button onclick="copyText('eng')">Copy text</button>
+
+#### Discord {#eng-dsc}
+```text
+💬 Join our Discord: https://discord.gg/pba76vJhcP
+```
+
 
 ### Polish Version {#pol}
 ```text
@@ -43,25 +48,28 @@ Niezależnie od tego, czy tworzysz aplikację, bota na Discorda, czy stronę int
 
 🤔 Co oferuje Nekosia API?
 - Obszerna kolekcja obrazków anime w pełni SFW. Sprawdź wszystkie główne kategorie: https://nekosia.cat/categories
-- Sesje API, które pozwalają na unikanie zduplikowanych obrazów.
-- Dominujące kolory obrazów (1 główny kolor + 14 hexów w każdej odpowiedzi API).
-- Kompresja obrazów, bez strat w jakości.
-- Każdy obraz jest otagowany, dzięki czemu łatwo znajdziesz dokładnie to, czego szukasz.
-- Dodatkowo, mamy również swoje własne Anime Booru.
+- Sesje API, które pozwalają na unikanie zduplikowanych obrazów
+- Dominujące kolory obrazów (1 główny kolor + 14 hexów w każdej odpowiedzi API)
+- Kompresja obrazów, bez strat w jakości
+- Każdy obraz jest otagowany, dzięki czemu łatwo znajdziesz dokładnie to, czego szukasz
+- Dodatkowo, mamy również swoje własne Anime Booru
 
 Nekosia API jest całkowicie darmowe i dostępne bez konieczności rejestracji, co czyni je idealnym wyborem dla deweloperów na każdym poziomie zaawansowania.
-Zacznij odkrywać słodkość nekos już dziś! Miauu~~ 😺💗
+Zacznij odkrywać słodkość nekos już teraz! Miauu~~ 😺💗
 
 🌍 Oficjalna strona Nekos: https://nekosia.cat
 😻 Anime Booru: https://nekosia.cat/booru
-💬 Dołącz do naszego Discorda: https://discord.gg/pba76vJhcP
 
 #anime #animeapi #api #cute #catgirl #catgirls #animebooru #booru #neko #nekos #uwu #owo #cuteimages #cuteanimegirls
 ```
 <button onclick="copyText('pol')">Copy text</button>
 
+#### Discord {#pol-dsc}
+```text
+💬 Dołącz do naszego Discorda: https://discord.gg/pba76vJhcP
+```
 
-### Tags {#tags}
+## Tags {#tags}
 ```text
 #anime #animeapi #api #cute #catgirl #catgirls #animebooru #booru #neko #nekos #uwu #owo #cuteimages #cuteanimegirls
 ```
