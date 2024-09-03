@@ -22,12 +22,11 @@ Whether you're building an app, a Discord bot, or a website, Nekosia API has eve
 - Dominant colors of images (1 main color + 14 hex codes in each API response)
 - Image compression without loss of quality
 - Every image is tagged, making it easy to find exactly what you're looking for
-- Additionally, we also have our own Anime Booru
+- Additionally, we also have our own Anime Booru: https://nekosia.cat/booru
 
 Nekosia API is completely free and available without registration, making it the ideal choice for developers at any skill level.
 Start exploring the sweetness of nekos today! Meow~~ 😺💗
 
-😻 Anime Booru: https://nekosia.cat/booru
 🌍 Official Nekos Website: https://nekosia.cat
 
 #anime #animeapi #api #cute #catgirl #catgirls #animebooru #booru #neko #nekos #uwu #owo #cuteimages #cuteanimegirls
@@ -52,12 +51,11 @@ Niezależnie od tego, czy tworzysz aplikację, bota na Discorda, czy stronę int
 - Dominujące kolory obrazów (1 główny kolor + 14 hexów w każdej odpowiedzi API)
 - Kompresja obrazów, bez strat w jakości
 - Każdy obraz jest otagowany, dzięki czemu łatwo znajdziesz dokładnie to, czego szukasz
-- Dodatkowo, mamy również swoje własne Anime Booru
+- Dodatkowo, mamy również swoje własne Anime Booru: https://nekosia.cat/booru
 
 Nekosia API jest całkowicie darmowe i dostępne bez konieczności rejestracji, co czyni je idealnym wyborem dla deweloperów na każdym poziomie zaawansowania.
 Zacznij odkrywać słodkość nekos już teraz! Miauu~~ 😺💗
 
-😻 Anime Booru: https://nekosia.cat/booru
 🌍 Oficjalna strona Nekos: https://nekosia.cat
 
 #anime #animeapi #api #cute #catgirl #catgirls #animebooru #booru #neko #nekos #uwu #owo #cuteimages #cuteanimegirls
