@@ -3,7 +3,7 @@
 [//]: # (Tags: Anime API, Free API, Catgirls API, Foxgirls API, SFW Anime Images, Anime Pictures, Anime Booru, Developer Tools, Image Compression, Dominant Colors, Nekosia API)
 [//]: # (Canonical: advertisement)
 [//]: # (Creation date: 2024-09-02)
-[//]: # (Last update: 2024-09-02)
+[//]: # (Last update: 2024-09-03)
 [//]: # (Contributors: Sefinek)
 
 # The best Nekos API for devs {#the-best-anime-nekos-api}
@@ -33,6 +33,7 @@ Start exploring the sweetness of nekos today! Meow~~ 😺💗
 
 #anime #animeapi #api #cute #catgirl #catgirls #animebooru #booru #neko #nekos #uwu #owo #cuteimages #cuteanimegirls
 ```
+<button onclick="copyText('eng')">Copy text</button>
 
 ### Polish Version {#pol}
 ```text
@@ -57,11 +58,14 @@ Zacznij odkrywać słodkość nekos już dziś! Miauu~~ 😺💗
 
 #anime #animeapi #api #cute #catgirl #catgirls #animebooru #booru #neko #nekos #uwu #owo #cuteimages #cuteanimegirls
 ```
+<button onclick="copyText('pol')">Copy text</button>
+
 
 ### Tags {#tags}
-```js
+```text
 #anime #animeapi #api #cute #catgirl #catgirls #animebooru #booru #neko #nekos #uwu #owo #cuteimages #cuteanimegirls
 ```
+<button onclick="copyText('tags')">Copy text</button>
 
 ## Logo {#logo}
 If you want to use our logo, click [here](https://nekosia.cat/documentation?page=tos#api-use-of-name) to learn more.
