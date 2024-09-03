@@ -27,7 +27,7 @@ Whether you're building an app, a Discord bot, or a website, Nekosia API has eve
 Nekosia API is completely free and available without registration, making it the ideal choice for developers at any skill level.
 Start exploring the sweetness of nekos today! Meow~~ 😺💗
 
-🌍 Official Nekosia API Website (more information): https://nekosia.cat
+🌍 Official Nekos Website: https://nekosia.cat
 😻 Anime Booru: https://nekosia.cat/booru
 💬 Join our Discord: https://discord.gg/pba76vJhcP
 
@@ -52,7 +52,7 @@ Niezależnie od tego, czy tworzysz aplikację, bota na Discorda, czy stronę int
 Nekosia API jest całkowicie darmowe i dostępne bez konieczności rejestracji, co czyni je idealnym wyborem dla deweloperów na każdym poziomie zaawansowania.
 Zacznij odkrywać słodkość nekos już dziś! Miauu~~ 😺💗
 
-🌍 Oficjalna strona Nekosia API (więcej informacji): https://nekosia.cat
+🌍 Oficjalna strona Nekos: https://nekosia.cat
 😻 Anime Booru: https://nekosia.cat/booru
 💬 Dołącz do naszego Discorda: https://discord.gg/pba76vJhcP
 
