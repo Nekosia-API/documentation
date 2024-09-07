@@ -47,7 +47,7 @@ This endpoint allows you to fetch random images from a selected category.
 {
     "success": Boolean,
     "status": Int,
-    "key": String || undefined,
+    "key": undefined || String,
     "count": Int,
     "id": String,
     "colors": { "main": "#Hex", "palette": ["#Hex1", "#Hex2", "#Hex3", "#Hex4", "#Hex5", "#Hex6", "#Hex7", "#Hex8", "#Hex9", "#Hex10", "#Hex11", "#Hex12", "#Hex13", "#Hex14"] },
