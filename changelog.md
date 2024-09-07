@@ -19,6 +19,11 @@ Below is the version history of the API, along with descriptions of the introduc
 
 ## API v1 {#v1}
 
+### 2024-09-07 {#api-v1-2024-09-07}
+1. Added a new `rating` parameter for `/images`. The default rating in every response is `safe`.
+2. The `key` field in the JSON response can now be `undefined`.
+3. Minor adjustments were made.
+
 ### 2024-08-19 {#api-v1-2024-08-19}
 1. Released the official [nekosia.js](https://www.npmjs.com/package/nekosia.js) module.
 2. Website and documentation improvements.
@@ -32,6 +37,12 @@ Below is the version history of the API, along with descriptions of the introduc
 
 
 ## This website {#website}
+
+### v1.1.0 {#website-110}
+1. Improved the appearance of photo cards.
+2. Added fields for twin images and similar images.
+3. Other enhancements.
+4. Bug fixes.
 
 ### v1.0.2 {#website-102}
 1. Added a full image preview feature when clicking on an image (on the Booru page).

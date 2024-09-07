@@ -24,7 +24,6 @@
    {
       "success": true,
       "status": 200,
-      "key": null,
       "count": 1,
       "id": "66a77347a4b979c761eb0cde",
       "colors": {

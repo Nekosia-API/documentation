@@ -35,18 +35,19 @@ You can find the full list of tags on the [Booru website](https://nekosia.cat/bo
 This endpoint allows you to fetch random images from a selected category.
 
 ## Parameters {#parameters}
-> /images/:category?count={int}&additionalTags={string}&blacklistedTags={string}
+> `/images/:category?count={int}&additionalTags={string}&blacklistedTags={string}&rating={string}`
 - `:category` - Check available category tags [on our Booru page](https://nekosia.cat/booru/tags). Each image is assigned to one main category.
-- `?count` - The number of images to fetch (default: 1, maximum: 48). The higher the number, the longer the server will take to respond (in milliseconds).
-- `&additionalTags` - Additional [tags](https://nekosia.cat/booru/tags) to be included when searching for images.
-- `&blacklistedTags` - [List of tags](https://nekosia.cat/booru/tags) to be excluded from the search results.
+- `?count` - The number of images to fetch (default: 1, maximum: 48). The higher the number, the longer the server response time (in milliseconds).
+- `&additionalTags` - Additional [tags](https://nekosia.cat/booru/tags) to include when searching for images.
+- `&blacklistedTags` - [Tags](https://nekosia.cat/booru/tags) to exclude from the search results.
+- `&rating` - Image rating. `safe` or `questionable`. The default value is ALWAYS `safe`.
 
 ## Example Response {#example-response}
 ```json
 {
     "success": Boolean,
     "status": Int,
-    "key": String || null,
+    "key": String || undefined,
     "count": Int,
     "id": String,
     "colors": { "main": "#Hex", "palette": ["#Hex1", "#Hex2", "#Hex3", "#Hex4", "#Hex5", "#Hex6", "#Hex7", "#Hex8", "#Hex9", "#Hex10", "#Hex11", "#Hex12", "#Hex13", "#Hex14"] },
