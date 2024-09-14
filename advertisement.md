@@ -62,7 +62,7 @@ Nekosia API jest całkowicie darmowe i dostępne bez konieczności rejestracji, 
 
 #### Discord {#pol-dsc}
 ```text
-💬 Dołącz do naszego Discorda: https://discord.gg/pba76vJhcP
+💬 Dołącz na nasz serwer Discord: https://discord.gg/pba76vJhcP
 ```
 
 ## Tags {#tags}
