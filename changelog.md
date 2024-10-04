@@ -19,9 +19,10 @@ Below is the version history of the API, along with descriptions of the introduc
 
 ## API v1 {#v1}
 
-### v1.0.2 {#api-102}
+### v1.1.0 {#api-110}
 1. Updated tags.
-2. Updated dependencies.
+2. Added `/api/v1/tags`.
+3. Updated dependencies.
 
 ### 2024-09-07 {#api-v1-2024-09-07}
 1. Added a new `rating` parameter for `/images`. The default rating in every response is `safe`.
