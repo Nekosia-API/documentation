@@ -19,6 +19,9 @@ Below is the version history of the API, along with descriptions of the introduc
 
 ## API v1 {#v1}
 
+### v1.0.2 {#api-102}
+1. Updated the tags.
+
 ### 2024-09-07 {#api-v1-2024-09-07}
 1. Added a new `rating` parameter for `/images`. The default rating in every response is `safe`.
 2. The `key` field in the JSON response can now be `undefined`.
