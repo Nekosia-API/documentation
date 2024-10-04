@@ -3,7 +3,7 @@
 [//]: # (Tags: changelog, changelogs, nekosia changelog, nekosia api changelog, nekosia api version history, nekosia version history, nekosia api docs changelog, version history, api updates, nekosia updates)
 [//]: # (Canonical: changelog)
 [//]: # (Creation date: 2024-07-29)
-[//]: # (Last update: 2024-08-31)
+[//]: # (Last update: 2024-09-04)
 [//]: # (Contributors: Sefinek)
 
 # Introduction {#introduction}
@@ -36,7 +36,13 @@ Below is the version history of the API, along with descriptions of the introduc
   - Availability of complete online documentation, allowing users to easily familiarize themselves with new features and their applications.
 
 
-## This website {#website}
+## Website {#website}
+
+### v1.1.2 {#website-111}
+1. Slightly improved the color scheme of profile tabs on Booru.
+2. Corrected sentences.
+3. Updated all npm modules.
+4. Implemented various quality improvements and enhancements.
 
 ### v1.1.0 {#website-110}
 1. Improved the appearance of photo cards.
