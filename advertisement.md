@@ -54,7 +54,7 @@ Niezależnie od tego, czy tworzysz aplikację, bota na Discorda, czy stronę int
 
 Nekosia API jest całkowicie darmowe i dostępne bez konieczności rejestracji, co czyni je idealnym wyborem dla deweloperów na każdym poziomie zaawansowania. Zacznij odkrywać słodkość nekos już teraz! Miauu~~ 😺💗
 
-🌍 Oficjalna strona Nekos: https://nekosia.cat
+🌍 Oficjalna strona: https://nekosia.cat
 
 #anime #animeapi #api #cute #catgirl #catgirls #animebooru #booru #neko #nekos #uwu #owo #cuteimages #cuteanimegirls
 ```
