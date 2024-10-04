@@ -19,7 +19,7 @@ Below is the version history of the API, along with descriptions of the introduc
 
 ## API v1 {#v1}
 
-### v1.1.0 {#api-110}
+### 2024-10-04 {#api-v1-2024-10-04}
 1. Updated tags.
 2. Added `/api/v1/tags`.
 3. Updated dependencies.
