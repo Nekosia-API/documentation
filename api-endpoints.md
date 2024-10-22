@@ -42,7 +42,7 @@ This endpoint allows you to fetch random images from a selected category.
 - `&blacklistedTags` - [Tags](https://nekosia.cat/booru/tags) to exclude from the search results.
 - `&rating` - Image rating. `safe` or `questionable`. The default value is ALWAYS `safe`.
 
-## Example Response {#example-response}
+## Response structure {#response-structure}
 ```json
 {
     "success": Boolean,
