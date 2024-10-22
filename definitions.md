@@ -4,7 +4,7 @@
 [//]: # (Canonical: definitions)
 [//]: # (Creation date: 2024-07-29)
 [//]: # (Last update: 2024-07-29)
-[//]: # (Contributors: Sefinek)
+[//]: # (Contributors: N/A)
 
 # Definitions
 

@@ -4,7 +4,7 @@
 [//]: # (Canonical: getting-started)
 [//]: # (Creation date: 2024-07-29)
 [//]: # (Last update: 2024-09-02)
-[//]: # (Contributors: Sefinek)
+[//]: # (Contributors: N/A)
 
 # Getting Started {#getting-started}
 1. **Familiarize yourself with the documentation**:  

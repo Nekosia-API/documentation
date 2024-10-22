@@ -4,7 +4,7 @@
 [//]: # (Canonical: tos)
 [//]: # (Creation date: 2024-08-18)
 [//]: # (Last update: 2024-08-18)
-[//]: # (Contributors: Sefinek)
+[//]: # (Contributors: N/A)
 
 # Nekosia API Terms {#nekosia-api-terms}
 

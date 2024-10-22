@@ -4,7 +4,7 @@
 [//]: # (Canonical: privacy-policy)
 [//]: # (Creation date: 2024-07-29)
 [//]: # (Last update: 2024-07-29)
-[//]: # (Contributors: Sefinek)
+[//]: # (Contributors: N/A)
 
 # Privacy Policy
 Welcome to Nekosia's privacy policy. This document outlines how we collect, use, and protect your personal data when you interact with our website. We are committed to ensuring your privacy is safeguarded and maintaining transparency regarding our data practices.

@@ -4,7 +4,7 @@
 [//]: # (Canonical: ratelimits)
 [//]: # (Creation date: 2024-07-29)
 [//]: # (Last update: 2024-08-25)
-[//]: # (Contributors: Sefinek)
+[//]: # (Contributors: N/A)
 
 # Rate Limits {#ratelimits}
 The Nekosia API applies rate limits to ensure the stability and security of the services.

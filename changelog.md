@@ -4,7 +4,7 @@
 [//]: # (Canonical: changelog)
 [//]: # (Creation date: 2024-07-29)
 [//]: # (Last update: 2024-10-04)
-[//]: # (Contributors: Sefinek)
+[//]: # (Contributors: N/A)
 
 # Introduction {#introduction}
 Nekosia, like Booru, is continuously developed, with each new version introducing new features, significant fixes, and numerous improvements.

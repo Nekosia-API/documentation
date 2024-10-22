@@ -4,7 +4,7 @@
 [//]: # (Canonical: cookies)
 [//]: # (Creation date: 2024-07-29)
 [//]: # (Last update: 2024-08-09)
-[//]: # (Contributors: Sefinek)
+[//]: # (Contributors: N/A)
 
 # Cookies Policy
 

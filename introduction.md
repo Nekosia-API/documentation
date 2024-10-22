@@ -4,7 +4,7 @@
 [//]: # (Canonical: introduction)
 [//]: # (Creation date: 2024-07-29)
 [//]: # (Last update: 2024-08-09)
-[//]: # (Contributors: Sefinek)
+[//]: # (Contributors: N/A)
 
 # Introduction {#introduction}
 Welcome to the Nekosia API documentation! Here you will find detailed information about the API interface, including descriptions of available endpoints, request methods, and response formats.
