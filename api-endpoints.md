@@ -58,7 +58,7 @@ This endpoint allows you to fetch random images from a selected category.
     "metadata": { "original": { "width": Int, "height": Int, "size": Int, "extension": String }, "compressed": { "width": Int, "height": Int, "size": Int, "extension": String } },
     "category": String,
     "tags": [String, String, String, String, String...],
-    "rating": safe || questionable || nsfw,
+    "rating": "safe" || "questionable" || "nsfw",
     "anime": { "title": String || null, "character": String || null },
     "source": { "url": String || null, "direct": String || null },
     "attribution": { "artist": { "username": String || null, "profile": String || null }, "copyright": String || null }
