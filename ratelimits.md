@@ -19,7 +19,7 @@ Below are the detailed limits for different parts of the service.
 - A maximum of `320 requests` to the server within `5 minutes`.
 
 ## cdn.nekosia.cat {#cdn-nekosia-cat}
-- A maximum of `500 requests` to the server within `5 minutes`.
+- A maximum of `480 requests` to the server within `5 minutes`.
 
 # Cloudflare Rate Limits {#cloudflare-ratelimits}
 We use Cloudflare to ensure the security and stability of our services.
