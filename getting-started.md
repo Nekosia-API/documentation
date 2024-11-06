@@ -110,6 +110,6 @@ The error object contains information such as status code, error message, and de
         <pre style="margin-top: 10px;"><code class="hljs language-json" id="response-container">Waiting for user to click the button...</code></pre>
     </div>
     <div style="flex: 1; display: flex; justify-content: center; align-items: center;">
-        <img id="neko-image" style="max-width:100%;display:none;cursor:pointer;" onclick="openImageInNewTab()">
+        <img id="neko-image" style="max-width:100%;display:none;cursor:pointer;" onclick="openImageInNewTab()" alt="Neko image">
     </div>
 </div>

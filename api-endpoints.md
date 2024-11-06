@@ -87,7 +87,7 @@ However, you **must** still specify whether you want images with a `safe` rating
 Keep in mind that bypassing filters means that the full responsibility for the safety and appropriateness of displayed content rests solely with you.
 
 ### Example Request {#bypass-filters-example}
-> **GET** /images/**nothing**?**count**=3&**additionalTags**=catgirl,foxgirl,wolf-girl&**blacklistedTags**=dog-girl
+> **GET** /images/**nothing**?**count**=3&**additionalTags**=cat-ears,wolf-ears,wolf-ears&**blacklistedTags**=dog-ears
 >  <br><br>
 > `:category` - Must be set to `nothing`.<br>
 > `additionalTags` - Tags to include in the image search. This is a key parameter for this category.
@@ -111,10 +111,10 @@ Sessions can be identified by the user's IP address or a unique session identifi
 
 ### Example Requests {#session-example-requests}
 1. Session identified based on the IP address:
-   > **GET** /images/_catgirl_?**session**=ip&**additionalTags**=foxgirl,wolf-girl,tail&**blacklistedTags**=dog-girl
+   > **GET** /images/catgirl?**session**=ip&**additionalTags**=foxgirl,wolf-girl,tail&**blacklistedTags**=dog-girl
 
 2. Session identified based on a unique user identifier (e.g., from Discord):
-   > **GET** /images/_catgirl_?**session**=id&**id**=561621386569973783&**additionalTags**=foxgirl,wolf-girl,tail&**blacklistedTags**=dog-girl
+   > **GET** /images/catgirl?**session**=id&**id**=437808476106784770&**additionalTags**=foxgirl,wolf-girl,tail&**blacklistedTags**=dog-girl
 
 ### Important Notes {#session-important-notes}
 1. **Uniqueness of IP-based sessions**:  

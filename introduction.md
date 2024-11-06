@@ -3,7 +3,7 @@
 [//]: # (Tags: introduction, nekosia api introduction, nekosia api docs introduction, nekosia api overview, nekosia api summary, nekosia api guide, nekosia api documentation, nekosia api intro)
 [//]: # (Canonical: introduction)
 [//]: # (Creation date: 2024-07-29)
-[//]: # (Last update: 2024-08-09)
+[//]: # (Last update: 2024-11-06)
 [//]: # (Contributors: N/A)
 
 # Introduction {#introduction}
