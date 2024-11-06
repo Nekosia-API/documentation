@@ -17,10 +17,10 @@
    - **Sample Request**:
      ```bash
      // Linux
-     curl "https://api.nekosia.cat/api/v1/images/catgirl" | jq
+     curl https://api.nekosia.cat/api/v1/images/catgirl | jq
 
      // Windows (PowerShell)
-     curl -X GET "https://api.nekosia.cat/api/v1/images/catgirl" -H "Content-Type: application/json" | ConvertFrom-Json | ConvertTo-Json -Depth 10
+     curl https://api.nekosia.cat/api/v1/images/catgirl | ConvertFrom-Json | ConvertTo-Json -Depth 10
      ```
 
 3. **Sample response**:

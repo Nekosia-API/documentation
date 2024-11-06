@@ -15,7 +15,7 @@ It is also worth familiarizing yourself with the session mechanism, which allows
 Click [here](https://nekosia.cat/documentation?page=introduction#api-versions) to see the list of available API versions.
 
 ## Base URL Information {#base-url}
-All API requests should be directed to the base URL: `https://api.nekosia.cat/api/v1`. This URL serves as the foundation for all endpoint calls within the API.
+All API requests should be directed to the base URL [`api.nekosia.cat/api/v1`](https://api.nekosia.cat/api/v1). This URL serves as the foundation for all endpoint calls within the API.
 
 ## Tags and categories {#tags-and-categories}
 ### Main categories {#main-categories}
@@ -23,11 +23,11 @@ All API requests should be directed to the base URL: `https://api.nekosia.cat/ap
 `cute`, `cuteness-is-justice`, `blue-archive`, `girl`, `young-girl`, `maid`, `maid-uniform`, `vtuber`, `w-sitting`, `lying-down`, `hands-forming-a-heart`, `wink`, `valentine`, `headphones`<br>
 `thigh-high-socks`, `knee-high-socks`, `white-tights`, `black-tights`, `heterochromia`, `uniform`, `sailor-uniform`, `hoodie`, `ribbon`, `white-hair`, `blue-hair`, `long-hair`, `blonde`, `blue-eyes`, `purple-eyes`
 
-#### Other {#other}
+### Other categories {#other}
 `swimwear`, `swimsuit`, `bikini`, `sea`, `swim-ring`<br>
 *Ensure that these photos are appropriate for your project and adhere to the platform's guidelines where you plan to publish them. Don't worry, all the photos are SFW (Safe for Work, with no adult content).*
 
-### Tags {#tags}
+### More tags {#tags}
 You can find the full list of tags on the [Booru website](https://nekosia.cat/booru/tags).
 
 
@@ -36,13 +36,13 @@ This endpoint allows you to fetch random images from a selected category.
 
 ## Parameters {#parameters}
 > `/images/:category?count={int}&additionalTags={string}&blacklistedTags={string}&rating={string}`
-- `:category` - Check available category tags [on our Booru page](https://nekosia.cat/booru/tags). Each image is assigned to one main category.
-- `?count` - The number of images to fetch (default: 1, maximum: 48). The higher the number, the longer the server response time (in milliseconds).
-- `&additionalTags` - Additional [tags](https://nekosia.cat/booru/tags) to include when searching for images.
-- `&blacklistedTags` - [Tags](https://nekosia.cat/booru/tags) to exclude from the search results.
-- `&rating` - Image rating. `safe` or `questionable`. The default value is ALWAYS `safe`.
+- `:category` - Check the available tags on [our Booru page](https://nekosia.cat/booru/tags). Each image is assigned to one main category.
+- `?count` (default: `1`) - The number of images to fetch (default: 1, maximum: 48). The higher the number, the longer the server response time (in milliseconds).
+- `&additionalTags` - Additional tags to include when searching for images.
+- `&blacklistedTags` - Tags to exclude from the search results.
+- `&rating` (default: `safe`) - Image rating: `safe` or `questionable`.
 
-## Response structure {#response-structure}
+## Response Structure {#response-structure}
 ```json
 {
     "success": Boolean,
@@ -59,7 +59,7 @@ This endpoint allows you to fetch random images from a selected category.
     "metadata": { "original": { "width": Int, "height": Int, "size": Int, "extension": String }, "compressed": { "width": Int, "height": Int, "size": Int, "extension": String } },
     "category": String,
     "tags": [String, String, String, String, String...],
-    "rating": "safe" || "questionable" || "nsfw",
+    "rating": "safe" || "questionable",
     "anime": { "title": String || null, "character": String || null },
     "source": { "url": String || null, "direct": String || null },
     "attribution": { "artist": { "username": String || null, "profile": String || null }, "copyright": String || null }
@@ -67,38 +67,31 @@ This endpoint allows you to fetch random images from a selected category.
 ```
 
 ## Example Request {#example-request-1}
-> GET /images/cute?count=4&additionalTags=white-hair,uniform&blacklistedTags=short-hair,sad,maid
+> **GET** /images/**cute**?**count**=4&**additionalTags**=white-hair,uniform&**blacklistedTags**=short-hair,sad,maid
 
-## Error Responses {#example-error-response}
-```json
-{
-  "success": false,
-  "status": 400,
-  "message": "Request missing category parameter."
-}
-```
 
-## Shadow Category {#shadow}
-Nekosia API offers a special `shadow` category, which differs from the others in its operation.
-Using this category allows you to fetch random images only from those that match your selected tags.
-This is a recommended solution if you do not want to limit yourself to the main categories only.
+## Filters {#filters}
+Categories (`:category`) are essentially tags, but with additional filters applied to ensure content safety.
+These filters protect users from potentially inappropriate content and ensure compliance with our policy.
+Therefore, if you request catgirl images (`/images/catgirl`), you will never receive anime girl images in swimsuits, for example.
 
-### Characteristics {#shadow-characteristics}
-1. The `shadow` category requires additional tags to be provided in the `additionalTags` parameter, which are used for precise filtering of images.
-2. When using `shadow`, the `additionalTags` parameter must be filled with appropriate tags. Note that some tags may be unavailable for safety reasons.
+### How to Bypass Filters? {#bypass-filters}
+The Nekosia API offers a special category named `nothing`, which differs in both **its** operation and purpose from standard categories.
+Using this category allows you to retrieve images randomly based **only** on user-specified tags, without applying the additional safety filters that are ALWAYS assigned to each category.
 
-### Parameters {#shadow-parameters}
-- `category` - Must be set to `shadow`.
-- `count` - The number of images to fetch (default: 1, maximum: 48).
-- `additionalTags` - The main tag to be included in the image search. This is crucial for this category.
-- `blacklistedTags` - List of tags to be excluded.
+The `nothing` category provides complete freedom in content selection, which is particularly useful when a user wants unrestricted access to images without the default constraints.
+This means that no automatic filter, which might block some images due to their potentially inappropriate nature, will be applied.
+However, you **must** still specify whether you want images with a `safe` rating (default) or `questionable`. The API does not offer (and never will) `nsfw` images.
 
-### Example Request {#shadow-example-request}
-```text
-GET /images/shadow?count=3&additionalTags=catgirl,foxgirl,wolf-girl&blacklistedTags=dog-girl
-```
+### Important {#bypass-filters-important}
+Keep in mind that bypassing filters means that the full responsibility for the safety and appropriateness of displayed content rests solely with you.
 
-The `shadow` category allows for precise image searches matching the selected criteria, offering a more personalized experience.
+### Example Request {#bypass-filters-example}
+> **GET** /images/**nothing**?**count**=3&**additionalTags**=catgirl,foxgirl,wolf-girl&**blacklistedTags**=dog-girl
+>  <br><br>
+> `:category` - Must be set to `nothing`.<br>
+> `additionalTags` - Tags to include in the image search. This is a key parameter for this category.
+
 
 ## Sessions {#sessions}
 The API supports a session mechanism, which allows for tracking displayed images for users. This way, you can avoid displaying duplicate images.
@@ -114,7 +107,7 @@ Sessions can be identified by the user's IP address or a unique session identifi
     - `id` - Session identified based on a unique user identifier.
 - `id` - Unique user identifier if `session` is set to `id`. Otherwise, the parameter is ignored. The identifier must meet the following conditions:
     - Length of 6 to 128 characters.
-    - No special characters such as `!@#$%^&*()_+{}|:"<>?`.
+    - No special characters such as: `!@#$%^&*()_+{}|:"<>?`
 
 ### Example Requests {#session-example-requests}
 1. Session identified based on the IP address:
@@ -127,7 +120,7 @@ Sessions can be identified by the user's IP address or a unique session identifi
 1. **Uniqueness of IP-based sessions**:  
    IP-based sessions may not be fully unique, especially in shared networks.
 
-2. **Uniqueness of session identifiers (id)**:  
+2. **Uniqueness of session identifiers**:  
    Session identifiers (`id`) should be sufficiently long and unique to ensure session uniqueness. Using unique identifiers such as external system user IDs (e.g., Discord) ensures precise session tracking and avoids image duplication.
 
 3. **Session storage time**:  
@@ -147,11 +140,9 @@ Sessions can be identified by the user's IP address or a unique session identifi
 Retrieve details about a specific image.
 
 ## Example Request {#example-request-2}
-```text
-GET /getImageById/66bc6b7481a59a1cf2c79db5
-```
+> **GET** /getImageById/66bc6b7481a59a1cf2c79db5
 
 ## Via curl {#via-curl}
 ```bash
-curl -X GET "https://api.nekosia.cat/api/v1/getImageById/66bc6b7481a59a1cf2c79db5" -H "Content-Type: application/json"
+curl https://api.nekosia.cat/api/v1/getImageById/66bc6b7481a59a1cf2c79db5
 ```

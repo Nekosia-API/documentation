@@ -20,10 +20,11 @@ Below is the version history of the API, along with descriptions of the introduc
 ## API v1 {#v1}
 
 ### 2024-11-06 {#api-v1-2024-11-06}
-1. The script managing tag filters has been restructured.
-2. The `identifier` field has been removed from API responses.
-3. An `images` field has been added to API responses to show the number of filtered images.
-4. Further quality improvements have been implemented.
+1. The `identifier` field has been removed from API responses.
+2. An `images` field has been added to API responses to show the number of filtered images.
+3. `shadow` has been replaced with `nothing`, which serves the same purpose. Click [here] for more information.
+4. The script managing tag filters has been restructured.
+5. Further quality improvements have been implemented.
 
 ### 2024-10-04 {#api-v1-2024-10-04}
 1. Updated tags.
