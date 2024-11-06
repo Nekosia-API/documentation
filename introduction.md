@@ -65,9 +65,9 @@ The Nekosia API uses semantic versioning 2.0.0. Each version consists of three n
 The currently available API version is `v1`, which is the only version. Future versions containing new features and improvements are planned.
 In case of changes, the documentation will be updated to reflect the latest changes. Users will also be notified on the Discord server and the website.
 
-| API version                  | Released on | Current                               | Recommended | Beta? |
-|------------------------------|-------------|:--------------------------------------|-------------|-------|
-| <div align="center">v1</div> | 2024-07-29  | [Click here](https://api.nekosia.cat) | ✔️          | ✅     |
+| API version                  | Released on | Last update                                                       | Recommended | Beta? |
+|------------------------------|-------------|:------------------------------------------------------------------|-------------|-------|
+| <div align="center">v1</div> | 2024-07-29  | [Click here](https://nekosia.cat/documentation?page=changelog#v1) | ✔️          | ✅     |
 
 ### Changelog {#changelog}
 You will find it in a separate document [Changelog](https://nekosia.cat/documentation?page=changelog). This document contains detailed information about changes, release dates, and backward compatibility.
