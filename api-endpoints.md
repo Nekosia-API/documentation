@@ -3,7 +3,7 @@
 [//]: # (Tags: nekosia, api, nekosia api, api endpoints, api documentation, image access, session management, image tags, API versions, base URL, category tags, shadow category, API sessions)
 [//]: # (Canonical: api-endpoints)
 [//]: # (Creation date: 2024-07-29)
-[//]: # (Last update: 2024-10-22)
+[//]: # (Last update: 2024-11-06)
 [//]: # (Contributors: N/A)
 
 # API Endpoints Overview {#api-endpoints-overview}
@@ -49,6 +49,7 @@ This endpoint allows you to fetch random images from a selected category.
     "status": Int,
     "key": undefined || String,
     "count": Int,
+    "images": Int,
     "id": String,
     "colors": { "main": "#Hex", "palette": ["#Hex1", "#Hex2", "#Hex3", "#Hex4", "#Hex5", "#Hex6", "#Hex7", "#Hex8", "#Hex9", "#Hex10", "#Hex11", "#Hex12", "#Hex13", "#Hex14"] },
     "image": {

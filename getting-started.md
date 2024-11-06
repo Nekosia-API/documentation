@@ -3,7 +3,7 @@
 [//]: # (Tags: getting started, nekosia api getting started, nekosia api docs, api introduction, api guide, nekosia tutorial, api setup, api integration, api examples)
 [//]: # (Canonical: getting-started)
 [//]: # (Creation date: 2024-07-29)
-[//]: # (Last update: 2024-09-02)
+[//]: # (Last update: 2024-11-06)
 [//]: # (Contributors: N/A)
 
 # Getting Started {#getting-started}
@@ -16,7 +16,11 @@
    - **Description**: Fetches a random anime image.
    - **Sample Request**:
      ```bash
-     curl -X GET "https://api.nekosia.cat/api/v1/images/catgirl" -H "Content-Type: application/json"
+     // Linux
+     curl "https://api.nekosia.cat/api/v1/images/catgirl" | jq
+
+     // Windows (PowerShell)
+     curl -X GET "https://api.nekosia.cat/api/v1/images/catgirl" -H "Content-Type: application/json" | ConvertFrom-Json | ConvertTo-Json -Depth 10
      ```
 
 3. **Sample response**:
