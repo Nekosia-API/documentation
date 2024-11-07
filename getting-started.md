@@ -3,7 +3,7 @@
 [//]: # (Tags: getting started, nekosia api getting started, nekosia api docs, api introduction, api guide, nekosia tutorial, api setup, api integration, api examples)
 [//]: # (Canonical: getting-started)
 [//]: # (Creation date: 2024-07-29)
-[//]: # (Last update: 2024-11-06)
+[//]: # (Last update: 2024-11-07)
 [//]: # (Contributors: N/A)
 
 # Getting Started {#getting-started}
@@ -28,7 +28,7 @@
    {
       "success": true,
       "status": 200,
-      "count": 1,
+      "count": 832,
       "id": "66a77347a4b979c761eb0cde",
       "colors": {
          "main": "#E7C9CF",
