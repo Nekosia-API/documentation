@@ -103,7 +103,7 @@ Sessions can be identified by the user's IP address or a unique session identifi
 ### Session Parameters {#session-parameters}
 - `session` - Type of session (`ip` or `id`).
     - `ip` - Session identified based on the user's IP address.
-    - `id` - Session identified based on a unique user identifier.
+    - `id` (recommended) - Session identified based on a unique user identifier.
 - `id` - Unique user identifier if `session` is set to `id`. Otherwise, the parameter is ignored. The identifier must meet the following conditions:
     - Length of 6 to 128 characters.
     - No special characters such as: `!@#$%^&*()_+{}|:"<>?`
