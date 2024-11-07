@@ -56,7 +56,6 @@ Below is the version history of the API, along with descriptions of the introduc
 ### v1.1.4 {#website-113}
 1. Bugfixes.
 
-
 ### v1.1.2 {#website-112}
 1. Slightly improved the color scheme of profile tabs on Booru.
 2. Corrected sentences.
