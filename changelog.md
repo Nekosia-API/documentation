@@ -53,7 +53,15 @@ Below is the version history of the API, along with descriptions of the introduc
 
 ## Website {#website}
 
-### v1.1.4 {#website-113}
+### v1.2.0 {#website-120}
+1. Resolved issues related to voting functionality.
+2. Removed specific data caching in booru that had no impact on backend performance.
+3. Reset all statistics and votes.
+4. Improved responsiveness and made slight UI enhancements in booru.
+5. Added the ability to vote on images from their full view.
+6. General performance and quality improvements.
+
+### v1.1.4 {#website-114}
 1. Bugfixes.
 
 ### v1.1.2 {#website-112}
