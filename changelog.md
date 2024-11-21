@@ -53,6 +53,10 @@ Below is the version history of the API, along with descriptions of the introduc
 
 ## Website {#website}
 
+### v1.2.1 {#website-121}
+1. Resolved issues related to voting functionality.
+2. UI improvements.
+
 ### v1.2.0 {#website-120}
 1. Resolved issues related to voting functionality.
 2. Removed specific data caching in booru that had no impact on backend performance.
