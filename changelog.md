@@ -53,6 +53,10 @@ Below is the version history of the API, along with descriptions of the introduc
 
 ## Website {#website}
 
+### v1.2.2 {#website-122}
+1. Updated dependencies to the latest version.
+2. Small fixes.
+
 ### v1.2.1 {#website-121}
 1. Resolved issues related to voting functionality.
 2. UI improvements.
