@@ -3,7 +3,7 @@
 [//]: # (Tags: nekosia, api, nekosia api, api endpoints, api documentation, image access, session management, image tags, API versions, base URL, category tags, shadow category, API sessions)
 [//]: # (Canonical: api-endpoints)
 [//]: # (Creation date: 2024-07-29)
-[//]: # (Last update: 2024-11-07)
+[//]: # (Last update: 2024-12-11)
 [//]: # (Contributors: N/A)
 
 # API Endpoints Overview {#api-endpoints-overview}
@@ -28,7 +28,8 @@ All API requests should be directed to the base URL [`api.nekosia.cat/api/v1`](h
 *Ensure that these photos are appropriate for your project and adhere to the platform's guidelines where you plan to publish them. Don't worry, all the photos are SFW (Safe for Work, with no adult content).*
 
 ### More tags {#tags}
-You can find the full list of tags on the [Booru website](https://nekosia.cat/booru/tags).
+- You can find the full list of tags on the [Booru website](https://nekosia.cat/booru/tags).
+- Endpoint with all tags, anime titles, and characters: [`/tags`](https://api.nekosia.cat/api/v1/tags)
 
 
 # GET /images/:category {#get-image-category}
@@ -135,6 +136,7 @@ Sessions can be identified by the user's IP address or a unique session identifi
 - `session=ip`: Can be used in cases where the user is not logged in, when the service does not offer a login feature, or when there is no way to identify a specific user.
 - `session=id`: Recommended for example for Discord bots. With this solution, the user will never encounter duplicate images.
 
+
 # GET /getImageById/:id {#get-by-image-id}
 Retrieve details about a specific image.
 
@@ -145,3 +147,7 @@ Retrieve details about a specific image.
 ```bash
 curl https://api.nekosia.cat/api/v1/getImageById/66bc6b7481a59a1cf2c79db5
 ```
+
+
+# GET /tags {#tags-endpoint}
+Retrieve a full list of all tags, anime titles, and characters.
