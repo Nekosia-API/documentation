@@ -3,7 +3,7 @@
 [//]: # (Tags: changelog, changelogs, nekosia changelog, nekosia api changelog, nekosia api version history, nekosia version history, nekosia api docs changelog, version history, api updates, nekosia updates)
 [//]: # (Canonical: changelog)
 [//]: # (Creation date: 2024-07-29)
-[//]: # (Last update: 2024-11-12)
+[//]: # (Last update: 2024-12-16)
 [//]: # (Contributors: N/A)
 
 # Introduction {#introduction}
@@ -18,6 +18,10 @@ Below is the version history of the API, along with descriptions of the introduc
 
 
 ## API v1 {#v1}
+
+### 2024-12-16 {#api-v1-2024-12-16}
+1. Updated dependencies.
+2. Other fixes.
 
 ### 2024-11-12 {#api-v1-2024-11-12}
 1. Updated `/api/v1/tags`.
