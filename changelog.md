@@ -21,6 +21,7 @@ Below is the version history of the API, along with descriptions of the introduc
 
 ### 2024-12-19 {#api-v1-2024-12-19}
 1. The required length of the `id` parameter was changed to `<4`. Now: `< 4 || > 128`
+2. Updated dependencies.
 
 ### 2024-12-16 {#api-v1-2024-12-16}
 1. Updated dependencies.
