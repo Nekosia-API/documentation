@@ -3,7 +3,7 @@
 [//]: # (Tags: changelog, changelogs, nekosia changelog, nekosia api changelog, nekosia api version history, nekosia version history, nekosia api docs changelog, version history, api updates, nekosia updates)
 [//]: # (Canonical: changelog)
 [//]: # (Creation date: 2024-07-29)
-[//]: # (Last update: 2024-12-19)
+[//]: # (Last update: 2025-01-20)
 [//]: # (Contributors: N/A)
 
 # Introduction {#introduction}
@@ -18,6 +18,9 @@ Below is the version history of the API, along with descriptions of the introduc
 
 
 ## API v1 {#v1}
+
+### 2025-01-20 {#api-v1-2025-01-20}
+1. Updated dependencies to the latest version.
 
 ### 2024-12-19 {#api-v1-2024-12-19}
 1. The required length of the `id` parameter was changed to `<4`. Now: `< 4 || > 128`
@@ -62,7 +65,17 @@ Below is the version history of the API, along with descriptions of the introduc
   - Availability of complete online documentation, allowing users to easily familiarize themselves with new features and their applications.
 
 
+## CDN {#cdn}
+### v2.2.1 {#cdn-221}
+1. Resolved an issue where a worker in the cluster would suddenly restart when handling too many requests at the same time.
+2. Updated dependencies to the latest version.
+3. Other fixes.
+
+
 ## Website {#website}
+### v1.2.3 {#website-123}
+1. Updated dependencies to the latest version.
+2. Other fixes.
 
 ### v1.2.2 {#website-122}
 1. Updated dependencies to the latest version.
