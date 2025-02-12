@@ -73,6 +73,10 @@ Below is the version history of the API, along with descriptions of the introduc
 
 
 ## Website {#website}
+### v1.2.4 {#website-124}
+1. Updated dependencies to the latest version.
+2. Added the Swift wrapper [jezreelbarbosa/NekosiaAPI](https://github.com/jezreelbarbosa/NekosiaAPI) to the official [documentation](https://nekosia.cat/documentation?page=wrappers).
+
 ### v1.2.3 {#website-123}
 1. Updated dependencies to the latest version.
 2. Other fixes.

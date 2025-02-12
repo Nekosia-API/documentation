@@ -3,7 +3,7 @@
 [//]: # (Tags: nekosia, libraries, wrappers, api, nekosia wrappers, nekosia node.js, nekosia npm, nekosia wrappers)
 [//]: # (Canonical: wrappers)
 [//]: # (Creation date: 2024-07-29)
-[//]: # (Last update: 2024-08-18)
+[//]: # (Last update: 2025-02-12)
 [//]: # (Contributors: N/A)
 
 # Libraries and Wrappers {#libraries-and-wrappers}
@@ -16,12 +16,15 @@ Additionally, Nekosia provides technical support and regular updates for all ava
 
 Good luck!
 
+
 ## Official Libraries {#official-libraries}
 ### Node.js (npm) {#node-js}
-- [nekosia.js](https://www.npmjs.com/package/nekosia.js)
+1. [nekosia.js](https://www.npmjs.com/package/nekosia.js)
 
-### C# (NuGet) {#c-sharp}
-- [nekosia](https://nekosia.cat) (coming soon)
+[//]: # (### C# &#40;NuGet&#41; {#c-sharp})
+[//]: # (- [nekosia]&#40;https://nekosia.cat&#41; &#40;coming soon&#41;)
+
 
 ## Community Libraries {#community-libraries}
-None so far. Want to create your own wrapper for the API? Contact us! It will be added to this list.
+### Swift {#community-libraries-swift}
+1. https://github.com/jezreelbarbosa/NekosiaAPI
