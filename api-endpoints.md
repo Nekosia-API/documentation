@@ -3,7 +3,7 @@
 [//]: # (Tags: nekosia, api, nekosia api, api endpoints, api documentation, image access, session management, image tags, API versions, base URL, category tags, shadow category, API sessions)
 [//]: # (Canonical: api-endpoints)
 [//]: # (Creation date: 2024-07-29)
-[//]: # (Last update: 2024-12-11)
+[//]: # (Last update: 2025-03-08)
 [//]: # (Contributors: N/A)
 
 # API Endpoints Overview {#api-endpoints-overview}
@@ -41,7 +41,7 @@ This endpoint allows you to fetch random images from a selected category.
 - `?count` (default: `1`) - The number of images to fetch (default: 1, maximum: 48). The higher the number, the longer the server response time (in milliseconds).
 - `&additionalTags` - Additional tags to include when searching for images.
 - `&blacklistedTags` - Tags to exclude from the search results.
-- `&rating` (default: `safe`) - Image rating: `safe` or `questionable`.
+- `&rating` (default: `safe`) - Image rating: `safe`, `suggestive` or `questionable`.
 
 ## Response Structure {#response-structure}
 ```json
@@ -59,7 +59,7 @@ This endpoint allows you to fetch random images from a selected category.
     "metadata": { "original": { "width": Int, "height": Int, "size": Int, "extension": String }, "compressed": { "width": Int, "height": Int, "size": Int, "extension": String } },
     "category": String,
     "tags": [String, String, String, String, String...],
-    "rating": "safe" || "questionable",
+    "rating": "safe" || "suggestive" || "questionable",
     "anime": { "title": String || null, "character": String || null },
     "source": { "url": String || null, "direct": String || null },
     "attribution": { "artist": { "username": String || null, "profile": String || null }, "copyright": String || null }
@@ -81,14 +81,14 @@ Using this category allows you to retrieve images randomly based **only** on use
 
 The `nothing` category provides complete freedom in content selection, which is particularly useful when a user wants unrestricted access to images without the default constraints.
 This means that no automatic filter, which might block some images due to their potentially inappropriate nature, will be applied.
-However, you **must** still specify whether you want images with a `safe` rating (default) or `questionable`. The API does not offer (and never will) `nsfw` images.
 
 ### Important {#bypass-filters-important}
 Keep in mind that bypassing filters means that the full responsibility for the safety and appropriateness of displayed content rests solely with you.
+The API does not offer (and never will) `nsfw` images.
 
 ### Example Request {#bypass-filters-example}
 > **GET** /images/**nothing**?**count**=3&**additionalTags**=cat-ears,wolf-ears,wolf-ears&**blacklistedTags**=dog-ears
->  <br><br>
+> <br><br>
 > `:category` - Must be set to `nothing`.<br>
 > `additionalTags` - Tags to include in the image search. This is a key parameter for this category.
 
