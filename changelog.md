@@ -3,7 +3,7 @@
 [//]: # (Tags: changelog, changelogs, nekosia changelog, nekosia api changelog, nekosia api version history, nekosia version history, nekosia api docs changelog, version history, api updates, nekosia updates)
 [//]: # (Canonical: changelog)
 [//]: # (Creation date: 2024-07-29)
-[//]: # (Last update: 2025-01-20)
+[//]: # (Last update: 2025-03-20)
 [//]: # (Contributors: N/A)
 
 # Introduction {#introduction}
@@ -18,6 +18,11 @@ Below is the version history of the API, along with descriptions of the introduc
 
 
 ## API v1 {#v1}
+
+### 2025-03-20 {#api-v1-2025-03-20}
+1. Updated dependencies to the latest version.
+2. Added aliases for the word `ribbon`. From now on, when you use the `ribbon` category, the API will return images with ribbons in various colors.
+3. Other fixes.
 
 ### 2025-01-20 {#api-v1-2025-01-20}
 1. Updated dependencies to the latest version.
@@ -65,14 +70,11 @@ Below is the version history of the API, along with descriptions of the introduc
   - Availability of complete online documentation, allowing users to easily familiarize themselves with new features and their applications.
 
 
-## CDN {#cdn}
-### v2.2.1 {#cdn-221}
-1. Resolved an issue where a worker in the cluster would suddenly restart when handling too many requests at the same time.
-2. Updated dependencies to the latest version.
-3. Other fixes.
-
-
 ## Website {#website}
+### v1.2.5 {#website-125}
+1. Updated dependencies to the latest version.
+2. Other quality fixes.
+
 ### v1.2.4 {#website-124}
 1. Updated dependencies to the latest version.
 2. Added the Swift wrapper [jezreelbarbosa/NekosiaAPI](https://github.com/jezreelbarbosa/NekosiaAPI) to the official [documentation](https://nekosia.cat/documentation?page=wrappers).
@@ -115,4 +117,11 @@ Below is the version history of the API, along with descriptions of the introduc
 ### v1.0.2 {#website-102}
 1. Added a full image preview feature when clicking on an image (on the Booru page).
 2. Minor website and SEO tweaks.
+3. Other fixes.
+
+
+## CDN {#cdn}
+### v2.2.1 {#cdn-221}
+1. Resolved an issue where a worker in the cluster would suddenly restart when handling too many requests at the same time.
+2. Updated dependencies to the latest version.
 3. Other fixes.
