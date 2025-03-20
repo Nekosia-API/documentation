@@ -3,7 +3,7 @@
 [//]: # (Tags: nekosia, api, nekosia api, api endpoints, api documentation, image access, session management, image tags, API versions, base URL, category tags, shadow category, API sessions)
 [//]: # (Canonical: api-endpoints)
 [//]: # (Creation date: 2024-07-29)
-[//]: # (Last update: 2025-03-08)
+[//]: # (Last update: 2025-03-20)
 [//]: # (Contributors: N/A)
 
 # API Endpoints Overview {#api-endpoints-overview}
@@ -23,10 +23,6 @@ All API requests should be directed to the base URL [`api.nekosia.cat/api/v1`](h
 `cute`, `cuteness-is-justice`, `blue-archive`, `girl`, `young-girl`, `maid`, `maid-uniform`, `vtuber`, `w-sitting`, `lying-down`, `hands-forming-a-heart`, `wink`, `valentine`, `headphones`<br>
 `thigh-high-socks`, `knee-high-socks`, `white-tights`, `black-tights`, `heterochromia`, `uniform`, `sailor-uniform`, `hoodie`, `ribbon`, `white-hair`, `blue-hair`, `long-hair`, `blonde`, `blue-eyes`, `purple-eyes`
 
-### Other categories {#other}
-`swimwear`, `swimsuit`, `bikini`, `sea`, `swim-ring`<br>
-*Ensure that these photos are appropriate for your project and adhere to the platform's guidelines where you plan to publish them. Don't worry, all the photos are SFW (Safe for Work, with no adult content).*
-
 ### More tags {#tags}
 - You can find the full list of tags on the [Booru website](https://nekosia.cat/booru/tags).
 - Endpoint with all tags, anime titles, and characters: [`/tags`](https://api.nekosia.cat/api/v1/tags)
@@ -41,7 +37,7 @@ This endpoint allows you to fetch random images from a selected category.
 - `?count` (default: `1`) - The number of images to fetch (default: 1, maximum: 48). The higher the number, the longer the server response time (in milliseconds).
 - `&additionalTags` - Additional tags to include when searching for images.
 - `&blacklistedTags` - Tags to exclude from the search results.
-- `&rating` (default: `safe`) - Image rating: `safe`, `suggestive` or `questionable`.
+- `&rating` (default: `safe`) - Image rating: `safe` or `suggestive`.
 
 ## Response Structure {#response-structure}
 ```json
@@ -59,7 +55,7 @@ This endpoint allows you to fetch random images from a selected category.
     "metadata": { "original": { "width": Int, "height": Int, "size": Int, "extension": String }, "compressed": { "width": Int, "height": Int, "size": Int, "extension": String } },
     "category": String,
     "tags": [String, String, String, String, String...],
-    "rating": "safe" || "suggestive" || "questionable",
+    "rating": "safe" || "suggestive",
     "anime": { "title": String || null, "character": String || null },
     "source": { "url": String || null, "direct": String || null },
     "attribution": { "artist": { "username": String || null, "profile": String || null }, "copyright": String || null }
