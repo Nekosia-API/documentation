@@ -3,7 +3,7 @@
 [//]: # (Tags: nekosia, api, nekosia api, api endpoints, api documentation, image access, session management, image tags, API versions, base URL, category tags, shadow category, API sessions)
 [//]: # (Canonical: api-endpoints)
 [//]: # (Creation date: 2024-07-29)
-[//]: # (Last update: 2025-03-20)
+[//]: # (Last update: 2025-03-21)
 [//]: # (Contributors: N/A)
 
 # API Endpoints Overview {#api-endpoints-overview}
@@ -83,7 +83,7 @@ Keep in mind that bypassing filters means that the full responsibility for the s
 The API does not offer (and never will) `nsfw` images.
 
 ### Example Request {#bypass-filters-example}
-> **GET** /images/**nothing**?**count**=3&**additionalTags**=cat-ears,wolf-ears,wolf-ears&**blacklistedTags**=dog-ears
+> **GET** /images/**nothing**?**count**=3&**additionalTags**=cat-ears,fox-ears,wolf-ears&**blacklistedTags**=dog-ears
 > <br><br>
 > `:category` - Must be set to `nothing`.<br>
 > `additionalTags` - Tags to include in the image search. This is a key parameter for this category.
