@@ -19,6 +19,10 @@ Below is the version history of the API, along with descriptions of the introduc
 
 ## API v1 {#v1}
 
+### 2025-04-18 {#api-v1-2025-04-18}
+1. Updated dependencies to the latest version.
+2. Added the `random` category. This category is also covered by filters by default.
+
 ### 2025-03-20 {#api-v1-2025-03-20}
 1. Updated dependencies to the latest version.
 2. Added aliases for the word `ribbon`. From now on, when you use the `ribbon` category, the API will return images with ribbons in various colors.
@@ -71,6 +75,9 @@ Below is the version history of the API, along with descriptions of the introduc
 
 
 ## Website {#website}
+### v1.2.6 {#website-126}
+1. Updated dependencies to the latest version.
+
 ### v1.2.5 {#website-125}
 1. Updated dependencies to the latest version.
 2. Other quality fixes.
@@ -121,6 +128,10 @@ Below is the version history of the API, along with descriptions of the introduc
 
 
 ## CDN {#cdn}
+### v2.2.4 {#cdn-224}
+1. Resolved an issue where the server would crash when a client attempted to download a large file.
+2. Updated dependencies to the latest version.
+
 ### v2.2.1 {#cdn-221}
 1. Resolved an issue where a worker in the cluster would suddenly restart when handling too many requests at the same time.
 2. Updated dependencies to the latest version.
