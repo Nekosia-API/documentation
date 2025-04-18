@@ -3,7 +3,7 @@
 [//]: # (Tags: nekosia, api, nekosia api, api endpoints, api documentation, image access, session management, image tags, API versions, base URL, category tags, shadow category, API sessions)
 [//]: # (Canonical: api-endpoints)
 [//]: # (Creation date: 2024-07-29)
-[//]: # (Last update: 2025-03-21)
+[//]: # (Last update: 2025-04-18)
 [//]: # (Contributors: N/A)
 
 # API Endpoints Overview {#api-endpoints-overview}
