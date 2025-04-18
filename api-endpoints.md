@@ -19,7 +19,7 @@ All API requests should be directed to the base URL [`api.nekosia.cat/api/v1`](h
 
 ## Tags and categories {#tags-and-categories}
 ### Main categories {#main-categories}
-`catgirl`, `foxgirl`, `wolf-girl`, `animal-ears`, `tail`, `tail-with-ribbon`, `tail-from-under-skirt`<br>
+`random`, `catgirl`, `foxgirl`, `wolf-girl`, `animal-ears`, `tail`, `tail-with-ribbon`, `tail-from-under-skirt`<br>
 `cute`, `cuteness-is-justice`, `blue-archive`, `girl`, `young-girl`, `maid`, `maid-uniform`, `vtuber`, `w-sitting`, `lying-down`, `hands-forming-a-heart`, `wink`, `valentine`, `headphones`<br>
 `thigh-high-socks`, `knee-high-socks`, `white-tights`, `black-tights`, `heterochromia`, `uniform`, `sailor-uniform`, `hoodie`, `ribbon`, `white-hair`, `blue-hair`, `long-hair`, `blonde`, `blue-eyes`, `purple-eyes`
 
@@ -63,7 +63,7 @@ This endpoint allows you to fetch random images from a selected category.
 ```
 
 ## Example Request {#example-request-1}
-> **GET** /images/**cute**?**count**=4&**additionalTags**=white-hair,uniform&**blacklistedTags**=short-hair,sad,maid
+> **GET** /images/**cute**?**count**=3&**additionalTags**=white-hair,uniform&**blacklistedTags**=short-hair,sad,maid
 
 
 ## Filters {#filters}
