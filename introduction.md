@@ -3,7 +3,7 @@
 [//]: # (Tags: introduction, nekosia api introduction, nekosia api docs introduction, nekosia api overview, nekosia api summary, nekosia api guide, nekosia api documentation, nekosia api intro)
 [//]: # (Canonical: introduction)
 [//]: # (Creation date: 2024-07-29)
-[//]: # (Last update: 2024-11-06)
+[//]: # (Last update: 2025-05-11)
 [//]: # (Contributors: N/A)
 
 # Introduction {#introduction}
@@ -122,9 +122,4 @@ The graphics used on this website [nekosia.cat](https://nekosia.cat) are availab
 | <div align="center">⭐</div>     |                                        | Recommended     | Best and recommended solution or option.         |
 | <div align="center">🔍</div>    |                                        | Worth exploring | Requires further research and detailed analysis. |
 | <div align="center">💡</div>    |                                        | Idea            | Suggestion or inspiration worth considering.     |
-| <div align="center">📅</div>    |                                        | Date            | Important date to remember or meet.              |
-| <div align="center">📊</div>    |                                        | Statistics      | Numerical data presenting results or analysis.   |
-| <div align="center">📈</div>    |                                        | Growth          | Upward trend in data or results.                 |
-| <div align="center">📉</div>    |                                        | Decline         | Downward trend in data or results.               |
 | <div align="center">📚</div>    |                                        | Documentation   | Informative materials and helpful resources.     |
-| <div align="center">🛠️</div>   |                                        | Tools           | Useful resources or software that aid in work.   |
