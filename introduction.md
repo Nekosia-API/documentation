@@ -3,7 +3,7 @@
 [//]: # (Tags: introduction, nekosia api introduction, nekosia api docs introduction, nekosia api overview, nekosia api summary, nekosia api guide, nekosia api documentation, nekosia api intro)
 [//]: # (Canonical: introduction)
 [//]: # (Creation date: 2024-07-29)
-[//]: # (Last update: 2025-05-11)
+[//]: # (Last update: 2025-05-22)
 [//]: # (Contributors: N/A)
 
 # Introduction {#introduction}
@@ -20,7 +20,7 @@ Whether you're a developer creating a new application or an integrator looking f
   The Nekosia API provides access to not only neko images but also other categories, offering a wide range of available content.
 
 - **Own Booru:**  
-  Nekosia offers its own booru, allowing users to browse and add images (feature coming soon).
+  Nekosia offers its own booru.
 
 - **Integration with Booru:**  
   The booru is integrated with the API. Users can submit requests to the booru, such as tagging changes or content improvements. After verification by moderators, updated data will be available in the API responses.
