@@ -75,6 +75,10 @@ Below is the version history of the API, along with descriptions of the introduc
 
 
 ## Website {#website}
+### v1.2.8 {#website-128}
+1. Other optimizations.
+2. Updated dependencies to the latest version.
+
 ### v1.2.7 {#website-127}
 1. Updated dependencies to the latest version.
 2. Quality fixes.
