@@ -39,7 +39,7 @@ In the case of repeated violations, the user may be permanently blocked.
 Such actions will be treated as an attempt to overload the server or a DDoS attack. Attack incidents will be reported to [abuseip.com](https://www.abuseip.com).
 
 ## Contact and Support {#contact-support}
-If you have any questions or issues related to rate limits, contact us by sending an email to contact@nekosia.cat.
+If you have any questions or issues related to rate limits, contact us by sending an email to support@nekosia.cat.
 
 ## Rate Limit Changes {#rate-limit-changes}
 We recommend regularly checking the API documentation, as limits may sometimes be changed by the team.

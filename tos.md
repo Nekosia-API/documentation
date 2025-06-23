@@ -48,7 +48,7 @@ Any unauthorized use of the name or logo will be treated as a violation of intel
 
 ### Use of Logo {#api-use-of-logo}
 You may use our logo on your website or in other materials, provided it is in accordance with our branding guidelines.
-We encourage you to inform the administrator of such use by sending an email to contact@nekosia.cat.
+We encourage you to inform the administrator of such use by sending an email to support@nekosia.cat.
 In some cases, we may ask for verification to ensure that the logo is used in the appropriate context and in accordance with our guidelines.
 
 ## 3. Changes to the Terms {#api-changes-to-terms}
@@ -63,7 +63,7 @@ The report should include:
 - **Information about your work**: If your work is available on a platform such as Pixiv, provide a link to it and to your profile on that platform.
 - **Statement of truthfulness**: A statement that the information contained in the report is accurate and that you are the copyright owner or a person authorized to act on behalf of the copyright owner.
 
-DMCA requests should be sent to contact@nekosia.cat. We are committed to taking action promptly after receiving a report that complies with the DMCA, provided it reaches us at all.
+DMCA requests should be sent to support@nekosia.cat. We are committed to taking action promptly after receiving a report that complies with the DMCA, provided it reaches us at all.
 
 ## 5. Termination of Service {#api-termination-of-Service}
 We reserve the right to suspend or terminate access to the API at any time, without prior notice, for any reason.
@@ -74,7 +74,7 @@ Any disputes arising from the use of the API will be resolved in accordance with
 Users agree to submit to the jurisdiction of the courts of the location of Nekosia's headquarters.
 
 ## 7. Contact {#api-contact}
-If you have any questions regarding these Terms of Use, please email contact@nekosia.cat. We strive to respond to all inquiries within 48 hours.
+If you have any questions regarding these Terms of Use, please email support@nekosia.cat. We strive to respond to all inquiries within 48 hours.
 
 
 # Nekosia Booru Terms {#booru-terms}
