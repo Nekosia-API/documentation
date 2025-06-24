@@ -22,6 +22,7 @@ Below is the version history of the API, along with descriptions of the introduc
 ### 2025-06-24 {#api-v1-2025-06-24}
 1. Performance and quality improvements.
 2. Dependencies updated to latest stable versions.
+3. Updated EXIF data for each image.
 
 ### 2025-04-18 {#api-v1-2025-04-18}
 1. Updated dependencies to the latest version.
