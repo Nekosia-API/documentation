@@ -53,7 +53,7 @@ Below is the version history of the API, along with descriptions of the introduc
 ### 2024-11-06 {#api-v1-2024-11-06}
 1. The `identifier` field has been removed from API responses.
 2. An `images` field has been added to API responses to show the number of filtered images.
-3. `shadow` has been replaced with `nothing`, which serves the same purpose. Click [here](https://nekosia.cat/documentation?page=api-endpoints#filters) for more information.
+3. `shadow` has been replaced with `nothing`, which serves the same purpose. Click [here](https://nekosia.cat/documentation?page=endpoints#filters) for more information.
 4. The script managing tag filters has been restructured.
 5. Further quality improvements have been implemented.
 

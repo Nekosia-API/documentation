@@ -1,12 +1,12 @@
 [//]: # (Title: API Endpoints - Nekosia API Docs)
 [//]: # (Description: Explore Nekosia's API documentation for seamless access to diverse images and related information. Find detailed descriptions of each endpoint, session management, and more.)
 [//]: # (Tags: nekosia, api, nekosia api, api endpoints, api documentation, image access, session management, image tags, API versions, base URL, category tags, shadow category, API sessions)
-[//]: # (Canonical: api-endpoints)
+[//]: # (Canonical: endpoints)
 [//]: # (Creation date: 2024-07-29)
 [//]: # (Last update: 2025-04-18)
 [//]: # (Contributors: N/A)
 
-# API Endpoints Overview {#api-endpoints-overview}
+# API Endpoints Overview {#endpoints-overview}
 Nekosia API offers various endpoints that provide access to a wide range of images and related information. Below is a list of all available endpoints along with a brief description of their functions.
 
 It is also worth familiarizing yourself with the session mechanism, which allows for tracking displayed images for users, helping to avoid showing duplicate images.
