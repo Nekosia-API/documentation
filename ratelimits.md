@@ -3,7 +3,7 @@
 [//]: # (Tags: ratelimits, nekosia api ratelimits, nekosia api docs ratelimits, nekosia api rate limits, nekosia api rate limiting)
 [//]: # (Canonical: ratelimits)
 [//]: # (Creation date: 2024-07-29)
-[//]: # (Last update: 2024-11-24)
+[//]: # (Last update: 2025-08-22)
 [//]: # (Contributors: N/A)
 
 # Rate Limits {#ratelimits}
@@ -12,8 +12,7 @@ These limits are designed to prevent server overload and ensure equal access to 
 Below are the detailed limits for different parts of the service.
 
 ## nekosia.cat {#nekosia-cat}
-- **Main**: A maximum of `96 requests` to the server within `140 seconds`.
-- **Comments**: A maximum of `3 requests` to the server within `30 seconds`.
+- A maximum of `96 requests` to the server within `140 seconds`.
 
 ## api.nekosia.cat {#api-nekosia-cat}
 - A maximum of `320 requests` to the server within `5 minutes`.
@@ -36,7 +35,7 @@ Hmm... So, what now...
 Exceeding the limits results in temporary blocking of access to the API for the user or server from which the request originated.
 The block may last from a few minutes to a few hours, depending on the severity of the limit violation.
 In the case of repeated violations, the user may be permanently blocked.
-Such actions will be treated as an attempt to overload the server or a DDoS attack. Attack incidents will be reported to [abuseip.com](https://www.abuseip.com).
+Such actions will be treated as an attempt to overload the server or a DDoS attack. Attack incidents will be reported to the [AbuseIPDB](https://abuseipdb.com) and [SniffCat](https://sniffcat.com) databases.
 
 ## Contact and Support {#contact-support}
 If you have any questions or issues related to rate limits, contact us by sending an email to support@nekosia.cat.

@@ -3,7 +3,7 @@
 [//]: # (Tags: nekosia, api terms of service, nekosia api, booru guidelines, copyright, attribution, dmca, commercial use, anime api, legal compliance)
 [//]: # (Canonical: tos)
 [//]: # (Creation date: 2024-08-18)
-[//]: # (Last update: 2024-08-18)
+[//]: # (Last update: 2025-08-22)
 [//]: # (Contributors: N/A)
 
 # Nekosia API Terms {#nekosia-api-terms}
@@ -26,7 +26,7 @@ The above example is optional and can be tailored to your needs.
 ### Access to the API {#api-access-to-api}
 The Nekosia API provides access to random anime images as described in our documentation. To ensure fair and appropriate use of the API, all users are required to adhere to the following rules:
 - **Adherence to query limits**: Each user must comply with the established query limits per minute or hour, as specified in the API documentation. These limits are essential to ensure equal access to resources for all users. Depending on the user's plan, these limits may vary. Abusing these limits or attempting to bypass them may result in temporary suspension of API access, and in cases of serious violations, permanent blocking of access.
-- **Responsible use**: The API should be used according to its intended purpose. Any attempts to manipulate API functionality, bypass security measures, or use the API in a way that could harm other users will be considered a serious violation of the Terms of Use. In extreme cases, such as intentional and repeated abuse, your IP address may be reported to AbuseIPDB, which could lead to further consequences.
+- **Responsible use**: The API should be used according to its intended purpose. Any attempts to manipulate API functionality, bypass security measures, or use the API in a way that could harm other users will be considered a serious violation of the Terms of Use. In extreme cases, such as intentional and repeated abuse, your IP address may be reported to [AbuseIPDB](https://abuseipdb.com) and [SniffCat](https://sniffcat.com).
 
 ### Content {#api-content}
 All images provided by the Nekosia API are the property of their original creators and artists. By using the API, you agree to adhere to the following rules:
