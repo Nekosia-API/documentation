@@ -1,5 +1,5 @@
 [//]: # (Title: Privacy policy - Nekosia API Docs)
-[//]: # (Description: Privacy policy for Nekosia website. Learn how we protect your personal data and the principles that govern our service.)
+[//]: # (Desc: Privacy policy for Nekosia website. Learn how we protect your personal data and the principles that govern our service.)
 [//]: # (Tags: privacy policy, Nekosia, API, documentation, personal data, data security, cookies)
 [//]: # (Canonical: privacy-policy)
 [//]: # (Creation date: 2024-07-29)

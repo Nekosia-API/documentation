@@ -1,5 +1,5 @@
 [//]: # (Title: Ratelimits - Nekosia API Docs)
-[//]: # (Description: Learn about the rate limits for Nekosia and how they work. Find out what happens if you exceed the limits and how to avoid it.)
+[//]: # (Desc: Learn about the rate limits for Nekosia and how they work. Find out what happens if you exceed the limits and how to avoid it.)
 [//]: # (Tags: ratelimits, nekosia api ratelimits, nekosia api docs ratelimits, nekosia api rate limits, nekosia api rate limiting)
 [//]: # (Canonical: ratelimits)
 [//]: # (Creation date: 2024-07-29)
