@@ -3,7 +3,7 @@
 [//]: # (Tags: nekosia, api, nekosia api, api endpoints, api documentation, image access, session management, image tags, API versions, base URL, category tags, shadow category, API sessions)
 [//]: # (Canonical: endpoints)
 [//]: # (Creation date: 2024-07-29)
-[//]: # (Last update: 2025-04-18)
+[//]: # (Last update: 2025-12-01)
 [//]: # (Contributors: N/A)
 
 # API Endpoints Overview {#endpoints-overview}
@@ -19,7 +19,7 @@ All API requests should be directed to the base URL [`api.nekosia.cat/api/v1`](h
 
 ## Tags and categories {#tags-and-categories}
 ### Main categories {#main-categories}
-`random`, `catgirl`, `foxgirl`, `wolf-girl`, `animal-ears`, `tail`, `tail-with-ribbon`, `tail-from-under-skirt`<br>
+`random`, `catgirl`, `foxgirl`, `wolfgirl`, `animal-ears`, `tail`, `tail-with-ribbon`, `tail-from-under-skirt`<br>
 `cute`, `cuteness-is-justice`, `blue-archive`, `girl`, `young-girl`, `maid`, `maid-uniform`, `vtuber`, `w-sitting`, `lying-down`, `hands-forming-a-heart`, `wink`, `valentine`, `headphones`<br>
 `thigh-high-socks`, `knee-high-socks`, `white-tights`, `black-tights`, `heterochromia`, `uniform`, `sailor-uniform`, `hoodie`, `ribbon`, `white-hair`, `blue-hair`, `long-hair`, `blonde`, `blue-eyes`, `purple-eyes`
 
@@ -107,10 +107,10 @@ Sessions can be identified by the user's IP address or a unique session identifi
 
 ### Example Requests {#session-example-requests}
 1. Session identified based on the IP address:
-   > **GET** /images/catgirl?**session**=ip&**additionalTags**=foxgirl,wolf-girl,tail&**blacklistedTags**=dog-girl
+   > **GET** /images/catgirl?**session**=ip&**additionalTags**=foxgirl,wolfgirl,tail&**blacklistedTags**=doggirl
 
 2. Session identified based on a unique user identifier (e.g., from Discord):
-   > **GET** /images/catgirl?**session**=id&**id**=437808476106784770&**additionalTags**=foxgirl,wolf-girl,tail&**blacklistedTags**=dog-girl
+   > **GET** /images/catgirl?**session**=id&**id**=437808476106784770&**additionalTags**=foxgirl,wolfgirl,tail&**blacklistedTags**=doggirl
 
 ### Important Notes {#session-important-notes}
 1. **Uniqueness of IP-based sessions**:  
