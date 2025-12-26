@@ -3,7 +3,7 @@
 [//]: # (Tags: getting started, nekosia api getting started, nekosia api docs, api introduction, api guide, nekosia tutorial, api setup, api integration, api examples)
 [//]: # (Canonical: getting-started)
 [//]: # (Creation date: 2024-07-29)
-[//]: # (Last update: 2024-11-07)
+[//]: # (Last update: 2024-12-26)
 [//]: # (Contributors: N/A)
 
 # Getting Started {#getting-started}
@@ -67,7 +67,8 @@
    {
       "success": false,
       "status": 400,
-      "message": "No images found for the tags you specified."
+      "message": "No images matching the specified criteria were found. See https://nekosia.cat/documentation?page=endpoints#tags-and-categories for more details.",
+      "example": "https://api.nekosia.cat/api/v1/images/catgirl"
    }
    ```
 
