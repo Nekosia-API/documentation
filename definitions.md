@@ -1,6 +1,5 @@
 [//]: # (Title: Definitions - Nekosia API Docs)
 [//]: # (Desc: Comprehensive definitions for Nekosia API documentation, covering key terms and concepts used in the service.)
-[//]: # (Tags: definitions, Nekosia, API, documentation, Nekosia definitions, Nekosia API terms, Nekosia documentation glossary, API terminology, service definitions, user terms, data processing)
 [//]: # (Canonical: definitions)
 [//]: # (Creation date: 2024-07-29)
 [//]: # (Last update: 2024-07-29)

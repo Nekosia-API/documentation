@@ -1,6 +1,5 @@
 [//]: # (Title: API Endpoints - Nekosia API Docs)
 [//]: # (Desc: Explore Nekosia's API documentation for seamless access to diverse images and related information. Find detailed descriptions of each endpoint, session management, and more.)
-[//]: # (Tags: nekosia, api, nekosia api, api endpoints, api documentation, image access, session management, image tags, API versions, base URL, category tags, shadow category, API sessions)
 [//]: # (Canonical: endpoints)
 [//]: # (Creation date: 2024-07-29)
 [//]: # (Last update: 2025-12-01)
