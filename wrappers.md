@@ -2,7 +2,7 @@
 [//]: # (Desc: Nekosia offers wrappers for various programming languages, making it easier to use the API! Learn more.)
 [//]: # (Canonical: wrappers)
 [//]: # (Creation date: 2024-07-29)
-[//]: # (Last update: 2025-02-12)
+[//]: # (Last update: 2025-12-26)
 [//]: # (Contributors: N/A)
 
 # Libraries and Wrappers {#libraries-and-wrappers}

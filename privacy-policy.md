@@ -2,7 +2,7 @@
 [//]: # (Desc: Privacy policy for Nekosia website. Learn how we protect your personal data and the principles that govern our service.)
 [//]: # (Canonical: privacy-policy)
 [//]: # (Creation date: 2024-07-29)
-[//]: # (Last update: 2024-07-29)
+[//]: # (Last update: 2025-12-26)
 [//]: # (Contributors: N/A)
 
 # Privacy Policy

@@ -2,7 +2,7 @@
 [//]: # (Desc: Learn about the rate limits for Nekosia and how they work. Find out what happens if you exceed the limits and how to avoid it.)
 [//]: # (Canonical: ratelimits)
 [//]: # (Creation date: 2024-07-29)
-[//]: # (Last update: 2025-08-22)
+[//]: # (Last update: 2025-12-26)
 [//]: # (Contributors: N/A)
 
 # Rate Limits {#ratelimits}
