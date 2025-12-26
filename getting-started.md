@@ -2,7 +2,7 @@
 [//]: # (Desc: Introductory guide for Nekosia API, covering setup, sending requests, and handling errors.)
 [//]: # (Canonical: getting-started)
 [//]: # (Creation date: 2024-07-29)
-[//]: # (Last update: 2025-12-26)
+[//]: # (Last update: 2024-11-07)
 [//]: # (Contributors: N/A)
 
 # Getting Started {#getting-started}

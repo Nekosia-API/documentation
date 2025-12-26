@@ -2,7 +2,7 @@
 [//]: # (Desc: Explore the detailed Terms of Service for Nekosia API and Booru. Learn about usage rules, attribution requirements, copyright policies, commercial use guidelines, and more.)
 [//]: # (Canonical: tos)
 [//]: # (Creation date: 2024-08-18)
-[//]: # (Last update: 2025-12-26)
+[//]: # (Last update: 2025-08-22)
 [//]: # (Contributors: N/A)
 
 # Nekosia API Terms {#nekosia-api-terms}

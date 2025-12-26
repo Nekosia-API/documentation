@@ -2,7 +2,7 @@
 [//]: # (Desc: Nekosia is a free Neko API for integrating anime content into your projects. With cute anime images and a dedicated Booru, Nekosia has everything you need!)
 [//]: # (Canonical: introduction)
 [//]: # (Creation date: 2024-07-29)
-[//]: # (Last update: 2025-12-26)
+[//]: # (Last update: 2025-05-22)
 [//]: # (Contributors: N/A)
 
 # Introduction {#introduction}

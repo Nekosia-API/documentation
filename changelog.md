@@ -2,7 +2,7 @@
 [//]: # (Desc: Detailed version history of Nekosia API, including updates, new features, and compatibility notes.)
 [//]: # (Canonical: changelog)
 [//]: # (Creation date: 2024-07-29)
-[//]: # (Last update: 2025-12-26)
+[//]: # (Last update: 2025-06-24)
 [//]: # (Contributors: N/A)
 
 # Introduction {#introduction}

@@ -2,7 +2,7 @@
 [//]: # (Desc: Comprehensive definitions for Nekosia API documentation, covering key terms and concepts used in the service.)
 [//]: # (Canonical: definitions)
 [//]: # (Creation date: 2024-07-29)
-[//]: # (Last update: 2025-12-26)
+[//]: # (Last update: 2024-07-29)
 [//]: # (Contributors: N/A)
 
 # Definitions
