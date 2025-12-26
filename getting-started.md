@@ -1,5 +1,6 @@
 [//]: # (Title: Getting Started - Nekosia API Docs)
 [//]: # (Desc: Introductory guide for Nekosia API, covering setup, sending requests, and handling errors.)
+[//]: # (Tags: getting started, nekosia api getting started, nekosia api docs, api introduction, api guide, nekosia tutorial, api setup, api integration, api examples)
 [//]: # (Canonical: getting-started)
 [//]: # (Creation date: 2024-07-29)
 [//]: # (Last update: 2024-11-07)
