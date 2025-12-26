@@ -3,7 +3,7 @@
 [//]: # (Tags: Anime API, Free API, Catgirls API, Foxgirls API, SFW Anime Images, Anime Pictures, Anime Booru, Developer Tools, Image Compression, Dominant Colors, Nekosia API)
 [//]: # (Canonical: advertisement)
 [//]: # (Creation date: 2024-09-02)
-[//]: # (Last update: 2024-09-03)
+[//]: # (Last update: 2025-12-26)
 [//]: # (Contributors: N/A)
 
 # The best Nekos API for devs {#the-best-anime-nekos-api}
@@ -74,4 +74,6 @@ Nekosia API jest całkowicie darmowe i dostępne bez konieczności rejestracji, 
 ## Logo {#logo}
 If you want to use our logo, click [here](https://nekosia.cat/documentation?page=tos#api-use-of-name) to learn more.
 <br><br>
-<img src="https://nekosia.cat/favicon.png" alt="Nekosia API Logo" height="128">
+<img src="https://nekosia.cat/favicons/128.png" alt="Nekosia API Logo - Blue">
+<img src="https://nekosia.cat/favicons/128-white.png" alt="Nekosia API Logo - White">
+<img src="https://nekosia.cat/favicons/128-n.png" alt="Nekosia API Logo - N">
