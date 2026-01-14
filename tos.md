@@ -3,13 +3,16 @@
 [//]: # (Tags: nekosia, api terms of service, nekosia api, booru guidelines, copyright, attribution, dmca, commercial use, anime api, legal compliance)
 [//]: # (Canonical: tos)
 [//]: # (Creation date: 2024-08-18)
-[//]: # (Last update: 2025-08-22)
+[//]: # (Last update: 2025-01-15)
 [//]: # (Contributors: N/A)
 
 # Nekosia API Terms {#nekosia-api-terms}
 
+## §0 Definitions {#definitions}
+See the [Definitions](https://nekosia.cat/documentation?page=definitions) document to familiarize yourself with the terms used in this document.
+
 ## Introduction {#introduction}
-Welcome to the Nekosia API! 😻 By using our [Service](https://nekosia.cat/documentation?page=definitions), you agree to comply with the following terms.
+Welcome to the Nekosia API! 😻 By using our Service, you agree to comply with the following terms.
 Please read them carefully to understand your rights and responsibilities as a user of our platform.
 These terms govern access to our API and the use of resources such as anime images. Remember that using the API signifies full acceptance of these terms.
 
@@ -65,7 +68,7 @@ The report should include:
 
 DMCA requests should be sent to support@nekosia.cat. We are committed to taking action promptly after receiving a report that complies with the DMCA, provided it reaches us at all.
 
-## 5. Termination of Service {#api-termination-of-Service}
+## 5. Termination of Service {#api-termination-of-service}
 We reserve the right to suspend or terminate access to the API at any time, without prior notice, for any reason.
 
 ## 6. Governing Law {#api-governing-law}
