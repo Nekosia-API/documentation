@@ -7,9 +7,8 @@
 [//]: # (Contributors: N/A)
 
 # Introduction {#introduction}
-Nekosia, like Booru, is continuously developed, with each new version introducing new features, significant fixes, and numerous improvements.
-To ensure complete transparency and understanding of the changes made, we have prepared a detailed version history of the API.
-This document contains detailed descriptions of changes, release dates, and backward compatibility information, allowing users to easily track progress and new features.
+Nekosia, like Booru, is continuously developed, with each new version introducing new features, important fixes, and numerous improvements.
+Not all changes and/or new features are documented here, only the most important ones.
 
 # Version History {#version-history}
 Using semantic versioning ([learn more](https://nekosia.cat/documentation?page=introduction)) enables tracking changes and updates in a clear and intuitive way.
