@@ -11,7 +11,7 @@ Nekosia, like Booru, is continuously developed, with each new version introducin
 Not all changes and/or new features are documented here, only the most important ones.
 
 # Version History {#version-history}
-Using semantic versioning ([learn more](https://nekosia.cat/documentation?page=introduction)) enables tracking changes and updates in a clear and intuitive way.
+Using semantic versioning ([learn more](https://nekosia.cat/documentation?page=introduction#semver)) enables tracking changes and updates in a clear and intuitive way.
 This ensures that users can always stay up to date with the latest functionalities and changes.
 Below is the version history of the API, along with descriptions of the introduced changes and their release dates.
 
