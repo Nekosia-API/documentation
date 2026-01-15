@@ -26,6 +26,3 @@
 16. **IP Address**: A unique identifier number assigned to a device connected to a computer network, allowing its identification and communication within the network.
 17. **Tags**: Content categories browsed by users on the website, used to personalize displayed content.
 18. **OAuth**: An open standard for authorization, allowing users to log in to the website using an account from another service, such as Google.
-19. **Newsletter**: An electronic form of communication in which the Administrator provides Users with information about news and other updates related to the website.
-20. **Contact Form**: An interactive form available on the website, allowing Users to contact the Administrator.
-21. **Agreement**: An arrangement between the User and the Administrator that defines the terms of use of the website.
