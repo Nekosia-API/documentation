@@ -85,6 +85,7 @@ Below is the version history of the API, along with descriptions of the introduc
 4. The server now properly renders error pages instead of returning an empty response; API endpoints return JSON with `success`, `status`, and `message` fields.
 5. Fixed the user menu appearance in the navbar, the background now correctly adapts to the navbar state.
 6. Unified error responses across Booru controllers, all API endpoints return JSON, page routes render a dedicated error view.
+7. Fixed various bugs and minor issues in the frontend.
 
 ### v1.2.15-rc.1+20260225 / 25.02.2026 {#website-1215-rc.1+20260225}
 1. Improved and refined the appearance of the homepage (mainly the cover).
