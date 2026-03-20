@@ -1,2 +1,2 @@
-# Nekosia API Documentation
+# 📃 Nekosia API Documentation
 https://nekosia.cat/documentation
