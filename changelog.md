@@ -78,6 +78,11 @@ Below is the version history of the API, along with descriptions of the introduc
 
 ## Website {#website}
 
+### v1.2.16-rc.1+20260320 / 20.03.2026 {#website-1216-rc.1+20260320}
+1. Improved and enhanced the appearance of the main page.
+2. Added tag search in Nekosia Booru.
+3. Frontend and backend optimizations.
+
 ### v1.2.15-rc.1+20260225 / 25.02.2026 {#website-1215-rc.1+20260225}
 1. Improved and refined the appearance of the homepage (mainly the cover).
 2. Fixed certain issues with `noscript`.
