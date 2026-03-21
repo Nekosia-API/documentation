@@ -3,7 +3,7 @@
 [//]: # (Tags: privacy policy, Nekosia, API, documentation, personal data, data security, cookies)
 [//]: # (Canonical: privacy-policy)
 [//]: # (Creation date: 2024-07-29)
-[//]: # (Last update: 2025-01-15)
+[//]: # (Last update: 2026-03-21)
 [//]: # (Contributors: N/A)
 
 # Privacy Policy {#privacy-policy}
@@ -29,35 +29,46 @@ See the [Definitions](https://nekosia.cat/documentation?page=definitions) docume
 6. **Browsing History:** We record the browsing history of content on the service to tailor recommendations and personalize services.
 7. **Technical Data:** We collect technical information about devices used to access the Service, such as browser type and operating system. This data is processed solely based on the client user-agent and is not linked to specific Users.
 
-## §4 Data Processing Principles {#data-processing-principles}
+## §4 Korespondencja e-mailowa {#email-correspondence}
+1. Użytkownik może podczas rejestracji wyrazić opcjonalną zgodę na otrzymywanie korespondencji e-mailowej od serwisu Nekosia.
+2. Wiadomości e-mail wysyłane są wyłącznie w przypadku ważnych zdarzeń dotyczących serwisu, takich jak:
+   - istotne aktualizacje platformy mające wpływ na sposób korzystania z serwisu,
+   - ważne zmiany dotyczące API, w szczególności te niekompatybilne wstecznie,
+   - komunikaty bezpośrednio dotyczące konta Użytkownika (np. aktywacja konta, kwestie bezpieczeństwa).
+3. Nie wysyłamy wiadomości promocyjnych, marketingowych ani spamu.
+4. Korespondencja e-mailowa ma charakter sporadyczny i jest wysyłana bardzo rzadko — wyłącznie w przypadkach uzasadnionych z punktu widzenia działania serwisu.
+5. Zgoda na korespondencję e-mailową jest opcjonalna i można ją wycofać w dowolnym momencie, kontaktując się z administratorem pod adresem e-mail podanym na stronie [About](https://nekosia.cat/about).
+6. Aby być na bieżąco z aktualizacjami serwisu i ważnymi informacjami dotyczącymi API, zalecamy dołączenie do serwera Discord: [discord.gg/pba76vJhcP](https://discord.gg/pba76vJhcP) — to tam jako pierwsze pojawiają się wszelkie ważne ogłoszenia i zmiany.
+
+## §5 Data Processing Principles {#data-processing-principles}
 1. We do not store passwords in plain text. All passwords are encrypted and stored securely.
 2. We do not collect precise geolocation data of Users or track their location.
 3. We do not sell, rent, or share Users' personal data with third parties.
 4. All data is processed in accordance with applicable laws.
 
-## §5 Data Security {#data-security}
+## §6 Data Security {#data-security}
 1. We implement appropriate technical and organizational measures to protect Users' data from unauthorized access, loss, or destruction.
 2. We regularly review our data collection, storage, and processing practices to ensure their security.
 3. We use encryption technology to protect data during transmission.
 4. Access to data is restricted to authorized personnel who are obligated to maintain its confidentiality.
 
-## §6 Users' Rights {#users-rights}
+## §7 Users' Rights {#users-rights}
 1. Users have the right to access, correct, and delete their data. They can request access to the information we hold about them at any time.
 2. Users can request to restrict the processing of their data or object to its processing.
 3. Users have the right to transfer their data to another service provider if they wish.
 4. Users can delete their account by contacting the administrator via email.
 5. Any requests regarding personal data should be submitted to the email address provided on the [About](https://nekosia.cat/about) page.
 
-## §7 Changes to the Privacy Policy {#changes-to-privacy-policy}
+## §8 Changes to the Privacy Policy {#changes-to-privacy-policy}
 1. The administrator reserves the right to make changes to this privacy policy. Any changes will be published on this page.
 2. In the case of significant changes, users will be notified by email.
 3. The updated privacy policy takes effect on the date it is published on the website.
 
-## §8 Contact {#contact}
+## §9 Contact {#contact}
 1. If you have any questions about the privacy policy, you can contact the administrator via email or join the Discord server.
 2. The administrator's contact details are available on the [About](https://nekosia.cat/about) page.
 
-## §9 Final Provisions {#final-provisions}
+## §10 Final Provisions {#final-provisions}
 1. Using the Service means accepting this privacy policy.
 2. This privacy policy is an integral part of the Service's terms and conditions.
 3. Matters not regulated by this privacy policy are governed by applicable law.
