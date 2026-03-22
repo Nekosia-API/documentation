@@ -35,7 +35,7 @@ Whether you're a developer creating a new application or an integrator looking f
   All images are hosted on the Nekosia server, and their availability is ensured by the API, guaranteeing constant access to resources.
 
 - **Safe Content:**
-  The API is focused on SFW content. All images are appropriate for general audiences. See the [Content Ratings](https://nekosia.cat/documentation?page=introduction#content-ratings#content-ratings) section below for details.
+  The API is focused on SFW content. All images are appropriate for general audiences. See the [Content Ratings](https://nekosia.cat/documentation?page=introduction#content-ratings) section below for details.
 
 - **Uptime:**
   The API and website are monitored by an external system 24/7, ensuring availability at all times. Users can use the Service at any time without interruptions. In case of planned maintenance, Users will be informed in advance.
