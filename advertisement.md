@@ -4,7 +4,6 @@
 [//]: # (Canonical: advertisement)
 [//]: # (Creation date: 2024-09-02)
 [//]: # (Last update: 2025-12-26)
-[//]: # (Contributors: N/A)
 
 # The best Nekos API for devs {#the-best-anime-nekos-api}
 

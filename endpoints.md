@@ -3,13 +3,12 @@
 [//]: # (Tags: nekosia, api, nekosia api, api endpoints, api documentation, image access, session management, image tags, API versions, base URL, category tags, shadow category, API sessions)
 [//]: # (Canonical: endpoints)
 [//]: # (Creation date: 2024-07-29)
-[//]: # (Last update: 2025-12-01)
-[//]: # (Contributors: N/A)
+[//]: # (Last update: 2026-03-22)
 
 # API Endpoints Overview {#endpoints-overview}
 Nekosia API offers various endpoints that provide access to a wide range of images and related information. Below is a list of all available endpoints along with a brief description of their functions.
 
-It is also worth familiarizing yourself with the session mechanism, which allows for tracking displayed images for users, helping to avoid showing duplicate images.
+It is also worth familiarizing yourself with the session mechanism, which allows for tracking displayed images for Users, helping to avoid showing duplicate images.
 
 ## Available API Versions {#available-api-versions}
 Click [here](https://nekosia.cat/documentation?page=introduction#api-versions) to see the list of available API versions.
@@ -34,10 +33,10 @@ This endpoint allows you to fetch random images from a selected category.
 ## Parameters {#parameters}
 > `/images/:category?count={int}&additionalTags={string}&blacklistedTags={string}&rating={string}`
 - `:category` - Check the available tags on [our Booru page](https://nekosia.cat/booru/tags). Each image is assigned to one main category.
-- `?count` (default: `1`) - The number of images to fetch (default: 1, maximum: 48). The higher the number, the longer the server response time (in milliseconds).
+- `?count` (default: `1`) - The number of images to fetch (default: 1, maximum: 20). The higher the number, the longer the server response time (in milliseconds).
 - `&additionalTags` - Additional tags to include when searching for images.
 - `&blacklistedTags` - Tags to exclude from the search results.
-- `&rating` (default: `safe`) - Image rating: `safe` or `suggestive`.
+- `&rating` (default: `safe`) - Filters images by content rating. Accepted values: `safe` and `suggestive`. Any other value returns a `400` error. See [Content Ratings](https://nekosia.cat/documentation?page=introduction#content-ratings) for more details.
 
 ## Response Structure {#response-structure}
 ```json
@@ -73,36 +72,36 @@ Therefore, if you request catgirl images (`/images/catgirl`), you will never rec
 
 ### How to Bypass Filters? {#bypass-filters}
 The Nekosia API offers a special category named `nothing`, which differs in both **its** operation and purpose from standard categories.
-Using this category allows you to retrieve images randomly based **only** on user-specified tags, without applying the additional safety filters that are ALWAYS assigned to each category.
+Using this category allows you to retrieve images randomly based **only** on User-specified Tags, without applying the additional safety filters that are ALWAYS assigned to each category.
 
 The `nothing` category provides complete freedom in content selection, which is particularly useful when a user wants unrestricted access to images without the default constraints.
 This means that no automatic filter, which might block some images due to their potentially inappropriate nature, will be applied.
 
 ### Important {#bypass-filters-important}
 Keep in mind that bypassing filters means that the full responsibility for the safety and appropriateness of displayed content rests solely with you.
-The API does not offer (and never will) `nsfw` images.
+The API serves only `safe` and `suggestive` rated images.
 
 ### Example Request {#bypass-filters-example}
 > **GET** /images/**nothing**?**count**=3&**additionalTags**=cat-ears,fox-ears,wolf-ears&**blacklistedTags**=dog-ears
 > <br><br>
 > `:category` - Must be set to `nothing`.<br>
-> `additionalTags` - Tags to include in the image search. This is a key parameter for this category.
+> `additionalTags` - **Required.** At least one tag must be provided. Without it, the API returns a `400` error.
 
 
 ## Sessions {#sessions}
-The API supports a session mechanism, which allows for tracking displayed images for users. This way, you can avoid displaying duplicate images.
-Sessions can be identified by the user's IP address or a unique session identifier (e.g., an external system user ID, such as Discord).
+The API supports a session mechanism, which allows for tracking displayed images for Users. This way, you can avoid displaying duplicate images.
+Sessions can be identified by the User's IP Address or a unique session identifier (e.g., an external system user ID, such as Discord).
 
 ### Types of Sessions {#session-types}
-- `ip` - Session identified based on the user's IP address. This is useful when you do not have a unique user identifier.
+- `ip` - Session identified based on the User's IP Address. This is useful when you do not have a unique user identifier.
 - `id` - Session identified based on a unique user identifier passed in the `id` parameter. This can be, for example, a specific person's ID on Discord.
 
 ### Session Parameters {#session-parameters}
 - `session` - Type of session (`ip` or `id`).
-    - `ip` - Session identified based on the user's IP address.
+    - `ip` - Session identified based on the User's IP Address.
     - `id` (recommended) - Session identified based on a unique user identifier.
 - `id` - Unique user identifier if `session` is set to `id`. Otherwise, the parameter is ignored. The identifier must meet the following conditions:
-    - Length of 6 to 128 characters.
+    - Length of 4 to 128 characters.
     - No special characters such as: `!@#$%^&*()_+{}|:"<>?`
 
 ### Example Requests {#session-example-requests}
@@ -119,8 +118,8 @@ Sessions can be identified by the user's IP address or a unique session identifi
 2. **Uniqueness of session identifiers**:  
    Session identifiers (`id`) should be sufficiently long and unique to ensure session uniqueness. Using unique identifiers such as external system user IDs (e.g., Discord) ensures precise session tracking and avoids image duplication.
 
-3. **Session storage time**:  
-   Sessions are stored for approximately 8 days, after which they are automatically deleted.
+3. **Session storage time**:
+   Sessions are stored for 7 days, after which they are automatically deleted.
 
 4. **Resetting sessions**:  
    If the user views all available images from a given category, the system automatically resets the session for that user, allowing random images to be displayed again.

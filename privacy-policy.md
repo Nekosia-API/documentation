@@ -3,8 +3,7 @@
 [//]: # (Tags: privacy policy, Nekosia, API, documentation, personal data, data security, cookies)
 [//]: # (Canonical: privacy-policy)
 [//]: # (Creation date: 2024-07-29)
-[//]: # (Last update: 2026-03-21)
-[//]: # (Contributors: N/A)
+[//]: # (Last update: 2026-03-22)
 
 # Privacy Policy {#privacy-policy}
 Welcome to Nekosia's privacy policy. This document outlines how we collect, use, and protect your personal data when you interact with our website. We are committed to ensuring your privacy is safeguarded and maintaining transparency regarding our data practices.
@@ -13,32 +12,31 @@ Welcome to Nekosia's privacy policy. This document outlines how we collect, use,
 See the [Definitions](https://nekosia.cat/documentation?page=definitions) document to familiarize yourself with the terms used in this policy.
 
 ## §1 Data Administrator {#data-administrator}
-1. The data administrator is a private individual whose contact details are available on the [About](https://nekosia.cat/about) page.
+1. The Administrator is a private individual whose contact details are available on the [About](https://nekosia.cat/about) page.
 2. Data is stored on a server owned by the private individual.
-3. The Nekosia service is not affiliated with any company or organization.
+3. The Nekosia Service is not affiliated with any company or organization.
 
 ## §2 Cookies {#cookies}
 1. The website uses cookies to improve its functionality. Detailed cookie policy is available at [this URL](https://nekosia.cat/documentation?page=cookies).
 
 ## §3 Types of Data Collected {#types-of-data-collected}
-1. **Tags:** We store tags viewed by Users to offer content tailored to their preferences (applies only to logged-in Users).
+1. **Tags:** We store Tags viewed by Users to offer content tailored to their preferences (applies only to logged-in Users).
 2. **IP Addresses:** We store Users' IP addresses to manage rate limits, ensure website and API security, and monitor unauthorized activities and prevent abuse.
-3. **Session Data:** We collect information about Users' sessions, such as login time, pages visited, and clicks, to improve website functionality and offer a more personalized experience.
-4. **Contact Data:** In case of registration or login via OAuth provider, we store the user's email address in the database. It may be used for contact regarding important account matters.
-5. **User Data:** We store basic account information such as username, preferences, and account settings to enable personalized use of the Service.
+3. **Session Data:** We collect information about Users' sessions, such as login time, pages visited, and clicks, to improve Service functionality and offer a more personalized experience. API session data (used to avoid duplicate images) is stored for 7 days, after which it is automatically deleted.
+4. **Contact Data:** In case of Registration or Login via OAuth provider, we store the User's email address in the database. It may be used for contact regarding important Account matters.
+5. **User Data:** We store basic Account information such as username, preferences, and Account settings to enable personalized use of the Service. This data is reflected in the User's public Profile on Nekosia Booru.
 6. **Browsing History:** We record the browsing history of content on the service to tailor recommendations and personalize services.
 7. **Technical Data:** We collect technical information about devices used to access the Service, such as browser type and operating system. This data is processed solely based on the client user-agent and is not linked to specific Users.
 
-## §4 Korespondencja e-mailowa {#email-correspondence}
-1. Użytkownik może podczas rejestracji wyrazić opcjonalną zgodę na otrzymywanie korespondencji e-mailowej od serwisu Nekosia.
-2. Wiadomości e-mail wysyłane są wyłącznie w przypadku ważnych zdarzeń dotyczących serwisu, takich jak:
-   - istotne aktualizacje platformy mające wpływ na sposób korzystania z serwisu,
-   - ważne zmiany dotyczące API, w szczególności te niekompatybilne wstecznie,
-   - komunikaty bezpośrednio dotyczące konta Użytkownika (np. aktywacja konta, kwestie bezpieczeństwa).
-3. Nie wysyłamy wiadomości promocyjnych, marketingowych ani spamu.
-4. Korespondencja e-mailowa ma charakter sporadyczny i jest wysyłana bardzo rzadko — wyłącznie w przypadkach uzasadnionych z punktu widzenia działania serwisu.
-5. Zgoda na korespondencję e-mailową jest opcjonalna i można ją wycofać w dowolnym momencie, kontaktując się z administratorem pod adresem e-mail podanym na stronie [About](https://nekosia.cat/about).
-6. Aby być na bieżąco z aktualizacjami serwisu i ważnymi informacjami dotyczącymi API, zalecamy dołączenie do serwera Discord: [discord.gg/pba76vJhcP](https://discord.gg/pba76vJhcP) — to tam jako pierwsze pojawiają się wszelkie ważne ogłoszenia i zmiany.
+## §4 Email Correspondence {#email-correspondence}
+1. During registration, Users may optionally consent to receiving email correspondence from the Nekosia service.
+2. Emails are sent exclusively in the case of important service-related events, such as:
+   - significant platform updates, particularly those affecting how the service is used,
+   - important API changes, especially those that are not backwards-compatible,
+3. We do not send promotional, marketing, or spam emails.
+4. Email correspondence is infrequent and sent very rarely, only in cases justified by the operation of the service.
+5. Consent to email correspondence is optional and may be withdrawn at any time by contacting the Administrator at the email address provided on the [About](https://nekosia.cat/about) page.
+6. To stay up to date with service updates and important API information, we recommend joining the Discord server: [discord.gg/pba76vJhcP](https://discord.gg/pba76vJhcP). All important announcements and changes appear there first.
 
 ## §5 Data Processing Principles {#data-processing-principles}
 1. We do not store passwords in plain text. All passwords are encrypted and stored securely.
@@ -56,12 +54,12 @@ See the [Definitions](https://nekosia.cat/documentation?page=definitions) docume
 1. Users have the right to access, correct, and delete their data. They can request access to the information we hold about them at any time.
 2. Users can request to restrict the processing of their data or object to its processing.
 3. Users have the right to transfer their data to another service provider if they wish.
-4. Users can delete their account by contacting the administrator via email.
+4. Users can delete their Account by contacting the Administrator via email.
 5. Any requests regarding personal data should be submitted to the email address provided on the [About](https://nekosia.cat/about) page.
 
 ## §8 Changes to the Privacy Policy {#changes-to-privacy-policy}
 1. The administrator reserves the right to make changes to this privacy policy. Any changes will be published on this page.
-2. In the case of significant changes, users will be notified by email.
+2. In the case of significant changes, Users will be notified by email.
 3. The updated privacy policy takes effect on the date it is published on the website.
 
 ## §9 Contact {#contact}

@@ -3,8 +3,7 @@
 [//]: # (Tags: nekosia, api terms of service, nekosia api, booru guidelines, copyright, attribution, dmca, commercial use, anime api, legal compliance)
 [//]: # (Canonical: tos)
 [//]: # (Creation date: 2024-08-18)
-[//]: # (Last update: 2025-01-15)
-[//]: # (Contributors: N/A)
+[//]: # (Last update: 2026-03-22)
 
 # Nekosia API Terms {#nekosia-api-terms}
 
@@ -13,7 +12,7 @@ See the [Definitions](https://nekosia.cat/documentation?page=definitions) docume
 
 ## Introduction {#introduction}
 Welcome to the Nekosia API! 😻 By using our Service, you agree to comply with the following terms.
-Please read them carefully to understand your rights and responsibilities as a user of our platform.
+Please read them carefully to understand your rights and responsibilities as a User of our platform.
 These terms govern access to our API and the use of resources such as anime images. Remember that using the API signifies full acceptance of these terms.
 
 ## 1. Attribution {#api-attribution}
@@ -27,13 +26,13 @@ The above example is optional and can be tailored to your needs.
 ## 2. Terms of Use {#api-terms-of-use}
 
 ### Access to the API {#api-access-to-api}
-The Nekosia API provides access to random anime images as described in our documentation. To ensure fair and appropriate use of the API, all users are required to adhere to the following rules:
-- **Adherence to query limits**: Each user must comply with the established query limits per minute or hour, as specified in the API documentation. These limits are essential to ensure equal access to resources for all users. Depending on the user's plan, these limits may vary. Abusing these limits or attempting to bypass them may result in temporary suspension of API access, and in cases of serious violations, permanent blocking of access.
-- **Responsible use**: The API should be used according to its intended purpose. Any attempts to manipulate API functionality, bypass security measures, or use the API in a way that could harm other users will be considered a serious violation of the Terms of Use. In extreme cases, such as intentional and repeated abuse, your IP address may be reported to [AbuseIPDB](https://abuseipdb.com) and [SniffCat](https://sniffcat.com).
+The Nekosia API provides access to random anime images as described in our documentation. To ensure fair and appropriate use of the API, all Users are required to adhere to the following rules:
+- **Adherence to query limits**: Each User must comply with the established query limits per minute or hour, as specified in the API documentation. These limits are essential to ensure equal access to resources for all Users. Depending on the User's plan, these limits may vary. Abusing these limits or attempting to bypass them may result in temporary suspension of API access, and in cases of serious violations, permanent blocking of access.
+- **Responsible use**: The API should be used according to its intended purpose. Any attempts to manipulate API functionality, bypass security measures, or use the API in a way that could harm other Users will be considered a serious violation of the Terms of Use. In extreme cases, such as intentional and repeated abuse, your IP address may be reported to [AbuseIPDB](https://abuseipdb.com) and [SniffCat](https://sniffcat.com).
 
 ### Content {#api-content}
 All images provided by the Nekosia API are the property of their original creators and artists. By using the API, you agree to adhere to the following rules:
-- **Legal compliance**: The user must ensure that the use of content available through the API complies with applicable laws, including fair use principles. Nekosia is not responsible for any copyright violations resulting from improper use of the materials by users.
+- **Legal compliance**: The User must ensure that the use of content available through the API complies with applicable laws, including fair use principles. Nekosia is not responsible for any copyright violations resulting from improper use of the materials by Users.
 - **Respect for copyright**: Content available through the API may not be used in a way that infringes on the creators' copyrights. Each user is responsible for obtaining any necessary licenses or permissions from rights holders if required. Failure to comply with these rules may result in restriction or revocation of API access.
 
 ### Artist Attribution {#api-artist-attribution}
@@ -42,7 +41,7 @@ When publishing images sourced from the Nekosia API, **you are required to provi
 ### Commercial Use {#api-commercial-use}
 **YOU MAY NOT** use the Nekosia API for commercial purposes without prior written consent.
 Commercial use includes any activity that generates income or supports commercial activities, including but not limited to, using the API in products or Services that are sold or licensed.
-If you plan to use the API for commercial purposes, you must contact the administrator to obtain the appropriate permissions.
+If you plan to use the API for commercial purposes, you must contact the Administrator to obtain the appropriate permissions.
 Any commercial use of the API without consent may result in immediate blocking of access to the API and potential legal consequences.
 
 ### Use of Name {#api-use-of-name}
@@ -57,7 +56,7 @@ In some cases, we may ask for verification to ensure that the logo is used in th
 ## 3. Changes to the Terms {#api-changes-to-terms}
 We reserve the right to make changes to these terms at any time.
 We will inform you of any changes by publishing a new version of the document on the website.
-Users are encouraged to regularly check the terms to stay informed of any changes. Continued use of the API after changes have been made constitutes acceptance of the new terms.
+Users are encouraged to regularly check the Terms to stay informed of any changes. Continued use of the API after changes have been made constitutes acceptance of the new terms.
 
 ## 4. DMCA {#api-dmca}
 If you believe that any content available through the Nekosia API infringes on your copyrights, please report such an infringement in accordance with the Digital Millennium Copyright Act (DMCA).
@@ -72,9 +71,9 @@ DMCA requests should be sent to support@nekosia.cat. We are committed to taking 
 We reserve the right to suspend or terminate access to the API at any time, without prior notice, for any reason.
 
 ## 6. Governing Law {#api-governing-law}
-These terms are governed by the laws of the jurisdiction in which Nekosia operates.
-Any disputes arising from the use of the API will be resolved in accordance with the law applicable in that jurisdiction.
-Users agree to submit to the jurisdiction of the courts of the location of Nekosia's headquarters.
+These terms are governed by the laws of Poland and, where applicable, the law of the European Union.
+Any disputes arising from the use of the API will be resolved in accordance with Polish law.
+Users agree to submit to the jurisdiction of the Polish courts competent for the Administrator's place of residence.
 
 ## 7. Contact {#api-contact}
 If you have any questions regarding these Terms of Use, please email support@nekosia.cat. We strive to respond to all inquiries within 48 hours.
@@ -82,6 +81,7 @@ If you have any questions regarding these Terms of Use, please email support@nek
 
 # Nekosia Booru Terms {#booru-terms}
 Nekosia Booru does not yet have the ability to upload images to the Service, so there are no specific rules.
+Each registered User has a public Profile on Nekosia Booru, visible to other Users. The Profile contains basic account information such as username and avatar.
 However, please remember to behave in accordance with netiquette rules, including:
 1. Do not insult anyone.
 2. Maintain proper conduct.
