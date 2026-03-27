@@ -2,8 +2,6 @@
 [//]: # (Desc: Nekosia offers wrappers for various programming languages, making it easier to use the API! Learn more.)
 [//]: # (Tags: nekosia, libraries, wrappers, api, nekosia wrappers, nekosia node.js, nekosia npm, nekosia wrappers)
 [//]: # (Canonical: wrappers)
-[//]: # (Creation date: 2024-07-29)
-[//]: # (Last update: 2025-02-12)
 
 # Libraries and Wrappers {#libraries-and-wrappers}
 Nekosia offers wrappers for various programming languages, making it easier to use the API.

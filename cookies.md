@@ -2,8 +2,6 @@
 [//]: # (Desc: Comprehensive cookies policy for Nekosia API documentation, detailing usage, management, and types of cookies.)
 [//]: # (Tags: cookies, nekosia, api, cookies policy, nekosia api cookies, cookies management, privacy, cookies usage, session cookies, third-party cookies)
 [//]: # (Canonical: cookies)
-[//]: # (Creation date: 2024-07-29)
-[//]: # (Last update: 2026-03-22)
 
 # Cookies Policy {#cookies-policy}
 

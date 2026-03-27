@@ -2,8 +2,6 @@
 [//]: # (Desc: Nekosia is a free Neko API for integrating anime content into your projects. With cute anime images and a dedicated Booru, Nekosia has everything you need!)
 [//]: # (Tags: introduction, nekosia api introduction, nekosia api docs introduction, nekosia api overview, nekosia api summary, nekosia api guide, nekosia api documentation, nekosia api intro)
 [//]: # (Canonical: introduction)
-[//]: # (Creation date: 2024-07-29)
-[//]: # (Last update: 2026-03-22)
 
 # Introduction {#introduction}
 Welcome to the Nekosia API documentation! Here you will find detailed information about the API interface, including descriptions of available endpoints, request methods, and response formats.
