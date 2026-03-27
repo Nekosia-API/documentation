@@ -22,15 +22,22 @@ Entries are sorted from newest to oldest. Labels: `[Website]`, `[API]`, `[CDN]`.
 
 ### [Website] v1.3.0-rc.1+20260326 - 22.03.2026 {#20260326}
 1. Redesigned and improved the appearance of the homepage and several other pages.
-2. Added tag-based image search in Nekosia Booru.
-3. Added filtering options in Nekosia Booru.
-4. Added the ability to search images by artist name.
-5. Login via X (formerly Twitter) now uses OAuth2.
-6. Improved error handling. The server now returns dedicated error pages instead of empty responses.
-7. Fixed the user menu appearance in the navbar across various display scenarios.
-8. Added a Privacy Policy link in the footer.
-9. Revised and expanded the documentation: improved clarity, consistency, and coverage.
-10. General performance, security, and code quality improvements.
+2. Fixed the user menu appearance in the navbar across various display scenarios.
+3. Added tag-based image search in Nekosia Booru.
+4. Added filtering options in Nekosia Booru.
+5. Improved user settings in Nekosia Booru.
+6. Added the ability to search images by artist name.
+7. Introduced AI-powered image tagging (images can still only be uploaded by the administrator).
+8. Login via X (formerly Twitter) now uses OAuth2.
+9. Various improvements to other authentication services.
+10. Introduced a new role system.
+11. Improved error handling - the server now returns dedicated error pages instead of empty responses.
+12. Production builds now serve only minified and optimized code for faster loading.
+13. Introduced a new metrics system available exclusively to administrators.
+14. Cleaned up the database schema and collections to improve performance and workflow quality.
+15. Added a Privacy Policy link in the footer.
+16. Minor documentation improvements - enhanced clarity and consistency.
+17. General improvements to performance, security, and code quality.
 
 ### [Website] v1.2.15-rc.1+20260225 - 25.02.2026 {#20260225}
 1. Improved and refined the appearance of the homepage (mainly the cover).
