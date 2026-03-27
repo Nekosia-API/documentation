@@ -24,4 +24,4 @@ Good luck!
 
 ## Community Libraries {#community-libraries}
 ### Swift {#community-libraries-swift}
-1. https://github.com/jezreelbarbosa/NekosiaAPI
+1. [NekosiaAPI](https://github.com/jezreelbarbosa/NekosiaAPI)

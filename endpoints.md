@@ -70,7 +70,7 @@ These filters protect users from potentially inappropriate content and ensure co
 Therefore, if you request catgirl images (`/images/catgirl`), you will never receive anime girl images in swimsuits, for example.
 
 ### How to Bypass Filters? {#bypass-filters}
-The Nekosia API offers a special category named `nothing`, which differs in both **its** operation and purpose from standard categories.
+The Nekosia API offers a special category named `nothing`, which differs in both its operation and purpose from standard categories.
 Using this category allows you to retrieve images randomly based **only** on User-specified Tags, without applying the additional safety filters that are ALWAYS assigned to each category.
 
 The `nothing` category provides complete freedom in content selection, which is particularly useful when a user wants unrestricted access to images without the default constraints.

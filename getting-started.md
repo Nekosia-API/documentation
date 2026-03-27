@@ -15,10 +15,10 @@
    - **Description**: Fetches a random anime image.
    - **Sample Request**:
      ```bash
-     // Linux
+     # Linux
      curl https://api.nekosia.cat/api/v1/images/catgirl | jq
 
-     // Windows (PowerShell)
+     # Windows (PowerShell)
      curl https://api.nekosia.cat/api/v1/images/catgirl | ConvertFrom-Json | ConvertTo-Json -Depth 10
      ```
 

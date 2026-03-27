@@ -18,17 +18,14 @@ These limits are designed to prevent server overload and ensure equal access to 
 ## cdn.nekosia.cat {#cdn-nekosia-cat}
 - A maximum of `480 requests` to the server within `5 minutes`.
 
-# Cloudflare Rate Limits {#cloudflare-ratelimits}
+## Cloudflare Rate Limits {#cloudflare-ratelimits}
 We use Cloudflare to ensure the security and stability of our services.
 Therefore, Cloudflare may apply its own request limits. If these limits are exceeded, the User will receive an HTTP status code 429.
 
-# HTTP 429 Response {#http-429}
+## HTTP 429 Response {#http-429}
 If the rate limits are exceeded, the server will return an `HTTP 429` response, which means `Too Many Requests`.
 
-# What Next? {#what-next}
-Hmm... So, what now...
-
-## Consequences of Exceeding Limits {#consequences}
+### Consequences of Exceeding Limits {#consequences}
 Exceeding the limits results in temporary blocking of access to the API for the User or server from which the request originated.
 The block may last from a few minutes to a few hours, depending on the severity of the limit violation.
 In the case of repeated violations, the User may be permanently blocked.
