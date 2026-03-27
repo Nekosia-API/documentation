@@ -58,17 +58,13 @@ The API supports the following classifications:
 
 ### ✅ Safe {#rating-safe}
 The default classification. Includes images that are fully appropriate for all age groups and all types of use (e.g. applications, Discord bots, websites).
-
 These are mainly aesthetic anime images, usually depicting cute characters in full clothing, without fan service elements.
 They do not contain exposed body parts, suggestive poses, or ambiguous details.
-
 This is the largest and most recommended category, containing over a thousand images.
 
 ### 🤔 Suggestive {#rating-suggestive}
 A category that includes images that are slightly more daring than `safe`, but still do not contain nudity or explicitly sexual content.
-It is significantly smaller (fewer than 100 images).
-
-It may include, for example:
+It is significantly smaller (fewer than 100 images). It may include, for example:
 - swimwear,
 - more revealing outfits,
 - more visible thighs,

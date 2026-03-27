@@ -32,7 +32,7 @@ See the [Definitions](https://nekosia.cat/documentation?page=definitions) docume
 1. During registration, Users may optionally consent to receiving email correspondence from the Nekosia service.
 2. Emails are sent exclusively in the case of important service-related events, such as:
    - significant platform updates, particularly those affecting how the service is used,
-   - important API changes, especially those that are not backwards-compatible,
+   - important API changes, especially those that are not backwards-compatible.
 3. We do not send promotional, marketing, or spam emails.
 4. Email correspondence is infrequent and sent very rarely, only in cases justified by the operation of the service.
 5. Consent to email correspondence is optional and may be withdrawn at any time by contacting the Administrator at the email address provided on the [About](https://nekosia.cat/about) page.

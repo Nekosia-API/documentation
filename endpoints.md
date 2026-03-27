@@ -7,7 +7,6 @@
 
 # API Endpoints Overview {#endpoints-overview}
 Nekosia API offers various endpoints that provide access to a wide range of images and related information. Below is a list of all available endpoints along with a brief description of their functions.
-
 It is also worth familiarizing yourself with the session mechanism, which allows for tracking displayed images for Users, helping to avoid showing duplicate images.
 
 ## Available API Versions {#available-api-versions}
