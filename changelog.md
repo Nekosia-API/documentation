@@ -11,14 +11,14 @@ We use [semantic versioning](https://nekosia.cat/documentation?page=introduction
 Entries are sorted from newest to oldest. Labels: `[Website]`, `[API]`, `[CDN]`.
 
 
-### [API] v1.2.6-rc.1+20260326 - 22.03.2026 {#api-20260326}
+### [API] v1.2.6-rc.1+20260330 - 22.03.2026 {#api-20260330}
 1. The `rating` parameter is now validated — providing an invalid value results in a `400` response instead of silently falling back to `safe`.
 2. The `nothing` category without `additionalTags` now returns a descriptive `400` error instead of a generic "no results found" message.
 3. The `/tags` endpoint now returns only tags from images with `published: true`. Previously, it exposed tags from unpublished images.
 4. Removed a non-functional category blocking condition that was never satisfied.
 5. Code quality improvements and optimizations.
 
-### [Website] v1.3.0-rc.1+20260326 - 22.03.2026 {#20260326}
+### [Website] v1.3.0-rc.1+20260330 - 22.03.2026 {#20260330}
 1. Redesigned and improved the appearance of the homepage and several other pages.
 2. Fixed the user menu appearance in the navbar across various display scenarios.
 3. Added tag-based image search in Nekosia Booru.
