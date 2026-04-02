@@ -8,9 +8,9 @@ Nekosia and Booru are continuously developed. Each new version brings new featur
 Not all changes are documented here; we record only the most significant ones that may affect how the Service or API is used.
 We use [semantic versioning](https://nekosia.cat/documentation?page=introduction#semver).
 
-Entries are sorted from newest to oldest. Labels: `[Website]`, `[API]`, `[CDN]`, `[CRON]`.
+Entries are sorted from newest to oldest. Labels: `[WWW]`, `[API]`, `[CDN]`, `[CRON]`.
 
-### [Website] v1.3.0-rc.1+20260402 - 2.04.2026 {#www-20260402}
+### [WWW] v1.3.0-rc.1+20260402 - 2.04.2026 {#www-20260402}
 1. Redesigned and improved the appearance of the homepage and several other pages.
 2. Fixed the user menu appearance in the navbar across various display scenarios.
 3. Added tag-based image search in Nekosia Booru.
@@ -40,7 +40,7 @@ Entries are sorted from newest to oldest. Labels: `[Website]`, `[API]`, `[CDN]`,
 1. Detection of similar images has been improved.
 2. General improvements to performance and code quality.
 
-### [Website] v1.2.15-rc.1+20260225 - 25.02.2026 {#www=20260225}
+### [WWW] v1.2.15-rc.1+20260225 - 25.02.2026 {#www=20260225}
 1. Improved and refined the appearance of the homepage (mainly the cover).
 2. Fixed certain issues with `noscript`.
 3. Various bug fixes and improvements.
@@ -117,49 +117,49 @@ Entries are sorted from newest to oldest. Labels: `[Website]`, `[API]`, `[CDN]`,
 2. Updated dependencies to the latest version.
 3. Other fixes.
 
-### [Website] v1.2.12 {#www-1212}
+### [WWW] v1.2.12 {#www-1212}
 1. Performance and quality improvements.
 2. Dependencies updated to the latest stable versions.
 3. UI improvements.
 4. Bugfixes.
 5. Documentation improvements.
 
-### [Website] v1.2.9 {#www-129}
+### [WWW] v1.2.9 {#www-129}
 1. Performance and quality improvements.
 2. Dependencies updated to the latest stable versions.
 
-### [Website] v1.2.8 {#www-128}
+### [WWW] v1.2.8 {#www-128}
 1. Other optimizations.
 2. Updated dependencies to the latest version.
 
-### [Website] v1.2.7 {#www-127}
+### [WWW] v1.2.7 {#www-127}
 1. Updated dependencies to the latest version.
 2. Quality fixes.
 
-### [Website] v1.2.6 {#www-126}
+### [WWW] v1.2.6 {#www-126}
 1. Updated dependencies to the latest version.
 
-### [Website] v1.2.5 {#www-125}
+### [WWW] v1.2.5 {#www-125}
 1. Updated dependencies to the latest version.
 2. Other quality fixes.
 
-### [Website] v1.2.4 {#www-124}
+### [WWW] v1.2.4 {#www-124}
 1. Updated dependencies to the latest version.
 2. Added the Swift wrapper [jezreelbarbosa/NekosiaAPI](https://github.com/jezreelbarbosa/NekosiaAPI) to the official [documentation](https://nekosia.cat/documentation?page=wrappers).
 
-### [Website] v1.2.3 {#www-123}
+### [WWW] v1.2.3 {#www-123}
 1. Updated dependencies to the latest version.
 2. Other fixes.
 
-### [Website] v1.2.2 {#www-122}
+### [WWW] v1.2.2 {#www-122}
 1. Updated dependencies to the latest version.
 2. Small fixes.
 
-### [Website] v1.2.1 {#www-121}
+### [WWW] v1.2.1 {#www-121}
 1. Resolved issues related to voting functionality.
 2. UI improvements.
 
-### [Website] v1.2.0 {#www-120}
+### [WWW] v1.2.0 {#www-120}
 1. Resolved issues related to voting functionality.
 2. Removed specific data caching in booru that had no impact on backend performance.
 3. Reset all statistics and votes.
@@ -167,22 +167,22 @@ Entries are sorted from newest to oldest. Labels: `[Website]`, `[API]`, `[CDN]`,
 5. Added the ability to vote on images from their full view.
 6. General performance and quality improvements.
 
-### [Website] v1.1.4 {#www-114}
+### [WWW] v1.1.4 {#www-114}
 1. Bugfixes.
 
-### [Website] v1.1.2 {#www-112}
+### [WWW] v1.1.2 {#www-112}
 1. Slightly improved the color scheme of profile tabs on Booru.
 2. Corrected sentences.
 3. Updated all npm modules.
 4. Implemented various quality improvements and enhancements.
 
-### [Website] v1.1.0 {#www-110}
+### [WWW] v1.1.0 {#www-110}
 1. Improved the appearance of photo cards.
 2. Added fields for twin images and similar images.
 3. Other enhancements.
 4. Bug fixes.
 
-### [Website] v1.0.2 {#www-102}
+### [WWW] v1.0.2 {#www-102}
 1. Added a full image preview feature when clicking on an image (on the Booru page).
 2. Minor website and SEO tweaks.
 3. Other fixes.
