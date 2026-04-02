@@ -36,7 +36,7 @@ Entries are sorted from newest to oldest. Labels: `[Website]`, `[API]`, `[CDN]`,
 4. Removed a non-functional category blocking condition that was never satisfied.
 5. Code quality improvements and optimizations.
 
-### [CRON] 2.4.3-rc.1+20260402 - 2.04.2026 {cron-#20260402}
+### [CRON] 2.4.3-rc.1+20260402 - 2.04.2026 {#cron-#20260402}
 1. Detection of similar images has been improved.
 2. General improvements to performance and code quality.
 
