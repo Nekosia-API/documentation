@@ -10,7 +10,7 @@ We use [semantic versioning](https://nekosia.cat/documentation?page=introduction
 
 Entries are sorted from newest to oldest. Labels: `[WWW]`, `[API]`, `[CDN]`, `[CRON]`.
 
-### [WWW] v1.3.0-rc.1+20260402 - 2.04.2026 {#www-20260402}
+### [WWW] v1.3.0-rc.1+20260402 {#www-20260402}
 1. Redesigned and improved the appearance of the homepage and several other pages.
 2. Fixed the user menu appearance in the navbar across various display scenarios.
 3. Added tag-based image search in Nekosia Booru.
@@ -29,24 +29,24 @@ Entries are sorted from newest to oldest. Labels: `[WWW]`, `[API]`, `[CDN]`, `[C
 16. Minor documentation improvements - enhanced clarity and consistency.
 17. General improvements to performance, security, and code quality.
 
-### [API] v1.2.6-rc.1+20260402 - 2.04.2026 {#api-20260402}
+### [API] v1.2.6-rc.1+20260402 {#api-20260402}
 1. The `rating` parameter is now validated — providing an invalid value results in a `400` response instead of silently falling back to `safe`.
 2. The `nothing` category without `additionalTags` now returns a descriptive `400` error instead of a generic "no results found" message.
 3. The `/tags` endpoint now returns only tags from images with `published: true`. Previously, it exposed tags from unpublished images.
 4. Removed a non-functional category blocking condition that was never satisfied.
 5. Code quality improvements and optimizations.
 
-### [CRON] 2.4.3-rc.1+20260402 - 2.04.2026 {#cron-#20260402}
+### [CRON] 2.4.3-rc.1+20260402 {#cron-#20260402}
 1. Detection of similar images has been improved.
 2. General improvements to performance and code quality.
 
-### [WWW] v1.2.15-rc.1+20260225 - 25.02.2026 {#www=20260225}
+### [WWW] v1.2.15-rc.1+20260225 {#www=20260225}
 1. Improved and refined the appearance of the homepage (mainly the cover).
 2. Fixed certain issues with `noscript`.
 3. Various bug fixes and improvements.
 4. Dependencies updated to the latest stable versions.
 
-### [API] v1.2.4-rc.1+20260115 - 15.01.2026 {#api-20260115}
+### [API] v1.2.4-rc.1+20260115 {#api-20260115}
 1. Performance and quality improvements.
 2. Dependencies updated to the latest stable versions.
 3. Other fixes.
