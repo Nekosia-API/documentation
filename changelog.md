@@ -14,6 +14,7 @@ Entries are sorted from newest to oldest. Labels: `[WWW]`, `[API]`, `[CDN]`, `[C
 1. Improved error page styling.
 2. Added a dedicated script for toasts and dialogs.
 3. Added a role system (beta).
+4. Updated the color palette for each image.
 
 ### [WWW] v1.3.0-rc.1+20260402 {#www-20260402}
 1. Redesigned and improved the appearance of the homepage and several other pages.
