@@ -10,6 +10,11 @@ We use [semantic versioning](https://nekosia.cat/documentation?page=introduction
 
 Entries are sorted from newest to oldest. Labels: `[WWW]`, `[API]`, `[CDN]`, `[CRON]`.
 
+### [WWW] v1.3.1-rc.1+20260405 {#www-20260405}
+1. Improved error page styling.
+2. Added a dedicated script for toasts and dialogs.
+3. Added a role system (beta).
+
 ### [WWW] v1.3.0-rc.1+20260402 {#www-20260402}
 1. Redesigned and improved the appearance of the homepage and several other pages.
 2. Fixed the user menu appearance in the navbar across various display scenarios.
@@ -20,14 +25,13 @@ Entries are sorted from newest to oldest. Labels: `[WWW]`, `[API]`, `[CDN]`, `[C
 7. Introduced AI-powered image tagging (images can still only be uploaded by the administrator).
 8. Login via X (formerly Twitter) now uses OAuth2.
 9. Various improvements to other authentication services.
-10. Introduced a new role system.
-11. Improved error handling - the server now returns dedicated error pages instead of empty responses.
-12. Production builds now serve only minified and optimized code for faster loading.
-13. Introduced a new metrics system available exclusively to administrators.
-14. Cleaned up the database schema and collections to improve performance and workflow quality.
-15. Added a Privacy Policy link in the footer.
-16. Minor documentation improvements - enhanced clarity and consistency.
-17. General improvements to performance, security, and code quality.
+10. Improved error handling - the server now returns dedicated error pages instead of empty responses.
+11. Production builds now serve only minified and optimized code for faster loading.
+12. Introduced a new metrics system available exclusively to administrators.
+13. Cleaned up the database schema and collections to improve performance and workflow quality.
+14. Added a Privacy Policy link in the footer.
+15. Minor documentation improvements - enhanced clarity and consistency.
+16. General improvements to performance, security, and code quality.
 
 ### [API] v1.2.6-rc.1+20260402 {#api-20260402}
 1. The `rating` parameter is now validated — providing an invalid value results in a `400` response instead of silently falling back to `safe`.
