@@ -10,7 +10,7 @@ We use [semantic versioning](https://nekosia.cat/documentation?page=introduction
 
 Entries are sorted from newest to oldest. Labels: `[WWW]`, `[API]`, `[CDN]`, `[CRON]`.
 
-### [WWW] v1.3.1-rc.1+20260405 {#www-20260405}
+### [WWW] v1.3.1-rc.1+20260405 (not fully released yet) {#www-20260405}
 1. Improved error page styling.
 2. Added a dedicated script for toasts and dialogs.
 3. Added a role system (beta).
