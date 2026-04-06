@@ -10,11 +10,13 @@ We use [semantic versioning](https://nekosia.cat/documentation?page=introduction
 
 Entries are sorted from newest to oldest. Labels: `[WWW]`, `[API]`, `[CDN]`, `[CRON]`.
 
-### [WWW] v1.3.1-rc.1+20260405 {#www-20260405}
-1. Improved error page styling.
-2. Added a dedicated script for toasts and dialogs.
-3. Added a role system (beta).
+### [WWW] v1.3.1-rc.1+20260406 {#www-20260406}
+1. Improved the appearance of the main page.
+2. Improved error page styling.
+3. Added a role system.
 4. Updated the color palette for each image.
+5. Added a dedicated script for toasts and dialogs.
+6. Page title now cycles through cute kawaii messages while the tab is in the background.
 
 ### [WWW] v1.3.0-rc.1+20260402 {#www-20260402}
 1. Redesigned and improved the appearance of the homepage and several other pages.
