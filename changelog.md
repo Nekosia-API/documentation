@@ -53,12 +53,12 @@ Entries are sorted from newest to oldest. Labels: `[WWW]`, `[API]`, `[CDN]`, `[C
 3. Various bug fixes and improvements.
 4. Dependencies updated to the latest stable versions.
 
-### [API] v1.2.4-rc.1+20260115 {#api-20260115}
+### [WWW] v1.2.4-rc.1+20260115 {#api-20260115}
 1. Performance and quality improvements.
 2. Dependencies updated to the latest stable versions.
 3. Other fixes.
 
-### [API] 24.06.2025 {#api-20250624}
+### [WWW] 24.06.2025 {#api-20250624}
 1. Performance and quality improvements.
 2. Dependencies updated to the latest stable versions.
 3. Updated EXIF data for each image.
@@ -79,7 +79,7 @@ Entries are sorted from newest to oldest. Labels: `[WWW]`, `[API]`, `[CDN]`, `[C
 1. The minimum length of the `id` parameter was changed from 6 to 4 characters. Valid range: 4–128 characters.
 2. Updated dependencies.
 
-### [API] 16.12.2024 {#api-20241216}
+### [WWW] 16.12.2024 {#api-20241216}
 1. Updated dependencies.
 2. Other fixes.
 
@@ -106,7 +106,7 @@ Entries are sorted from newest to oldest. Labels: `[WWW]`, `[API]`, `[CDN]`, `[C
 2. The `key` field in the JSON response can now be `undefined`.
 3. Minor adjustments were made.
 
-### [API] 19.08.2024 {#api-20240819}
+### [WWW] 19.08.2024 {#api-20240819}
 1. Released the official [nekosia.js](https://www.npmjs.com/package/nekosia.js) module.
 2. Website and documentation improvements.
 3. Created the `tos.md` document.
