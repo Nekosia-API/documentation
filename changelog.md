@@ -17,7 +17,8 @@ Entries are sorted from newest to oldest. Labels: `[WWW]`, `[API]`, `[CDN]`, `[C
 4. Improved email appearance.
 5. Improved role styling.
 6. Improved user profile settings, reordered options and added a link to the privacy policy section on email correspondence.
-7. Various bug fixes and code quality improvements.
+7. Added a hidden Easter egg on the home page. 🐾
+8. Various bug fixes and code quality improvements.
 
 ### [WWW] v1.3.1-rc.1+20260406 {#www-20260406}
 1. Improved the appearance of the main page.
