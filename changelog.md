@@ -10,6 +10,15 @@ We use [semantic versioning](https://nekosia.cat/documentation?page=introduction
 
 Entries are sorted from newest to oldest. Labels: `[WWW]`, `[API]`, `[CDN]`, `[CRON]`.
 
+### [WWW] v1.3.2-rc.1+20260407 {#www-20260407}
+1. Added a newsletter system in the admin panel.
+2. Added a dedicated unsubscribe page with one-click unsubscribe support (RFC 8058).
+3. Replaced the markdown-based email pipeline with direct HTML templates.
+4. Improved email appearance.
+5. Improved role styling.
+6. Improved user profile settings, reordered options and added a link to the privacy policy section on email correspondence.
+7. Various bug fixes and code quality improvements.
+
 ### [WWW] v1.3.1-rc.1+20260406 {#www-20260406}
 1. Improved the appearance of the main page.
 2. Improved error page styling.
