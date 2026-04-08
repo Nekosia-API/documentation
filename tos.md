@@ -5,13 +5,13 @@
 
 # Nekosia API Terms {#nekosia-api-terms}
 
-## §0 Definitions {#definitions}
-See the [Definitions](https://nekosia.cat/documentation?page=definitions) document to familiarize yourself with the terms used in this document.
-
 ## Introduction {#introduction}
 Welcome to the Nekosia API! 😻 By using our Service, you agree to comply with the following terms.
 Please read them carefully to understand your rights and responsibilities as a User of our platform.
 These terms govern access to our API and the use of resources such as anime images. Remember that using the API signifies full acceptance of these terms.
+
+## §0 Definitions {#definitions}
+See the [Definitions](https://nekosia.cat/documentation?page=definitions) document to familiarize yourself with the terms used in this document.
 
 ## 1. Attribution {#api-attribution}
 Although Nekosia does not require mandatory attribution from Users, we appreciate it if you choose to include a link to [nekosia.cat](https://nekosia.cat) in your project description or mention that your work utilizes the Nekosia API.
