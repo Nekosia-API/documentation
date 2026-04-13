@@ -10,6 +10,11 @@ We use [semantic versioning](https://nekosia.cat/documentation?page=introduction
 
 Entries are sorted from newest to oldest. Labels: `[WWW]`, `[API]`, `[CDN]`, `[CRON]`.
 
+### [WWW] v1.4.0-rc.1+20260413 {#www-20260413}
+1. Removed the comments feature entirely from Nekosia Booru.
+2. Added animated particle backgrounds to role badges.
+3. Various code quality improvements and cleanup.
+
 ### [WWW] v1.3.2-rc.1+20260407 {#www-20260407}
 1. Added a newsletter system in the admin panel.
 2. Added a dedicated unsubscribe page with one-click unsubscribe support (RFC 8058).
