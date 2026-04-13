@@ -10,10 +10,15 @@ We use [semantic versioning](https://nekosia.cat/documentation?page=introduction
 
 Entries are sorted from newest to oldest. Labels: `[WWW]`, `[API]`, `[CDN]`, `[CRON]`.
 
-### [WWW] v1.4.0-rc.1+20260413 {#www-20260413}
-1. Removed the comments feature entirely from Nekosia Booru.
+### [WWW] v1.4.0-rc.1+20260414 {#www-20260414}
+1. Removed the comments feature from Nekosia Booru.
 2. Added animated particle backgrounds to role badges.
-3. Various code quality improvements and cleanup.
+3. Added the Contributor role — awarded automatically when a modification request is accepted.
+4. Various improvements and cleanup.
+
+### [CDN] v2.3.0-rc.1+20260414 {#cdn-20260414}
+1. Performance and reliability improvements.
+2. Various bug fixes and code quality improvements.
 
 ### [WWW] v1.3.2-rc.1+20260407 {#www-20260407}
 1. Added a newsletter system in the admin panel.
