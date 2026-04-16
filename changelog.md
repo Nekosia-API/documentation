@@ -49,7 +49,7 @@ Entries are sorted from newest to oldest. Labels: `[WWW]`, `[API]`, `[CDN]`, `[C
 8. Login via X (formerly Twitter) now uses OAuth2.
 9. Various improvements to other authentication services.
 10. Improved error handling - the server now returns dedicated error pages instead of empty responses.
-11. Production builds now serve only minified and optimized code for faster loading.
+11. ~~Production builds now serve only minified and optimized code for faster loading.~~
 12. Introduced a new metrics system available exclusively to administrators.
 13. Cleaned up the database schema and collections to improve performance and workflow quality.
 14. Added a Privacy Policy link in the footer.
