@@ -10,6 +10,14 @@ We use [semantic versioning](https://nekosia.cat/documentation?page=introduction
 
 Entries are sorted from newest to oldest. Labels: `[WWW]`, `[API]`, `[CDN]`, `[CRON]`.
 
+### [WWW] v1.4.1-rc.1+20260421 {#www-20260421}
+1. Improved SEO for Booru image pages.
+2. Fixed image info panel layout — shadows and hover animations were being clipped.
+3. Improved live statistics on the home page (WebSocket).
+4. Consolidated SVG icons into a single sprite file for faster loading.
+5. Improved dialog and toast notification handling.
+6. Various bug fixes and improvements.
+
 ### [WWW] v1.4.0-rc.1+20260414 {#www-20260414}
 1. Removed the comments feature from Nekosia Booru.
 2. Added animated particle backgrounds to role badges.
