@@ -75,16 +75,3 @@ Users agree to submit to the jurisdiction of the Polish courts competent for the
 
 ## 7. Contact {#api-contact}
 If you have any questions regarding these Terms of Use, please email support@nekosia.cat. We strive to respond to all inquiries within 48 hours.
-
-
-# Nekosia Booru Terms {#booru-terms}
-Nekosia Booru does not yet have the ability to upload images to the Service, so there are no specific rules.
-Each registered User has a public Profile on Nekosia Booru, visible to other Users. The Profile contains basic account information such as username and avatar.
-However, please remember to behave in accordance with netiquette rules, including:
-1. Do not insult anyone.
-2. Maintain proper conduct.
-3. Think before you write.
-4. Be careful with what you share.
-5. Write correctly.
-6. Respect privacy.
-7. Do not troll.
