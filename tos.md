@@ -14,7 +14,7 @@ These terms govern access to our API and the use of resources such as anime imag
 See the [Definitions](https://nekosia.cat/documentation?page=definitions) document to familiarize yourself with the terms used in this document.
 
 ## 1. Attribution {#api-attribution}
-Although Nekosia does not require mandatory attribution from Users, we appreciate it if you choose to include a link to [nekosia.cat](https://nekosia.cat) in your project description or mention that your work utilizes the Nekosia API.
+Although Nekosia does not require mandatory attribution for the project itself, we appreciate it if you choose to include a link to [nekosia.cat](https://nekosia.cat) in your project description or mention that your work utilizes the Nekosia API.
 This would be very kind of you. An example of attribution might look like this:
 ```html
 This project is powered by <a href="https://nekosia.cat" target="_blank" title="Enhance your projects with the magic of anime and a touch of feline charm meow~~! Discover why switching to Nekosia is the purrfect choice!">Nekosia API</a>.
@@ -34,7 +34,7 @@ All images provided by the Nekosia API are the property of their original creato
 - **Respect for copyright**: Content available through the API may not be used in a way that infringes on the creators' copyrights. Each user is responsible for obtaining any necessary licenses or permissions from rights holders if required. Failure to comply with these rules may result in restriction or revocation of API access.
 
 ### Artist Attribution {#api-artist-attribution}
-When publishing images sourced from the Nekosia API, **you are required to provide the artist's name** and a link to their social media and/or website. This attribution is not only a sign of respect for the creators but also helps promote their work. Failure to provide proper attribution may result in restrictions on API access or other consequences.
+When publishing images sourced from the Nekosia API, **you are required to provide the artist's name** if this information is available in the API response. Adding a link to the artist's social media, profile, and/or original source is strongly recommended whenever possible. This attribution is not only a sign of respect for the creators but also helps promote their work. Failure to provide proper attribution may result in restrictions on API access or other consequences.
 
 ### Commercial Use {#api-commercial-use}
 **YOU MAY NOT** use the Nekosia API for commercial purposes without prior written consent.

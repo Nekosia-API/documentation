@@ -33,7 +33,7 @@ Whether you're a developer creating a new application or an integrator looking f
   All images are hosted on the Nekosia server and delivered via CDN, ensuring constant availability.
 
 - **Safe Content:**
-  The API is focused on SFW content. All images are appropriate for general audiences. See the [Content Ratings](https://nekosia.cat/documentation?page=introduction#content-ratings) section below for details.
+  The API serves `safe` content by default. `suggestive` content is available only when explicitly requested. See the [Content Ratings](https://nekosia.cat/documentation?page=introduction#content-ratings) section below for details.
 
 - **Uptime:**
   The API and website are monitored by an external system 24/7, ensuring availability at all times. Users can use the Service at any time without interruptions. In case of planned maintenance, Users will be informed in advance.
@@ -42,7 +42,7 @@ Whether you're a developer creating a new application or an integrator looking f
   Any comments, suggestions, or issues related to the API can be reported on the Discord server or via email. We are open to feedback and eager to collaborate with Users to further improve our Service.
 
 - **Free Usage:**
-  The API is free to use, meaning there are no charges or usage restrictions.
+  The API is free to use, meaning there are no charges for standard public use. Commercial use still requires prior consent. See the [Terms of Service](https://nekosia.cat/documentation?page=tos#api-commercial-use).
 
 > These are just a few key points to understand before starting to use the API. More information on the available features can be found on the [official website](https://nekosia.cat).
 > We encourage you to read the full documentation to fully utilize the capabilities offered by the API. Good luck!
@@ -114,7 +114,7 @@ You can find Nekosia's public repositories [here](https://github.com/Nekosia-API
 
 
 ## Credits and Support {#credits-support}
-There is no requirement for attribution when using the Nekosia API.
+There is no requirement to credit the Nekosia project itself when using the API.
 However, if your project uses this solution, it would be appreciated if a link to the website [nekosia.cat](https://nekosia.cat) is included in the project description or if it's mentioned that the project uses the Nekosia API.
 
 This gesture helps reach more Users and supports the growth of the community.
@@ -122,7 +122,7 @@ Thank you for the support and for appreciating the work!
 
 
 ## Attribution {#attribution}
-When using the API, it's important to credit the username of the author of a specific photo (if the API provides this information) in your project.
+When using the API, it's important to credit the username of the author of a specific photo if the API provides this information.
 This can be done by including the author's name, for example, in the footer (in the case of Discord, in the embed footer).
 It's also good practice to include a link to the author's profile or the source of the photo to fully acknowledge the artist's work.
 

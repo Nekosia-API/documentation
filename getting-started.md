@@ -53,6 +53,7 @@
       }
    }
    ```
+   In the example above, `count` describes how many images matched the current query after filtering. It is not the number of fields in the response.
 
 4. **Integration with your app**:  
    Use the above sample request and response to integrate the API with your application.

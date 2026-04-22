@@ -11,18 +11,16 @@ See the [Definitions](https://nekosia.cat/documentation?page=definitions) docume
 ## §1 Cookies {#cookies}
 1. The Service uses Cookies to improve functionality and ensure proper User settings.
 2. Users can manage Cookies through their web browser settings.
-3. Cookies are also used for Service security, performance improvement, and providing personalized content and advertisements.
+3. Cookies are also used for Service security, performance improvement, and remembering User preferences.
 
 ## §2 Types of Cookies {#types-of-cookies}
 1. **Session Cookies:** Stored on the User's device only during a browsing session and deleted after the browser is closed.
 2. **Persistent Cookies:** Stored on the User's device for a specified time, even after the browser is closed.
-3. **Third-party Cookies:** Placed by external websites such as advertising partners or analytics providers.
 
 ## §3 Use of Cookies {#use-of-cookies}
 1. **Necessary Cookies:** Essential for the proper functioning of the Service. They enable navigation and use of its features.
 2. **Functional Cookies:** Allow the Service to remember User choices (e.g., language, region) and provide more personalized features.
 3. **Performance Cookies:** Collect information on how Users use the Service, such as which pages are visited most often, and if error messages are received. These Cookies do not collect User-identifying information.
-4. **Advertising Cookies:** Used to deliver advertisements relevant to the User and their interests. They are also used to limit the number of times an ad is shown and to measure the effectiveness of advertising campaigns.
 
 ## §4 Managing Cookies {#managing-cookies}
 1. Users can manage Cookie settings at any time through their web browser settings.
@@ -30,13 +28,13 @@ See the [Definitions](https://nekosia.cat/documentation?page=definitions) docume
 3. Users can delete all Cookies stored on their device through browser settings. Use the "delete browsing history" option and select Cookies. Users will be logged out of the Service as a result.
 
 ## §5 Third-Party Cookies {#third-party-cookies}
-1. Our Service may contain Cookies placed by external services such as advertising partners, analytics providers, or social media services.
-2. Third-party Cookies are subject to the privacy policies of these services. We recommend reviewing their privacy policies to understand their use of Cookies.
+1. The Service does not use third-party tracking cookies. No external analytics, advertising, or social media tracking scripts are loaded on this website.
+2. All Cookies used by the Service are set exclusively by the Service itself and serve only the purposes described in this policy.
 
 ## §6 Purposes of Using Cookies {#purposes-of-using-cookies}
 1. **Ensuring security:** Cookies are used to protect the website from abuse and attacks.
 2. **Optimizing website performance:** Cookies help analyze website performance and implement improvements.
-3. **Content personalization:** Cookies enable the delivery of personalized content and remembering User preferences.
+3. **Remembering preferences:** Cookies enable the Service to remember User preferences and interface choices.
 
 ## §7 Contact Information {#contact}
 1. For questions about our cookies policy, please contact us via the email address provided on the [About](https://nekosia.cat/about) page.

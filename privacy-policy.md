@@ -25,13 +25,14 @@ See the [Definitions](https://nekosia.cat/documentation?page=definitions) docume
 5. **Technical Data:** We collect technical information about devices used to access the Service, such as browser type and operating system. This data is processed solely based on the client user-agent and is not linked to specific Users.
 
 ## §4 Email Correspondence {#email-correspondence}
-1. During registration, Users may optionally consent to receiving email correspondence from the service.
-2. Emails are sent exclusively in the case of important service-related events, such as:
-   - significant platform updates, particularly those affecting how the service is used,
-   - important API changes, especially those that are not backwards-compatible.
-3. We do not send promotional, marketing, or spam emails.
-4. Email correspondence is infrequent and sent very rarely, only in cases justified by the operation of the service.
-5. Consent to email correspondence is optional and may be withdrawn at any time by contacting the Administrator at the email address provided on the [About](https://nekosia.cat/about) page.
+1. During registration, Users may optionally consent to receiving email correspondence related to the service.
+2. Emails are sent very rarely — at most a few times per year — and only in connection with:
+   - significant platform updates or breaking API changes,
+   - release summaries and announcements,
+   - occasional general service announcements or promotional messages about Nekosia.
+3. We do not send spam or emails on behalf of third parties.
+4. Email correspondence is infrequent and limited strictly to matters related to the Service.
+5. Consent to email correspondence may be withdrawn at any time through profile settings, the unsubscribe link included in newsletter emails, or by contacting the Administrator at the email address provided on the [About](https://nekosia.cat/about) page.
 6. To stay up to date with service updates and important API information, we recommend joining the Discord server: [discord.gg/pba76vJhcP](https://discord.gg/pba76vJhcP). All important announcements and changes appear there first.
 
 ## §5 Data Processing Principles {#data-processing-principles}

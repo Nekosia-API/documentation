@@ -5,7 +5,7 @@
 
 # Definitions {#definitions}
 1. **Administrator**: A natural or legal person who, alone or jointly with others, determines the purposes and means of processing Personal Data and ensures their processing complies with applicable law.
-2. **Service**: The Nekosia website, available at https://nekosia.cat, operated by the Administrator.
+2. **Service**: The Nekosia website and public API, available under the `nekosia.cat` domain, operated by the Administrator.
 3. **User**: Any natural person visiting or using the Service.
 4. **Terms and Conditions**: The document that defines the rules for using the Service and the rights and obligations of Users and the Administrator.
 5. **Privacy Policy**: The document that defines the rules for processing Users' Personal Data by the Administrator.

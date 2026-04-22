@@ -28,12 +28,14 @@ All API requests should be directed to the base URL [`api.nekosia.cat/api/v1`](h
 This endpoint allows you to fetch random images from a selected category.
 
 ## Parameters {#parameters}
-> `/images/:category?count={int}&additionalTags={string}&blacklistedTags={string}&rating={string}`
+> `/images/:category?count={int}&additionalTags={string}&blacklistedTags={string}&rating={string}&session={string}&id={string}`
 - `:category` - Check the available tags on [our Booru page](https://nekosia.cat/booru/tags). Each image is assigned to one main category.
 - `?count` (default: `1`) - The number of images to fetch (default: 1, maximum: 20). The higher the number, the longer the server response time (in milliseconds).
 - `&additionalTags` - Additional tags to include when searching for images.
 - `&blacklistedTags` - Tags to exclude from the search results.
 - `&rating` (default: `safe`) - Filters images by content rating. Accepted values: `safe` and `suggestive`. Any other value returns a `400` error. See [Content Ratings](https://nekosia.cat/documentation?page=introduction#content-ratings) for more details.
+- `&session` - Optional session type used to avoid duplicates. Accepted values: `ip` and `id`.
+- `&id` - Optional session identifier used when `session=id`.
 
 ## Response Structure {#response-structure}
 ```json
@@ -57,6 +59,7 @@ This endpoint allows you to fetch random images from a selected category.
     "attribution": { "artist": { "username": String || null, "profile": String || null }, "copyright": String || null }
 }
 ```
+In the response above, `count` indicates how many images matched the current query after filters were applied.
 
 ## Example Request {#example-request-1}
 > **GET** /images/**cute**?**count**=3&**additionalTags**=white-hair,uniform&**blacklistedTags**=short-hair,sad,maid
