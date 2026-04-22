@@ -10,6 +10,12 @@ We use [semantic versioning](https://nekosia.cat/documentation?page=introduction
 
 Entries are sorted from newest to oldest. Labels: `[WWW]`, `[API]`, `[CDN]`, `[CRON]`.
 
+### [WWW] v1.4.2-rc.1+20260422 {#www-20260422}
+1. Improved and corrected documentation — cookies policy, privacy policy, ToS, and API endpoint descriptions.
+2. Documented `session` and `id` parameters for the `/images/:category` endpoint; added clarification on the `count` field.
+3. Various documentation fixes and wording improvements.
+4. Updated artist usernames to their current versions and refreshed EXIF metadata across all affected images.
+
 ### [WWW] v1.4.1-rc.1+20260421 {#www-20260421}
 1. Improved SEO for Booru image pages.
 2. Fixed image info panel layout — shadows and hover animations were being clipped.
