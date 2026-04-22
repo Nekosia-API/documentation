@@ -1,24 +1,23 @@
 [//]: # (Title: Definitions - Nekosia API Docs)
-[//]: # (Desc: Comprehensive definitions for Nekosia API documentation, covering key terms and concepts used in the service.)
+[//]: # (Desc: A set of definitions for the Nekosia API documentation, covering key terms and concepts used in the service.)
 [//]: # (Tags: definitions, Nekosia, API, documentation, Nekosia definitions, Nekosia API terms, Nekosia documentation glossary, API terminology, service definitions, user terms, data processing)
 [//]: # (Canonical: definitions)
 
 # Definitions {#definitions}
-
-1. **Administrator**: A natural or legal person who, alone or jointly with others, determines the purposes and means of processing Personal Data and is responsible for processing them in accordance with the law.
-2. **Service**: The Nekosia website, available at the URL [nekosia.cat](https://nekosia.cat), owned by the Administrator.
-3. **User**: Any natural person visiting the Service and using its functionalities.
-4. **Personal Data**: Any information relating to an identified or identifiable natural person.
-5. **Data Processing**: Any operation performed on Personal Data, such as collecting, recording, organizing, structuring, storing, adapting or altering, retrieving, consulting, using, disclosing by transmission, dissemination or otherwise making available, aligning or combining, restricting, erasing or destroying.
-6. **Terms and Conditions**: The document that defines the rules for using the Service, the rights and obligations of the Users and the Administrator.
-7. **Privacy Policy**: The document that defines the rules for processing the Personal Data of Users by the Administrator.
-8. **Cookies Policy**: The document that defines the rules for using Cookies on the Service.
-9. **Account**: An individual User's account on the Service, allowing access to the functionalities available on the Service.
-10. **Profile**: A set of information about the User, including Personal Data, publicly visible within the User's Account on Nekosia Booru.
-11. **Registration**: The process of creating an Account on the Service, requiring the provision of data such as an email address, username, and password.
-12. **Login**: The process of authenticating the User on the Service using a username and password, or via OAuth.
-13. **Consent**: A voluntary, specific, informed, and unambiguous indication of the User's wishes, through a statement or clear action, to process their Personal Data.
-14. **Cookies**: Small text files stored on the User's device, used to store data related to the session, User preferences, or Service status.
-15. **IP Address**: A unique identifier number assigned to a device connected to a computer network, allowing its identification and communication within the network.
-16. **Tags**: Content categories browsed by Users on the Service, used to personalize displayed content.
-17. **OAuth**: An open standard for authorization, allowing Users to log in to the Service using an Account from another provider, such as Google.
+1. **Administrator**: A natural or legal person who, alone or jointly with others, determines the purposes and means of processing Personal Data and ensures their processing complies with applicable law.
+2. **Service**: The Nekosia website, available at https://nekosia.cat, operated by the Administrator.
+3. **User**: Any natural person visiting or using the Service.
+4. **Terms and Conditions**: The document that defines the rules for using the Service and the rights and obligations of Users and the Administrator.
+5. **Privacy Policy**: The document that defines the rules for processing Users' Personal Data by the Administrator.
+6. **Cookies Policy**: The document that defines the rules for the use of Cookies within the Service.
+7. **Account**: An individual User account on the Service, allowing access to its functionalities.
+8. **Profile**: A set of information about the User, e.g. username or profile description, publicly visible within the Service.
+9. **Registration**: The process of creating an Account on the Service, requiring the provision of data such as an e-mail address, username and password.
+10. **Login**: The process of authenticating the User on the Service using an e-mail address and password or via an OAuth provider.
+11. **OAuth**: An open authorization standard that allows Users to log in to the Service using an account from another provider, such as Google or another provider.
+12. **Personal Data**: Any information relating to an identified or identifiable natural person.
+13. **Data Processing**: Any operation performed on Personal Data, such as collection, recording, organization, structuring, storage, adaptation or modification, retrieval, consultation, use, disclosure by transmission, dissemination or otherwise making available, alignment or combination, restriction, erasure or destruction.
+14. **Consent**: A freely given, specific, informed and unambiguous indication of the User's wishes, expressed by a statement or clear affirmative action, regarding the processing of their Personal Data.
+15. **Cookies**: Small text files stored on the User's device, used to store data related to the session, User preferences or Service state.
+16. **IP Address**: A unique identifier assigned to a device or network in internet communication, enabling identification and data exchange.
+17. **Tags**: Labels assigned to content (e.g. images) within the Service, used to categorize and organize it.

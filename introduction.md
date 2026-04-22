@@ -24,13 +24,13 @@ Whether you're a developer creating a new application or an integrator looking f
   The booru is integrated with the API. Users can submit requests to the booru, such as tagging changes or content improvements. After verification by moderators, updated data will be available in the API responses.
 
 - **Avoiding Duplicates in Responses:**
-  The API uses session mechanisms (identified by IP address or an identification key) to prevent returning duplicate results. This allows users to receive different images depending on the specific session.
+  The API uses session mechanisms (identified by IP address or an identification key) to prevent returning duplicate results. This allows Users to receive different images depending on the specific session.
 
 - **No API Key Required:**
   The API does not require authorization keys or tokens, so you don't need to register to use it. This increases accessibility and convenience.
 
 - **Image Hosting:**
-  All images are hosted on the Nekosia server, and their availability is ensured by the API, guaranteeing constant access to resources.
+  All images are hosted on the Nekosia server and delivered via CDN, ensuring constant availability.
 
 - **Safe Content:**
   The API is focused on SFW content. All images are appropriate for general audiences. See the [Content Ratings](https://nekosia.cat/documentation?page=introduction#content-ratings) section below for details.
@@ -39,7 +39,7 @@ Whether you're a developer creating a new application or an integrator looking f
   The API and website are monitored by an external system 24/7, ensuring availability at all times. Users can use the Service at any time without interruptions. In case of planned maintenance, Users will be informed in advance.
 
 - **User Collaboration:**
-  Any comments, suggestions, or issues related to the API can be reported on the Discord server or via email. We are open to feedback and eager to collaborate with Users to further improve our services.
+  Any comments, suggestions, or issues related to the API can be reported on the Discord server or via email. We are open to feedback and eager to collaborate with Users to further improve our Service.
 
 - **Free Usage:**
   The API is free to use, meaning there are no charges or usage restrictions.
@@ -85,7 +85,7 @@ The Nekosia API uses semantic versioning 2.0.0. Each version consists of three n
 - Version `2.0.0` indicates that changes not compatible with version `1.1.1` have been introduced. An example might be removing or changing existing features that require Users to adjust their code.
 
 ### Available API Versions {#api-versions}
-The currently available API version is `v1`, which is the only version. Future versions containing new features and improvements are planned.
+The currently available API version is `v1`, which is the only version.
 In case of changes, the documentation will be updated to reflect the latest changes. Users will also be notified via the Discord server and the Service website.
 
 | API version                  | Released on | Last update                                                              | Recommended |
@@ -104,14 +104,12 @@ We are open to all feedback and happy to help resolve any issues.
 ## Contact and Support {#contact-support}
 If you have any questions, need assistance, or would like to report an issue, contact us on the Discord server or via email.
 Our support team is ready to help you with any matters related to the Nekosia API.
-We strive to respond to messages as quickly as possible to ensure you have the best experience using our service.
+We strive to respond to messages as quickly as possible to ensure you have the best experience using our Service.
 Moreover, on our Discord server, you'll find dedicated channels where you can get help from other users and participate in discussions about the development and future of Nekosia.
 
 
 ## Open Source {#open-source}
 Currently, neither the website nor the API is available as open-source projects.
-However, we plan to release the source code in the future, which will allow the community to actively contribute to the project's development, benefiting both us and all users.
-We believe that open-sourcing will accelerate development and the introduction of innovative solutions, while also increasing transparency and trust in the project.
 You can find Nekosia's public repositories [here](https://github.com/Nekosia-API).
 
 
@@ -119,14 +117,14 @@ You can find Nekosia's public repositories [here](https://github.com/Nekosia-API
 There is no requirement for attribution when using the Nekosia API.
 However, if your project uses this solution, it would be appreciated if a link to the website [nekosia.cat](https://nekosia.cat) is included in the project description or if it's mentioned that the project uses the Nekosia API.
 
-This gesture helps reach more users and supports the growth of the community.
+This gesture helps reach more Users and supports the growth of the community.
 Thank you for the support and for appreciating the work!
 
 
 ## Attribution {#attribution}
 When using the API, it's important to credit the username of the author of a specific photo (if the API provides this information) in your project.
 This can be done by including the author's name, for example, in the footer (in the case of Discord, in the embed footer).
-It's also good practice to include a link to the author's profile (e.g., Pixiv) or the source of the photo to fully acknowledge the artist's work.
+It's also good practice to include a link to the author's profile or the source of the photo to fully acknowledge the artist's work.
 
 
 ## Copyright {#copyright}
