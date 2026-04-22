@@ -71,22 +71,22 @@ Entries are sorted from newest to oldest. Labels: `[WWW]`, `[API]`, `[CDN]`, `[C
 4. Removed a non-functional category blocking condition that was never satisfied.
 5. Code quality improvements and optimizations.
 
-### [CRON] 2.4.3-rc.1+20260402 {#cron-#20260402}
+### [CRON] v2.4.3-rc.1+20260402 {#cron-20260402}
 1. Detection of similar images has been improved.
 2. General improvements to performance and code quality.
 
-### [WWW] v1.2.15-rc.1+20260225 {#www=20260225}
+### [WWW] v1.2.15-rc.1+20260225 {#www-20260225}
 1. Improved and refined the appearance of the homepage (mainly the cover).
 2. Fixed certain issues with `noscript`.
 3. Various bug fixes and improvements.
 4. Dependencies updated to the latest stable versions.
 
-### [WWW] v1.2.4-rc.1+20260115 {#api-20260115}
+### [WWW] v1.2.4-rc.1+20260115 {#www-20260115}
 1. Performance and quality improvements.
 2. Dependencies updated to the latest stable versions.
 3. Other fixes.
 
-### [WWW] 24.06.2025 {#api-20250624}
+### [WWW] 24.06.2025 {#www-20250624}
 1. Performance and quality improvements.
 2. Dependencies updated to the latest stable versions.
 3. Updated EXIF data for each image.
@@ -107,7 +107,7 @@ Entries are sorted from newest to oldest. Labels: `[WWW]`, `[API]`, `[CDN]`, `[C
 1. The minimum length of the `id` parameter was changed from 6 to 4 characters. Valid range: 4–128 characters.
 2. Updated dependencies.
 
-### [WWW] 16.12.2024 {#api-20241216}
+### [WWW] 2024-12-16 {#www-20241216}
 1. Updated dependencies.
 2. Other fixes.
 
@@ -134,7 +134,7 @@ Entries are sorted from newest to oldest. Labels: `[WWW]`, `[API]`, `[CDN]`, `[C
 2. The `key` field in the JSON response can now be `undefined`.
 3. Minor adjustments were made.
 
-### [WWW] 19.08.2024 {#api-20240819}
+### [WWW] 2024-08-19 {#www-20240819}
 1. Released the official [nekosia.js](https://www.npmjs.com/package/nekosia.js) module.
 2. Website and documentation improvements.
 3. Created the `tos.md` document.
