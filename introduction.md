@@ -18,13 +18,13 @@ Whether you're a developer creating a new application or an integrator looking f
   The Nekosia API provides access to not only neko images but also other categories, offering a wide range of available content.
 
 - **Own Booru:**
-  Nekosia offers its own booru.
+  Nekosia offers its [own booru](https://nekosia.cat/booru?page=1).
 
 - **Integration with Booru:**
   The booru is integrated with the API. Users can submit requests to the booru, such as tagging changes or content improvements. After verification by moderators, updated data will be available in the API responses.
 
 - **Avoiding Duplicates in Responses:**
-  The API includes session mechanisms (identified by IP address or random identification key) to avoid duplicate responses. This way, Users can receive different images depending on the specific session.
+  The API uses session mechanisms (identified by IP address or an identification key) to prevent returning duplicate results. This allows users to receive different images depending on the specific session.
 
 - **No API Key Required:**
   The API does not require authorization keys or tokens, so you don't need to register to use it. This increases accessibility and convenience.

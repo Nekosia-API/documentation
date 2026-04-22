@@ -25,7 +25,7 @@ The above example is optional and can be tailored to your needs.
 
 ### Access to the API {#api-access-to-api}
 The Nekosia API provides access to random anime images as described in our documentation. To ensure fair and appropriate use of the API, all Users are required to adhere to the following rules:
-- **Adherence to query limits**: Each User must comply with the established query limits per minute or hour, as specified in the API documentation. These limits are essential to ensure equal access to resources for all Users. Depending on the User's plan, these limits may vary. Abusing these limits or attempting to bypass them may result in temporary suspension of API access, and in cases of serious violations, permanent blocking of access.
+- **Adherence to query limits**: Each User must comply with the established query limits per minute or hour, as specified in the API documentation. These limits are essential to ensure equal access to resources for all Users. Abusing these limits or attempting to bypass them may result in temporary suspension of API access, and in cases of serious violations, permanent blocking of access.
 - **Responsible use**: The API should be used according to its intended purpose. Any attempts to manipulate API functionality, bypass security measures, or use the API in a way that could harm other Users will be considered a serious violation of the Terms of Use. In extreme cases, such as intentional and repeated abuse, your IP address may be reported to [AbuseIPDB](https://abuseipdb.com) and [SniffCat](https://sniffcat.com).
 
 ### Content {#api-content}

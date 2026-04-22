@@ -86,7 +86,7 @@ const fetchNekoImage = async () => {
 
       console.log(json.image.original.url);
    } catch (err) {
-      console.error(err.stack);
+      console.error(err.message);
    }
 };
 
