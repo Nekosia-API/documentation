@@ -10,6 +10,10 @@ We use [semantic versioning](https://nekosia.cat/documentation?page=introduction
 
 Entries are sorted from newest to oldest. Labels: `[WWW]`, `[API]`, `[CDN]`, `[CRON]`.
 
+### [WWW] v1.4.3-rc.1+20260510 {#www-20260510}
+1. Fixed known issues with oAuth2 for X.
+2. Updated dependencies to the latest version.
+
 ### [WWW] v1.4.2-rc.1+20260422 {#www-20260422}
 1. Improved and corrected documentation — cookies policy, privacy policy, ToS, and API endpoint descriptions.
 2. Documented `session` and `id` parameters for the `/images/:category` endpoint; added clarification on the `count` field.
