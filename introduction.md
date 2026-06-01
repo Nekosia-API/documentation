@@ -1,7 +1,7 @@
 ---
 title: Introduction - Nekosia API Docs
 desc: Nekosia is a free Neko API for integrating anime content into your projects. With cute anime images and a dedicated Booru, Nekosia has everything you need!
-tags: introduction, nekosia api introduction, nekosia api docs introduction, nekosia api overview, nekosia api summary, nekosia api guide, nekosia api documentation, nekosia api intro
+tags: [introduction, nekosia api introduction, nekosia api docs introduction, nekosia api overview, nekosia api summary, nekosia api guide, nekosia api documentation, nekosia api intro]
 canonical: introduction
 ---
 

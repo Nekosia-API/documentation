@@ -1,7 +1,7 @@
 ---
 title: Terms of Service - Nekosia API Docs
 desc: Explore the detailed Terms of Service for Nekosia API and Booru. Learn about usage rules, attribution requirements, copyright policies, commercial use guidelines, and more.
-tags: nekosia, api terms of service, nekosia api, booru guidelines, copyright, attribution, dmca, commercial use, anime api, legal compliance
+tags: [nekosia, api terms of service, nekosia api, booru guidelines, copyright, attribution, dmca, commercial use, anime api, legal compliance]
 canonical: tos
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Cookies policy - Nekosia API Docs
 desc: Comprehensive cookies policy for Nekosia API documentation, detailing usage, management, and types of cookies.
-tags: cookies, nekosia, api, cookies policy, nekosia api cookies, cookies management, privacy, cookies usage, session cookies, third-party cookies
+tags: [cookies, nekosia, api, cookies policy, nekosia api cookies, cookies management, privacy, cookies usage, session cookies, third-party cookies]
 canonical: cookies
 ---
 

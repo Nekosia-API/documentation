@@ -1,7 +1,7 @@
 ---
 title: Libraries and Wrappers - Nekosia API Docs
 desc: Nekosia offers wrappers for various programming languages, making it easier to use the API! Learn more.
-tags: nekosia, libraries, wrappers, api, nekosia wrappers, nekosia node.js, nekosia npm, nekosia wrappers
+tags: [nekosia, libraries, wrappers, api, nekosia wrappers, nekosia node.js, nekosia npm, nekosia wrappers]
 canonical: wrappers
 ### c# &#40;nuget&#41; {#c-sharp})
 [//]: # (- [nekosia]&#40;https://nekosia.cat&#41; &#40;coming soon&#41;

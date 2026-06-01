@@ -1,7 +1,7 @@
 ---
 title: Definitions - Nekosia API Docs
 desc: A set of definitions for the Nekosia API documentation, covering key terms and concepts used in the service.
-tags: definitions, Nekosia, API, documentation, Nekosia definitions, Nekosia API terms, Nekosia documentation glossary, API terminology, service definitions, user terms, data processing
+tags: [definitions, Nekosia, API, documentation, Nekosia definitions, Nekosia API terms, Nekosia documentation glossary, API terminology, service definitions, user terms, data processing]
 canonical: definitions
 ---
 
