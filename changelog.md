@@ -10,19 +10,23 @@ We use [semantic versioning](https://nekosia.cat/documentation?page=introduction
 
 Entries are sorted from newest to oldest. Labels: `[WWW]`, `[API]`, `[CDN]`, `[CRON]`.
 
+### [WWW] v1.4.4-rc.1+20260601 {#www-20260601}
+1. The `anime.character` field has been changed to `anime.characters` (array) - images can now have multiple character names assigned.
+2. Updated dependencies to the latest version.
+
 ### [WWW] v1.4.3-rc.1+20260510 {#www-20260510}
 1. Fixed known issues with oAuth2 for X.
 2. Updated dependencies to the latest version.
 
 ### [WWW] v1.4.2-rc.1+20260422 {#www-20260422}
-1. Improved and corrected documentation — cookies policy, privacy policy, ToS, and API endpoint descriptions.
+1. Improved and corrected documentation - cookies policy, privacy policy, ToS, and API endpoint descriptions.
 2. Documented `session` and `id` parameters for the `/images/:category` endpoint; added clarification on the `count` field.
 3. Various documentation fixes and wording improvements.
 4. Updated artist usernames to their current versions and refreshed EXIF metadata across all affected images.
 
 ### [WWW] v1.4.1-rc.1+20260421 {#www-20260421}
 1. Improved SEO for Booru image pages.
-2. Fixed image info panel layout — shadows and hover animations were being clipped.
+2. Fixed image info panel layout - shadows and hover animations were being clipped.
 3. Improved live statistics on the home page (WebSocket).
 4. Consolidated SVG icons into a single sprite file for faster loading.
 5. Improved dialog and toast notification handling.
@@ -31,7 +35,7 @@ Entries are sorted from newest to oldest. Labels: `[WWW]`, `[API]`, `[CDN]`, `[C
 ### [WWW] v1.4.0-rc.1+20260414 {#www-20260414}
 1. Removed the comments feature from Nekosia Booru.
 2. Added animated particle backgrounds to role badges.
-3. Added the Contributor role — awarded automatically when a modification request is accepted.
+3. Added the Contributor role - awarded automatically when a modification request is accepted.
 4. Various improvements and cleanup.
 
 ### [CDN] v2.3.0-rc.1+20260414 {#cdn-20260414}
@@ -75,7 +79,7 @@ Entries are sorted from newest to oldest. Labels: `[WWW]`, `[API]`, `[CDN]`, `[C
 16. General improvements to performance, security, and code quality.
 
 ### [API] v1.2.6-rc.1+20260402 {#api-20260402}
-1. The `rating` parameter is now validated — providing an invalid value results in a `400` response instead of silently falling back to `safe`.
+1. The `rating` parameter is now validated - providing an invalid value results in a `400` response instead of silently falling back to `safe`.
 2. The `nothing` category without `additionalTags` now returns a descriptive `400` error instead of a generic "no results found" message.
 3. The `/tags` endpoint now returns only tags from images with `published: true`. Previously, it exposed tags from unpublished images.
 4. Removed a non-functional category blocking condition that was never satisfied.

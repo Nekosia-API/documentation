@@ -31,7 +31,7 @@ Nekosia API is completely free and available without registration, making it the
 
 ### Short version {#eng-short}
 ```text
-Hii! Looking for an API to power your project with cute anime images or an Anime Booru? Meet Nekosia API — a free, easy-to-use Anime API with tons of SFW images like catgirls and more.
+Hii! Looking for an API to power your project with cute anime images or an Anime Booru? Meet Nekosia API - a free, easy-to-use Anime API with tons of SFW images like catgirls and more.
 It offers smart sessions to avoid duplicates, lossless image compression, color data, and tags. No registration needed!
 Perfect for apps, Discord bots, or websites. We also run our own Anime Booru. Try it today! Meow~~ 😺💗
 
@@ -43,7 +43,7 @@ Perfect for apps, Discord bots, or websites. We also run our own Anime Booru. Tr
 ```text
 Are you looking for the perfect API to enhance your project with adorable anime images? Or maybe an Anime Booru? You're in the right place!
 Nekosia API is a free, easy-to-integrate Anime API with a wide selection of images, including catgirls and foxgirls.
-Great for apps, Discord bots, and websites — add a touch of anime magic today.
+Great for apps, Discord bots, and websites - add a touch of anime magic today.
 
 Official Website: https://nekosia.cat
 ```

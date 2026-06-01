@@ -26,7 +26,7 @@ See the [Definitions](https://nekosia.cat/documentation?page=definitions) docume
 
 ## §4 Email Correspondence {#email-correspondence}
 1. During registration, Users may optionally consent to receiving email correspondence related to the service.
-2. Emails are sent very rarely — at most a few times per year — and only in connection with:
+2. Emails are sent very rarely - at most a few times per year - and only in connection with:
    - significant platform updates or breaking API changes,
    - release summaries and announcements,
    - occasional general service announcements or promotional messages about Nekosia.
