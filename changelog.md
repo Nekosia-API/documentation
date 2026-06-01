@@ -11,8 +11,8 @@ We use [semantic versioning](https://nekosia.cat/documentation?page=introduction
 Entries are sorted from newest to oldest. Labels: `[WWW]`, `[API]`, `[CDN]`, `[CRON]`.
 
 ### [WWW] v1.4.4-rc.1+20260601 {#www-20260601}
-1. The `anime.character` field has been changed to `anime.characters` (array) - images can now have multiple character names assigned.
-2. Updated dependencies to the latest version.
+1. Images can now have multiple character names assigned (comma-separated). The `anime.character` field has been migrated to `anime.characters` (array) in the database. API v1 remains backward-compatible - the `character` field is still returned as a string. In a future API v2 release (if it happens), this field may be returned as a native array.
+2. Updated dependencies to the latest version across all projects.
 
 ### [WWW] v1.4.3-rc.1+20260510 {#www-20260510}
 1. Fixed known issues with oAuth2 for X.
