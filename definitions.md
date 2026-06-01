@@ -1,7 +1,9 @@
-[//]: # (Title: Definitions - Nekosia API Docs)
-[//]: # (Desc: A set of definitions for the Nekosia API documentation, covering key terms and concepts used in the service.)
-[//]: # (Tags: definitions, Nekosia, API, documentation, Nekosia definitions, Nekosia API terms, Nekosia documentation glossary, API terminology, service definitions, user terms, data processing)
-[//]: # (Canonical: definitions)
+---
+title: Definitions - Nekosia API Docs
+desc: A set of definitions for the Nekosia API documentation, covering key terms and concepts used in the service.
+tags: definitions, Nekosia, API, documentation, Nekosia definitions, Nekosia API terms, Nekosia documentation glossary, API terminology, service definitions, user terms, data processing
+canonical: definitions
+---
 
 # Definitions {#definitions}
 1. **Administrator**: A natural or legal person who, alone or jointly with others, determines the purposes and means of processing Personal Data and ensures their processing complies with applicable law.

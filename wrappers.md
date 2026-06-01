@@ -1,7 +1,11 @@
-[//]: # (Title: Libraries and Wrappers - Nekosia API Docs)
-[//]: # (Desc: Nekosia offers wrappers for various programming languages, making it easier to use the API! Learn more.)
-[//]: # (Tags: nekosia, libraries, wrappers, api, nekosia wrappers, nekosia node.js, nekosia npm, nekosia wrappers)
-[//]: # (Canonical: wrappers)
+---
+title: Libraries and Wrappers - Nekosia API Docs
+desc: Nekosia offers wrappers for various programming languages, making it easier to use the API! Learn more.
+tags: nekosia, libraries, wrappers, api, nekosia wrappers, nekosia node.js, nekosia npm, nekosia wrappers
+canonical: wrappers
+### c# &#40;nuget&#41; {#c-sharp})
+[//]: # (- [nekosia]&#40;https://nekosia.cat&#41; &#40;coming soon&#41;
+---
 
 # Libraries and Wrappers {#libraries-and-wrappers}
 Nekosia offers wrappers for various programming languages, making it easier to use the API.
@@ -15,9 +19,6 @@ Good luck!
 ## Official Libraries {#official-libraries}
 ### Node.js (npm) {#node-js}
 1. [nekosia.js](https://www.npmjs.com/package/nekosia.js)
-
-[//]: # (### C# &#40;NuGet&#41; {#c-sharp})
-[//]: # (- [nekosia]&#40;https://nekosia.cat&#41; &#40;coming soon&#41;)
 
 
 ## Community Libraries {#community-libraries}

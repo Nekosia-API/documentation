@@ -1,7 +1,9 @@
-[//]: # (Title: Free and Versatile Anime API with Adorable Images)
-[//]: # (Desc: Discover the versatile Nekosia Anime API offering free, SFW images of catgirls, foxgirls, and more! Perfect for enhancing apps, bots, and websites with anime charm. Explore now!)
-[//]: # (Tags: Anime API, Free API, Catgirls API, Foxgirls API, SFW Anime Images, Anime Pictures, Anime Booru, Developer Tools, Image Compression, Dominant Colors, Nekosia API)
-[//]: # (Canonical: advertisement)
+---
+title: Free and Versatile Anime API with Adorable Images
+desc: Discover the versatile Nekosia Anime API offering free, SFW images of catgirls, foxgirls, and more! Perfect for enhancing apps, bots, and websites with anime charm. Explore now!
+tags: Anime API, Free API, Catgirls API, Foxgirls API, SFW Anime Images, Anime Pictures, Anime Booru, Developer Tools, Image Compression, Dominant Colors, Nekosia API
+canonical: advertisement
+---
 
 # The best Nekos API for devs {#the-best-anime-nekos-api}
 

@@ -1,7 +1,9 @@
-[//]: # (Title: Changelog - Nekosia API Docs)
-[//]: # (Desc: Detailed version history of Nekosia API, including updates, new features, and compatibility notes.)
-[//]: # (Tags: changelog, changelogs, nekosia changelog, nekosia api changelog, nekosia api version history, nekosia version history, nekosia api docs changelog, version history, api updates, nekosia updates)
-[//]: # (Canonical: changelog)
+---
+title: Changelog - Nekosia API Docs
+desc: Detailed version history of Nekosia API, including updates, new features, and compatibility notes.
+tags: changelog, changelogs, nekosia changelog, nekosia api changelog, nekosia api version history, nekosia version history, nekosia api docs changelog, version history, api updates, nekosia updates
+canonical: changelog
+---
 
 # Changelog {#changelog}
 Nekosia and Booru are continuously developed. Each new version brings new features, important security fixes, and numerous improvements.

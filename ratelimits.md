@@ -1,7 +1,9 @@
-[//]: # (Title: Ratelimits - Nekosia API Docs)
-[//]: # (Desc: Learn about the rate limits for Nekosia and how they work. Find out what happens if you exceed the limits and how to avoid it.)
-[//]: # (Tags: ratelimits, nekosia api ratelimits, nekosia api docs ratelimits, nekosia api rate limits, nekosia api rate limiting)
-[//]: # (Canonical: ratelimits)
+---
+title: Ratelimits - Nekosia API Docs
+desc: Learn about the rate limits for Nekosia and how they work. Find out what happens if you exceed the limits and how to avoid it.
+tags: ratelimits, nekosia api ratelimits, nekosia api docs ratelimits, nekosia api rate limits, nekosia api rate limiting
+canonical: ratelimits
+---
 
 # Rate Limits {#ratelimits}
 The Nekosia API applies rate limits to ensure the stability and security of the services.
