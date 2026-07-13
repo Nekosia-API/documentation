@@ -12,6 +12,10 @@ We use [semantic versioning](https://nekosia.cat/documentation?page=introduction
 
 Entries are sorted from newest to oldest. Labels: `[WWW]`, `[API]`, `[CDN]`, `[CRON]`.
 
+### [WWW] v1.4.6-rc.1+20260713 {#www-20260713}
+1. Improvements and optimizations to documentation rendering.
+2. Updated dependencies to the latest version.
+
 ### [WWW] v1.4.5-rc.1+20260617 {#www-20260617}
 1. Added password reset - if you forget your password, you can now request a reset link by email straight from the login page.
 2. Improved security and introduced backend optimizations.
