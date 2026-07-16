@@ -12,6 +12,12 @@ We use [semantic versioning](https://nekosia.cat/documentation?page=introduction
 
 Entries are sorted from newest to oldest. Labels: `[WWW]`, `[API]`, `[CDN]`, `[CRON]`.
 
+### [WWW] v1.4.7-rc.1+20260716 {#www-20260716}
+1. Optimized HTTP server clustering.
+2. Reworked WebSocket server clustering by moving it to a separate process.
+3. Introduced backend and frontend improvements focused on code consistency, cleanup, and optimization.
+4. Updated dependencies to the latest version.
+
 ### [WWW] v1.4.6-rc.1+20260713 {#www-20260713}
 1. Improvements and optimizations to documentation rendering.
 2. Updated dependencies to the latest version.
