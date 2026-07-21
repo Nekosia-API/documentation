@@ -26,10 +26,10 @@ All API requests should be directed to the base URL [`api.nekosia.cat/api/v1`](h
 - Endpoint with all tags, anime titles, and characters: [`/tags`](https://api.nekosia.cat/api/v1/tags)
 
 
-# GET /images/:category {#get-image-category}
+## GET /images/:category {#get-image-category}
 This endpoint allows you to fetch random images from a selected category.
 
-## Parameters {#parameters}
+### Parameters {#parameters}
 > `/images/:category?count={int}&additionalTags={string}&blacklistedTags={string}&rating={string}&session={string}&id={string}`
 - `:category` - Check the available tags on [our Booru page](https://nekosia.cat/booru/tags). Each image is assigned to one main category.
 - `?count` (default: `1`) - The number of images to fetch (default: 1, maximum: 20). The higher the number, the longer the server response time (in milliseconds).
@@ -39,7 +39,7 @@ This endpoint allows you to fetch random images from a selected category.
 - `&session` - Optional session type used to avoid duplicates. Accepted values: `ip` and `id`.
 - `&id` - Optional session identifier used when `session=id`.
 
-## Response Structure {#response-structure}
+### Response Structure {#response-structure}
 ```json
 {
     "success": Boolean,
@@ -63,42 +63,42 @@ This endpoint allows you to fetch random images from a selected category.
 ```
 In the response above, `count` indicates how many images matched the current query after filters were applied.
 
-## Example Request {#example-request-1}
+### Example Request {#example-request-1}
 > **GET** /images/**cute**?**count**=3&**additionalTags**=white-hair,uniform&**blacklistedTags**=short-hair,sad,maid
 
 
-## Filters {#filters}
+### Filters {#filters}
 Categories (`:category`) are essentially tags, but with additional filters applied to ensure content safety.
 These filters protect users from potentially inappropriate content and ensure compliance with our policy.
 Therefore, if you request catgirl images (`/images/catgirl`), you will never receive anime girl images in swimsuits, for example.
 
-### How to Bypass Filters? {#bypass-filters}
+#### How to Bypass Filters? {#bypass-filters}
 The Nekosia API offers a special category named `nothing`, which differs in both its operation and purpose from standard categories.
 Using this category allows you to retrieve images randomly based **only** on User-specified Tags, without applying the additional safety filters that are ALWAYS assigned to each category.
 
 The `nothing` category provides complete freedom in content selection, which is particularly useful when a user wants unrestricted access to images without the default constraints.
 This means that no automatic filter, which might block some images due to their potentially inappropriate nature, will be applied.
 
-### Important {#bypass-filters-important}
+#### Important {#bypass-filters-important}
 Keep in mind that bypassing filters means that the full responsibility for the safety and appropriateness of displayed content rests solely with you.
 The API serves only `safe` and `suggestive` rated images.
 
-### Example Request {#bypass-filters-example}
+#### Example Request {#bypass-filters-example}
 > **GET** /images/**nothing**?**count**=3&**additionalTags**=cat-ears,fox-ears,wolf-ears&**blacklistedTags**=dog-ears
 > <br><br>
 > `:category` - Must be set to `nothing`.<br>
 > `additionalTags` - **Required.** At least one tag must be provided. Without it, the API returns a `400` error.
 
 
-## Sessions {#sessions}
+### Sessions {#sessions}
 The API supports a session mechanism, which allows for tracking displayed images for Users. This way, you can avoid displaying duplicate images.
 Sessions can be identified by the User's IP Address or a unique session identifier (e.g., an external system user ID, such as Discord).
 
-### Types of Sessions {#session-types}
+#### Types of Sessions {#session-types}
 - `ip` - Session identified based on the User's IP Address. This is useful when you do not have a unique user identifier.
 - `id` - Session identified based on a unique user identifier passed in the `id` parameter. This can be, for example, a specific person's ID on Discord.
 
-### Session Parameters {#session-parameters}
+#### Session Parameters {#session-parameters}
 - `session` - Type of session (`ip` or `id`).
     - `ip` - Session identified based on the User's IP Address.
     - `id` (recommended) - Session identified based on a unique user identifier.
@@ -106,14 +106,14 @@ Sessions can be identified by the User's IP Address or a unique session identifi
     - Length of 4 to 128 characters.
     - No special characters such as: `!@#$%^&*()_+{}|:"<>?`
 
-### Example Requests {#session-example-requests}
+#### Example Requests {#session-example-requests}
 1. Session identified based on the IP address:
    > **GET** /images/catgirl?**session**=ip&**additionalTags**=foxgirl,wolfgirl,tail&**blacklistedTags**=doggirl
 
 2. Session identified based on a unique user identifier (e.g., from Discord):
    > **GET** /images/catgirl?**session**=id&**id**=437808476106784770&**additionalTags**=foxgirl,wolfgirl,tail&**blacklistedTags**=doggirl
 
-### Important Notes {#session-important-notes}
+#### Important Notes {#session-important-notes}
 1. **Uniqueness of IP-based sessions**:  
    IP-based sessions may not be fully unique, especially in shared networks.
 
@@ -129,22 +129,22 @@ Sessions can be identified by the User's IP Address or a unique session identifi
 5. **Security and privacy**:  
    Session identifiers and IP addresses are stored with the highest standards of security and privacy. This data is used solely for tracking displayed images and is not shared with third parties.
 
-### Use Cases {#session-use-cases}
+#### Use Cases {#session-use-cases}
 - `session=ip`: Can be used in cases where the user is not logged in, when the service does not offer a login feature, or when there is no way to identify a specific user.
 - `session=id`: Recommended for example for Discord bots. With this solution, the user will never encounter duplicate images.
 
 
-# GET /getImageById/:id {#get-by-image-id}
+## GET /getImageById/:id {#get-by-image-id}
 Retrieve details about a specific image.
 
-## Example Request {#example-request-2}
+### Example Request {#example-request-2}
 > **GET** /getImageById/66bc6b7481a59a1cf2c79db5
 
-## Via curl {#via-curl}
+### Via curl {#via-curl}
 ```bash
 curl https://api.nekosia.cat/api/v1/getImageById/66bc6b7481a59a1cf2c79db5
 ```
 
 
-# GET /tags {#tags-endpoint}
+## GET /tags {#tags-endpoint}
 Retrieve a full list of all tags, anime titles, and characters.

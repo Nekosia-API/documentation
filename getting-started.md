@@ -73,10 +73,10 @@ canonical: getting-started
    ```
 
 
-# Examples {#examples}
+## Examples {#examples}
 Below you will find detailed implementation examples using various programming languages and HTTP libraries. Each example includes code to fetch a random anime image from the Nekosia API.
 
-## Node.js: Axios {#nodejs-axios}
+### Node.js: Axios {#nodejs-axios}
 Sample implementation in [Node.js](https://nodejs.org) using the [axios](https://www.npmjs.com/package/axios) library to fetch a random image from the API:
 
 ```js
@@ -101,7 +101,7 @@ If an error occurs, `axios` will return a complete error object that can be hand
 This allows the developer to focus on implementing error handling logic rather than worrying about the specifics of checking the HTTP response.
 The error object contains information such as status code, error message, and details of the request and response, making it easier to debug and diagnose issues.
 
-## Demo {#demo}
+### Demo {#demo}
 
 <div style="display: flex;">
     <div style="flex: 1; padding-right: 20px;">
