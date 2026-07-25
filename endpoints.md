@@ -1,8 +1,10 @@
 ---
 title: API Endpoints - Nekosia API Docs
-desc: Explore Nekosia's API documentation for seamless access to diverse images and related information. Find detailed descriptions of each endpoint, session management, and more.
+desc: Explore Nekosia's API documentation for seamless access to diverse anime images and related data, with detailed endpoint descriptions and session management.
 tags: [nekosia, api, nekosia api, api endpoints, api documentation, image access, session management, image tags, API versions, base URL, category tags, shadow category, API sessions]
 canonical: endpoints
+createdAt: 28.07.2024
+updatedAt: 21.07.2026
 ---
 
 # API Endpoints Overview {#endpoints-overview}

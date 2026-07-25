@@ -3,6 +3,8 @@ title: Privacy policy - Nekosia API Docs
 desc: Privacy policy for Nekosia website. Learn how we protect your personal data and the principles that govern our service.
 tags: [privacy policy, Nekosia, API, documentation, personal data, data security, cookies]
 canonical: privacy-policy
+createdAt: 28.07.2024
+updatedAt: 01.06.2026
 ---
 
 # Privacy Policy {#privacy-policy}
