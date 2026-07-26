@@ -1,5 +1,5 @@
 ---
-title: Changelog - Nekosia API Docs
+title: Version history
 desc: Detailed version history of Nekosia API, including updates, new features, and compatibility notes.
 tags: [changelog, changelogs, nekosia changelog, nekosia api changelog, nekosia api version history, nekosia version history, nekosia api docs changelog, version history, api updates, nekosia updates]
 canonical: changelog

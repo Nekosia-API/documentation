@@ -1,5 +1,5 @@
 ---
-title: Getting Started - Nekosia API Docs
+title: Getting started
 desc: Introductory guide for Nekosia API, covering setup, sending requests, and handling errors.
 tags: [getting started, nekosia api getting started, nekosia api docs, api introduction, api guide, nekosia tutorial, api setup, api integration, api examples]
 canonical: getting-started

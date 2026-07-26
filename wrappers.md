@@ -1,5 +1,5 @@
 ---
-title: Libraries and Wrappers - Nekosia API Docs
+title: Libraries
 desc: Nekosia offers wrappers for various programming languages, making it easier to use the API! Learn more.
 tags: [nekosia, libraries, wrappers, api, nekosia node.js, nekosia npm, nekosia wrappers]
 canonical: wrappers
