@@ -14,6 +14,9 @@ We use [semantic versioning](https://nekosia.cat/documentation?page=introduction
 
 Entries are sorted from newest to oldest. Labels: `[WWW]`, `[API]`, `[CDN]`, `[CRON]`.
 
+### [WWW] v1.4.10-rc.1+20260802 {#www-20260802}
+1. The backend has been optimized.
+
 ### [WWW] v1.4.9-rc.1+20260728 {#www-20260728}
 1. Added support for uploading images from DeviantArt to Nekosia (in the service's admin panel).
 2. Cleaned up the code and introduced other fixes.
