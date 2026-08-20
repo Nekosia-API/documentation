@@ -4,7 +4,7 @@ desc: Privacy policy for Nekosia website. Learn how we protect your personal dat
 tags: [privacy policy, Nekosia, API, documentation, personal data, data security, cookies]
 canonical: privacy-policy
 createdAt: 28.07.2024
-updatedAt: 01.06.2026
+updatedAt: 20.08.2026
 ---
 
 # Privacy Policy {#privacy-policy}
@@ -30,7 +30,7 @@ See the [Definitions](https://nekosia.cat/documentation?page=definitions) docume
 
 ## §4 Email Correspondence {#email-correspondence}
 1. During registration, Users may optionally consent to receiving email correspondence related to the service.
-2. Emails are sent very rarely - at most a few times per year - and only in connection with:
+2. Emails are usually sent no more than once per year, if at all, and only in connection with:
    - significant platform updates or breaking API changes,
    - release summaries and announcements,
    - occasional general service announcements or promotional messages about Nekosia.
