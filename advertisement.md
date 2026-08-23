@@ -57,6 +57,4 @@ Official Website: https://nekosia.cat
 ## Logo {#logo}
 If you want to use our logo, click [here](https://nekosia.cat/documentation?page=tos#api-use-of-name) to learn more.
 <br><br>
-<img src="https://nekosia.cat/favicons/128.png" alt="Nekosia API Logo - Blue">
-<img src="https://nekosia.cat/favicons/128-white.png" alt="Nekosia API Logo - White">
-<img src="https://nekosia.cat/favicons/128-n.png" alt="Nekosia API Logo - N">
+<img src="https://nekosia.cat/favicons/128.png" alt="Nekosia API Logo">

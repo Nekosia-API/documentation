@@ -4,7 +4,7 @@ desc: Detailed version history of Nekosia API, including updates, new features, 
 tags: [changelog, changelogs, nekosia changelog, nekosia api changelog, nekosia api version history, nekosia version history, nekosia api docs changelog, version history, api updates, nekosia updates]
 canonical: changelog
 createdAt: 28.07.2024
-updatedAt: 28.07.2026
+updatedAt: 23.08.2026
 ---
 
 # Changelog {#changelog}
@@ -13,6 +13,11 @@ Not all changes are documented here; we record only the most significant ones th
 We use [semantic versioning](https://nekosia.cat/documentation?page=introduction#semver).
 
 Entries are sorted from newest to oldest. Labels: `[WWW]`, `[API]`, `[CDN]`, `[CRON]`.
+
+### [WWW] v1.4.11-rc.1+20260823 {#www-20260823}
+1. Refreshed the site logo and favicon set.
+2. Simplified the navbar branding - removed the logo swap on scroll and the per-page logo color variants.
+3. Minor SEO and `<head>` cleanup.
 
 ### [WWW] v1.4.10-rc.1+20260802 {#www-20260802}
 1. The backend has been optimized.
