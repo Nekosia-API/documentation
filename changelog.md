@@ -17,7 +17,11 @@ Entries are sorted from newest to oldest. Labels: `[WWW]`, `[API]`, `[CDN]`, `[C
 ### [WWW] v1.4.11-rc.1+20260823 {#www-20260823}
 1. Refreshed the site logo and favicon set.
 2. Simplified the navbar branding - removed the logo swap on scroll and the per-page logo color variants.
-3. Minor SEO and `<head>` cleanup.
+3. Fixed the new navbar logo rendering oversized.
+4. Minor SEO and `<head>` cleanup.
+5. Fixed the homepage's particle background not showing up on some non-touch laptops.
+6. Reworked the homepage particle colors for better, more even visibility across the whole cover image.
+7. Fixed button background gradients snapping instantly on hover/active instead of transitioning smoothly.
 
 ### [WWW] v1.4.10-rc.1+20260802 {#www-20260802}
 1. The backend has been optimized.
