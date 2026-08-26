@@ -4,7 +4,7 @@ desc: Detailed version history of Nekosia API, including updates, new features, 
 tags: [changelog, changelogs, nekosia changelog, nekosia api changelog, nekosia api version history, nekosia version history, nekosia api docs changelog, version history, api updates, nekosia updates]
 canonical: changelog
 createdAt: 28.07.2024
-updatedAt: 23.08.2026
+updatedAt: 26.08.2026
 ---
 
 # Changelog {#changelog}
@@ -13,6 +13,12 @@ Not all changes are documented here; we record only the most significant ones th
 We use [semantic versioning](https://nekosia.cat/documentation?page=introduction#semver).
 
 Entries are sorted from newest to oldest. Labels: `[WWW]`, `[API]`, `[CDN]`, `[CRON]`.
+
+### [WWW] v1.4.12-rc.1+20260826 {#www-20260826}
+1. Refreshed the Nekosia logo graphics in the main navigation bar and Anime Booru.
+2. Replaced the homepage illustration, Discord invitation banner, and social sharing preview with new Nekosia-themed artwork.
+3. Refreshed the 404 and 500 error pages with dedicated artwork and friendlier messages.
+4. Updated dependencies to the latest versions.
 
 ### [WWW] v1.4.11-rc.1+20260823 {#www-20260823}
 1. Refreshed the site logo and favicon set.
