@@ -16,7 +16,9 @@ Entries are sorted from newest to oldest. Labels: `[WWW]`, `[API]`, `[CDN]`, `[C
 
 ### [WWW] v1.4.13-rc.1+20260906 {#www-20260906}
 1. Added a profile setting to hide AI-generated images in Booru.
-2. Updated dependencies to the latest versions.
+2. Optimized the backend.
+3. Polished the Modification Request form - fixed inconsistent label spacing and field heights, restyled the dropdown arrow, and slightly enlarged the tag text for better readability.
+4. Updated dependencies to the latest versions.
 
 ### [WWW] v1.4.12-rc.1+20260826 {#www-20260826}
 1. Refreshed the Nekosia logo graphics in the main navigation bar and Anime Booru.
