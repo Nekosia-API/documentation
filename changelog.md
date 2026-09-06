@@ -14,6 +14,10 @@ We use [semantic versioning](https://nekosia.cat/documentation?page=introduction
 
 Entries are sorted from newest to oldest. Labels: `[WWW]`, `[API]`, `[CDN]`, `[CRON]`.
 
+### [WWW] v1.4.13-rc.1+20260906 {#www-20260906}
+1. Added a profile setting to hide AI-generated images in Booru.
+2. Updated dependencies to the latest versions.
+
 ### [WWW] v1.4.12-rc.1+20260826 {#www-20260826}
 1. Refreshed the Nekosia logo graphics in the main navigation bar and Anime Booru.
 2. Replaced the homepage illustration, Discord invitation banner, and social sharing preview with new Nekosia-themed artwork.
