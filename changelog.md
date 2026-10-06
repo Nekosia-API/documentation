@@ -14,6 +14,15 @@ We use [semantic versioning](https://nekosia.cat/documentation?page=introduction
 
 Entries are sorted from newest to oldest. Labels: `[WWW]`, `[API]`, `[CDN]`, `[CRON]`.
 
+### [CDN] v2.3.2-rc.1+20261006 {#cron-20261006}
+1. Updated dependencies to the latest versions.
+
+### [CRON] v2.4.4-rc.1+20261006 {#cron-20261006}
+1. Updated dependencies to the latest versions.
+
+### [API] v1.2.7-rc.1+20261006 {#api-20261006}
+1. Updated dependencies to the latest versions.
+
 ### [WWW] v1.5.0-rc.1+20261006 {#www-20261006}
 1. Improved AI-powered image tagging using the GPT-6.1-Sol model.
 2. Optimized the overall workflow of AI components.
