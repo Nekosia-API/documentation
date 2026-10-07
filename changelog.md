@@ -28,7 +28,8 @@ Entries are sorted from newest to oldest. Labels: `[WWW]`, `[API]`, `[CDN]`, `[C
 2. Optimized the overall workflow of AI components.
 3. AI-processed images will now display a title and description in Booru.
 4. Improved and standardized the panel for entering and selecting tags.
-5. Updated dependencies to the latest versions.
+5. Added quality-of-life improvements to image previews in Booru.
+6. Updated dependencies to the latest versions.
 
 ### [WWW] v1.4.13-rc.1+20260906 {#www-20260906}
 1. Added a profile setting to hide AI-generated images in Booru.
