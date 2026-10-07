@@ -23,7 +23,7 @@ Entries are sorted from newest to oldest. Labels: `[WWW]`, `[API]`, `[CDN]`, `[C
 ### [API] v1.2.7-rc.1+20261006 {#api-20261006}
 1. Updated dependencies to the latest versions.
 
-### [WWW] v1.5.0-rc.1+20261006 {#www-20261006}
+### [WWW] v1.5.0-rc.1+20261007 {#www-20261007}
 1. Improved AI-powered image tagging using the GPT-6.1-Sol model.
 2. Optimized the overall workflow of AI components.
 3. AI-processed images will now display a title and description in Booru.
