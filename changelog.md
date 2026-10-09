@@ -16,18 +16,19 @@ Entries are sorted from newest to oldest. Labels: `[WWW]`, `[API]`, `[CDN]`, `[C
 
 ### [WWW] v1.5.0-rc.1+20261009 {#www-20261009}
 1. Improved AI-powered image tagging using the GPT-6.1-Sol model.
-2. Optimized the overall workflow of AI components.
-3. AI-processed images will now display a title and description in Booru.
-4. Improved and standardized the panel for entering and selecting tags.
-5. Added quality-of-life improvements to image previews in Booru.
+2. Optimized AI component workflows and overall performance.
+3. Improved the image classification function used for illustrative purposes only.
+4. Added titles and descriptions for AI-processed images in Booru.
+5. Improved and standardized the tag input and selection panel.
 6. Added missing tags and corrected existing tags across nearly all images.
-7. Improved account and session security.
-8. Made voting and bookmarking more reliable.
-9. Sped up the Booru feed.
-10. Added one-click unsubscribe to newsletter emails.
-11. Reduced layout shifts caused by lazy-loaded images.
-12. Optimized the backend.
-13. Updated dependencies to the latest versions.
+7. Improved image previews and overall usability in Booru.
+8. Improved Booru feed performance.
+9. Reduced layout shifts caused by lazy-loaded images.
+10. Improved the reliability of voting and bookmarking.
+11. Enhanced account and session security.
+12. Added one-click unsubscribe functionality to newsletter emails.
+13. Optimized backend performance and stability.
+14. Updated dependencies to their latest versions.
 
 ### [API] v1.2.7-rc.1+20261009 {#api-20261009}
 1. Optimized the backend.
