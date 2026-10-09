@@ -4,7 +4,7 @@ desc: Comprehensive cookies policy for Nekosia API documentation, detailing usag
 tags: [cookies, nekosia, api, cookies policy, nekosia api cookies, cookies management, privacy, cookies usage, session cookies, third-party cookies]
 canonical: cookies
 createdAt: 28.07.2024
-updatedAt: 01.06.2026
+updatedAt: 1.06.2026
 ---
 
 # Cookies Policy {#cookies-policy}

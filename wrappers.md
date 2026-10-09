@@ -4,7 +4,7 @@ desc: Nekosia offers wrappers for various programming languages, making it easie
 tags: [nekosia, libraries, wrappers, api, nekosia node.js, nekosia npm, nekosia wrappers]
 canonical: wrappers
 createdAt: 28.07.2024
-updatedAt: 01.06.2026
+updatedAt: 1.06.2026
 ---
 
 # Libraries and Wrappers {#libraries-and-wrappers}

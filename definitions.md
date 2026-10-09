@@ -4,7 +4,7 @@ desc: A set of definitions for the Nekosia API documentation, covering key terms
 tags: [definitions, Nekosia, API, documentation, Nekosia definitions, Nekosia API terms, Nekosia documentation glossary, API terminology, service definitions, user terms, data processing]
 canonical: definitions
 createdAt: 28.07.2024
-updatedAt: 01.06.2026
+updatedAt: 1.06.2026
 ---
 
 # Definitions {#definitions}

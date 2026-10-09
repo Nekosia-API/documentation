@@ -4,7 +4,7 @@ desc: Terms of Service for Nekosia API and Booru - usage rules, attribution requ
 tags: [nekosia, api terms of service, nekosia api, booru guidelines, copyright, attribution, dmca, commercial use, anime api, legal compliance]
 canonical: tos
 createdAt: 18.08.2024
-updatedAt: 01.06.2026
+updatedAt: 1.06.2026
 ---
 
 # Nekosia API Terms {#nekosia-api-terms}
