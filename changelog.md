@@ -4,7 +4,7 @@ desc: Detailed version history of Nekosia API, including updates, new features, 
 tags: [changelog, changelogs, nekosia changelog, nekosia api changelog, nekosia api version history, nekosia version history, nekosia api docs changelog, version history, api updates, nekosia updates]
 canonical: changelog
 createdAt: 28.07.2024
-updatedAt: 6.10.2026
+updatedAt: 9.10.2026
 ---
 
 # Changelog {#changelog}
@@ -14,23 +14,31 @@ We use [semantic versioning](https://nekosia.cat/documentation?page=introduction
 
 Entries are sorted from newest to oldest. Labels: `[WWW]`, `[API]`, `[CDN]`, `[CRON]`.
 
-### [CDN] v2.3.2-rc.1+20261006 {#cron-20261006}
-1. Updated dependencies to the latest versions.
-
-### [CRON] v2.4.4-rc.1+20261006 {#cron-20261006}
-1. Updated dependencies to the latest versions.
-
-### [API] v1.2.7-rc.1+20261006 {#api-20261006}
-1. Updated dependencies to the latest versions.
-
-### [WWW] v1.5.0-rc.1+20261007 {#www-20261007}
+### [WWW] v1.5.0-rc.1+20261009 {#www-20261009}
 1. Improved AI-powered image tagging using the GPT-6.1-Sol model.
 2. Optimized the overall workflow of AI components.
 3. AI-processed images will now display a title and description in Booru.
 4. Improved and standardized the panel for entering and selecting tags.
 5. Added quality-of-life improvements to image previews in Booru.
 6. Added missing tags and corrected existing tags across nearly all images.
-7. Updated dependencies to the latest versions.
+7. Improved account and session security.
+8. Made voting and bookmarking more reliable.
+9. Sped up the Booru feed.
+10. Added one-click unsubscribe to newsletter emails.
+11. Reduced layout shifts caused by lazy-loaded images.
+12. Optimized the backend.
+13. Updated dependencies to the latest versions.
+
+### [API] v1.2.7-rc.1+20261009 {#api-20261009}
+1. Optimized the backend.
+2. Fixed various known bugs.
+3. Updated dependencies to the latest versions.
+
+### [CDN] v2.3.2-rc.1+20261006 {#cdn-20261006}
+1. Updated dependencies to the latest versions.
+
+### [CRON] v2.4.4-rc.1+20261006 {#cron-20261006}
+1. Updated dependencies to the latest versions.
 
 ### [WWW] v1.4.13-rc.1+20260906 {#www-20260906}
 1. Added a profile setting to hide AI-generated images in Booru.
