@@ -4,7 +4,7 @@ desc: Explore Nekosia's API documentation for seamless access to diverse anime i
 tags: [nekosia, api, nekosia api, api endpoints, api documentation, image access, session management, image tags, API versions, base URL, category tags, shadow category, API sessions]
 canonical: endpoints
 createdAt: 28.07.2024
-updatedAt: 21.07.2026
+updatedAt: 10.10.2026
 ---
 
 # API Endpoints Overview {#endpoints-overview}
@@ -35,8 +35,10 @@ This endpoint allows you to fetch random images from a selected category.
 > `/images/:category?count={int}&additionalTags={string}&blacklistedTags={string}&rating={string}&session={string}&id={string}`
 - `:category` - Check the available tags on [our Booru page](https://nekosia.cat/booru/tags). Each image is assigned to one main category.
 - `?count` (default: `1`) - The number of images to fetch (default: 1, maximum: 20). The higher the number, the longer the server response time (in milliseconds).
-- `&additionalTags` - Additional tags to include when searching for images.
-- `&blacklistedTags` - Tags to exclude from the search results.
+- `&additionalTags` - Additional tags to include when searching for images, separated by commas (up to 20).
+- `&blacklistedTags` - Tags to exclude from the search results, separated by commas (up to 20).
+
+Tags and the category are case-insensitive, and spaces or underscores work like hyphens (`Cat_Girl` is the same as `catgirl`). Known aliases resolve to their tag, for example `neko` and `cat-girl` to `catgirl`. A tag that cannot be a valid tag returns a `400` error naming the parameter.
 - `&rating` (default: `safe`) - Filters images by content rating. Accepted values: `safe` and `suggestive`. Any other value returns a `400` error. See [Content Ratings](https://nekosia.cat/documentation?page=introduction#content-ratings) for more details.
 - `&session` - Optional session type used to avoid duplicates. Accepted values: `ip` and `id`.
 - `&id` - Optional session identifier used when `session=id`.
@@ -145,6 +147,18 @@ Retrieve details about a specific image.
 ### Via curl {#via-curl}
 ```bash
 curl https://api.nekosia.cat/api/v1/getImageById/66bc6b7481a59a1cf2c79db5
+```
+
+
+## GET /image-of-the-day {#image-of-the-day}
+Returns the Catgirl of the Day, the same image that is featured on the [Nekosia homepage](https://nekosia.cat) and [Booru](https://nekosia.cat/booru). A new safe image is picked every day at midnight UTC. The response has the same structure as other image endpoints, plus a `date` field (`YYYY-MM-DD`, UTC).
+
+### Example Request {#example-request-image-of-the-day}
+> **GET** /image-of-the-day
+
+### Via curl {#via-curl-image-of-the-day}
+```bash
+curl https://api.nekosia.cat/api/v1/image-of-the-day
 ```
 
 
