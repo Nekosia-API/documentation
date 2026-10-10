@@ -4,7 +4,7 @@ desc: Detailed version history of Nekosia API, including updates, new features, 
 tags: [changelog, changelogs, nekosia changelog, nekosia api changelog, nekosia api version history, nekosia version history, nekosia api docs changelog, version history, api updates, nekosia updates]
 canonical: changelog
 createdAt: 28.07.2024
-updatedAt: 9.10.2026
+updatedAt: 10.10.2026
 ---
 
 # Changelog {#changelog}
@@ -13,6 +13,22 @@ Not all changes are documented here; we record only the most significant ones th
 We use [semantic versioning](https://nekosia.cat/documentation?page=introduction#semver).
 
 Entries are sorted from newest to oldest. Labels: `[WWW]`, `[API]`, `[CDN]`, `[CRON]`.
+
+### [WWW] v1.6.0-rc.1+20261010 {#www-20261010}
+1. Added multi-tag search in Booru with tag exclusion (e.g. `cat-ears -sad`) and quick refine links in the sidebar.
+2. Series and character names on image pages now link to their tag pages.
+3. Added the For you feed with recommendations based on liked and bookmarked images.
+4. Added following of tags, series, characters and artists, with a dedicated Following feed.
+5. Added Atom feeds for the newest images and for every tag, series, character and artist.
+6. Added the Catgirl of the Day to the homepage and Booru.
+7. Added a profile setting to hide selected tags in Booru.
+8. Added keyboard navigation between images with the left and right arrow keys.
+9. Old and aliased tag URLs now redirect to their current tag page.
+10. Improved image metrics with 7-day and 30-day ranges and history that runs up to the current day.
+11. Moved votes and bookmarks to dedicated storage for better performance and reliability.
+12. Added AI hints and an image change history with undo in the admin panel.
+13. Refreshed the Booru sidebar, bookmark controls and profile settings layout.
+14. Fixed various bugs.
 
 ### [WWW] v1.5.0-rc.1+20261009 {#www-20261009}
 1. Improved AI-powered image tagging using the GPT-6.1-Sol model.
