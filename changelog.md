@@ -4,7 +4,7 @@ desc: Detailed version history of Nekosia API, including updates, new features, 
 tags: [changelog, changelogs, nekosia changelog, nekosia api changelog, nekosia api version history, nekosia version history, nekosia api docs changelog, version history, api updates, nekosia updates]
 canonical: changelog
 createdAt: 28.07.2024
-updatedAt: 10.10.2026
+updatedAt: 12.10.2026
 ---
 
 # Changelog {#changelog}
@@ -14,7 +14,10 @@ We use [semantic versioning](https://nekosia.cat/documentation?page=introduction
 
 Entries are sorted from newest to oldest. Labels: `[WWW]`, `[API]`, `[CDN]`, `[CRON]`.
 
-### [WWW] v1.6.0-rc.1+20261011 {#www-20261011}
+### [API] v1.3.0-rc.1+20261012 {#api-20261012}
+1. Added the `/api/v1/image-of-the-day` endpoint.
+
+### [WWW] v1.6.0-rc.1+20261012 {#www-20261012}
 1. Added multi-tag search in Booru with tag exclusion (e.g. `cat-ears -sad`) and quick refine links in the sidebar.
 2. Series and character names on image pages now link to their tag pages.
 3. Added the For you feed with recommendations based on liked and bookmarked images.
