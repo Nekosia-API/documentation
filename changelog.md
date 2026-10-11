@@ -14,7 +14,7 @@ We use [semantic versioning](https://nekosia.cat/documentation?page=introduction
 
 Entries are sorted from newest to oldest. Labels: `[WWW]`, `[API]`, `[CDN]`, `[CRON]`.
 
-### [WWW] v1.6.0-rc.1+20261010 {#www-20261010}
+### [WWW] v1.6.0-rc.1+20261011 {#www-20261011}
 1. Added multi-tag search in Booru with tag exclusion (e.g. `cat-ears -sad`) and quick refine links in the sidebar.
 2. Series and character names on image pages now link to their tag pages.
 3. Added the For you feed with recommendations based on liked and bookmarked images.
