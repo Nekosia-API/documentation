@@ -56,7 +56,7 @@ Tags and the category are case-insensitive, and spaces or underscores work like 
         "original": { "url": String, "extension": String },
         "compressed": { "url": String, "extension": String }
     },
-    "metadata": { "original": { "width": Int, "height": Int, "size": Int, "extension": String }, "compressed": { "width": Int, "height": Int, "size": Int, "extension": String } },
+    "metadata": { "original": { "width": Int, "height": Int, "size": Int, "extension": String, "colorProfile": String || null }, "compressed": { "width": Int, "height": Int, "size": Int, "extension": String, "colorProfile": String || null } },
     "category": String,
     "tags": [String, String, String, String, String...],
     "rating": "safe" || "suggestive",
@@ -66,6 +66,8 @@ Tags and the category are case-insensitive, and spaces or underscores work like 
 }
 ```
 In the response above, `count` indicates how many images matched the current query after filters were applied.
+
+`metadata.original.colorProfile` and `metadata.compressed.colorProfile` give the name of the ICC color profile embedded in the file (for example `Display P3`). `null` means the file has no profile and should be read as sRGB.
 
 ### Example Request {#example-request-1}
 > **GET** /images/**cute**?**count**=3&**additionalTags**=white-hair,uniform&**blacklistedTags**=short-hair,sad,maid
