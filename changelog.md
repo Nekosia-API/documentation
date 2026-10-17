@@ -4,7 +4,7 @@ desc: Detailed version history of Nekosia API, including updates, new features, 
 tags: [changelog, changelogs, nekosia changelog, nekosia api changelog, nekosia api version history, nekosia version history, nekosia api docs changelog, version history, api updates, nekosia updates]
 canonical: changelog
 createdAt: 28.07.2024
-updatedAt: 12.10.2026
+updatedAt: 16.10.2026
 ---
 
 # Changelog {#changelog}
@@ -13,6 +13,19 @@ Not all changes are documented here; we record only the most significant ones th
 We use [semantic versioning](https://nekosia.cat/documentation?page=introduction#semver).
 
 Entries are sorted from newest to oldest. Labels: `[WWW]`, `[API]`, `[CDN]`, `[CRON]`.
+
+### [API] v1.4.0-rc.1+20261016 {#api-20261016}
+1. Added `metadata.original.colorProfile` and `metadata.compressed.colorProfile` fields, which contain the name of the ICC color profile embedded in the image file. If the file has no color profile, the value is `null` (meaning sRGB should be assumed).
+
+### [WWW] v1.7.0-rc.1+20261016 {#www-20261016}
+1. Image color profiles and orientation are now preserved when saving metadata, ensuring colors appear as the artist intended. Some images should now display more accurate colors.
+2. Fixed an issue where keywords containing characters outside Latin-1 were incorrectly saved in image IPTC metadata.
+3. Accounts that are not activated within 12 days of registration are now automatically deleted.
+4. Accounts that have not been logged into for 5 years are now automatically deleted. An email notification is sent 10 days before deletion. Simply logging in will cancel the deletion.
+5. Long source links on image pages are now shown as a "Click here" button.
+
+### [CRON] v2.5.0-rc.1+20261016 {#cron-20261016}
+1. Added jobs to automatically delete accounts that were never activated after registration and accounts that have not been logged into for 5 years. Inactive accounts receive an email notification before deletion.
 
 ### [API] v1.3.0-rc.1+20261012 {#api-20261012}
 1. Added the `/api/v1/image-of-the-day` endpoint.
