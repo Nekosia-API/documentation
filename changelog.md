@@ -26,6 +26,7 @@ Entries are sorted from newest to oldest. Labels: `[WWW]`, `[API]`, `[CDN]`, `[C
 6. Improved image protection in Booru: its pages are now guarded by a Cloudflare challenge (Managed Challenge) against mass downloading by unverified bots and scrapers, including those collecting images to train AI models. Verified bots are not blocked.
 7. Refreshed the homepage with new icons and updated information about image protection, copyright and DMCA.
 8. The version badge on the homepage now links to the changelog.
+9. Multi-tag search in Booru now requires a free account, which protects it from automated scraping. Searching for a single tag remains available to everyone.
 
 ### [CRON] v2.5.0-rc.1+20261016 {#cron-20261016}
 1. Added jobs to automatically delete accounts that were never activated after registration and accounts that have not been logged into for 5 years. Inactive accounts receive an email notification before deletion.
