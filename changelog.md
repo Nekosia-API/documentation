@@ -18,11 +18,12 @@ Entries are sorted from newest to oldest. Labels: `[WWW]`, `[API]`, `[CDN]`, `[C
 1. Added `metadata.original.colorProfile` and `metadata.compressed.colorProfile` fields, which contain the name of the ICC color profile embedded in the image file. If the file has no color profile, the value is `null` (meaning sRGB should be assumed).
 
 ### [WWW] v1.7.0-rc.1+20261016 {#www-20261016}
-1. Image color profiles and orientation are now preserved when saving metadata, ensuring colors appear as the artist intended. Some images should now display more accurate colors.
-2. Fixed an issue where keywords containing characters outside Latin-1 were incorrectly saved in image IPTC metadata.
-3. Accounts that are not activated within 12 days of registration are now automatically deleted.
-4. Accounts that have not been logged into for 5 years are now automatically deleted. An email notification is sent 10 days before deletion. Simply logging in will cancel the deletion.
-5. Long source links on image pages are now shown as a "Click here" button.
+1. Image color profiles and orientation are now preserved when saving metadata, so colors look just as the artist intended. Some images should now display more accurate colors.
+2. Fixed an issue where keywords containing characters outside Latin-1 were saved incorrectly in the image IPTC metadata.
+3. Accounts that are not activated within 12 days of registration are now deleted automatically.
+4. Accounts that have not been logged into for 5 years are now deleted automatically. An email notification is sent 10 days before deletion, and simply logging in cancels it.
+5. Long source links on Booru image pages are now shown as a "Click here" button.
+6. Improved image protection in Booru: its pages are now guarded by a Cloudflare challenge (Managed Challenge) against mass downloading by unverified bots and scrapers, including those collecting images to train AI models. Verified bots are not blocked.
 
 ### [CRON] v2.5.0-rc.1+20261016 {#cron-20261016}
 1. Added jobs to automatically delete accounts that were never activated after registration and accounts that have not been logged into for 5 years. Inactive accounts receive an email notification before deletion.
